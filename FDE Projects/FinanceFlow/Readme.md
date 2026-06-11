@@ -14,4 +14,17 @@ without your involvement.
 ==Y Profiling Analysis :==
 
 
+## Data Contract Status
 
+- ✅ **Loan scoring ranges and business categories are clean** — all 400 records have valid
+  credit score ranges, acceptable debt levels, and recognised business sectors.
+  These fields are ready for the model.
+
+- ⚠️ **30 applications are missing a credit score** — without this, the system cannot
+  generate a risk score for those borrowers. These records will be excluded from
+  today's decisioning run until the data is resubmitted.
+
+- ⚠️ **40 records have data issues blocking model training** — 25 applications have no
+  outcome history (we cannot tell if they defaulted), and 15 show negative revenue
+  figures which are likely data entry errors. These have been quarantined and will
+  not influence the model.
