@@ -1,0 +1,375 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -208,
+        0
+      ],
+      "id": "22b7aa5f-46b4-4fb9-a1f5-45aae862f4bc",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/Rajarajan1087/fde-learning-lab/FinanceFlow/FDE%20Projects/FinanceFlow/Data/financeflow_clean.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        0,
+        -128
+      ],
+      "id": "11c2cdef-ebed-41ac-b2f1-52499baa8881",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "jsCode": "const rawData = $input.first().json.data;\nconst rows = rawData.split('\\n');\nconst headers = rows[0].split(',');\n\nlet nullCreditScore = 0;\nlet nullDefaultFlag = 0;\nlet negativeRevenue = 0;\nlet totalRows = 0;\n\nfor (let i = 1; i < rows.length; i++) {\n  if (!rows[i].trim()) continue;\n  const cols = rows[i].split(',');\n  totalRows++;\n  \n  const creditScore = cols[headers.indexOf('credit_score')];\n  const defaultFlag = cols[headers.indexOf('default_flag')];\n  const revenue = parseFloat(cols[headers.indexOf('annual_revenue_usd')]);\n  \n  if (!creditScore || creditScore.trim() === '') nullCreditScore++;\n  if (!defaultFlag || defaultFlag.trim() === '') nullDefaultFlag++;\n  if (!isNaN(revenue) && revenue < 0) negativeRevenue++;\n}\n\nconst status = (nullCreditScore > 0 || nullDefaultFlag > 0 || negativeRevenue > 0) ? 'BLOCKED' : 'OK';\n\nreturn [{\n  json: {\n    status,\n    totalRows,\n    nullCreditScore,\n    nullDefaultFlag,\n    negativeRevenue\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        -16
+      ],
+      "id": "bd8fd5c4-75eb-4827-9e00-3b7145351bc9",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "2cf4117d-22ff-436b-beb3-1efa859fb702",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "OK",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        352,
+        -96
+      ],
+      "id": "9f368b18-8187-4926-9eb9-f92b123fe94e",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C0B9SPF67FH",
+          "mode": "list",
+          "cachedResultName": "data-ops"
+        },
+        "text": "=⚠️ Data Quality Alert — Morning Batch BLOCKED  Issues found in today's loan file: - Missing credit scores: {{$json.nullCreditScore}} - Missing default flags: {{$json.nullDefaultFlag}} - Negative revenue records: {{$json.negativeRevenue}}  Total rows checked: {{$json.totalRows}}  Batch has been blocked. Please review and resubmit clean data before 10:00 AM.",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.5,
+      "position": [
+        528,
+        64
+      ],
+      "id": "cacf0844-7552-4198-b8ce-0859c0ac4acc",
+      "name": "Send a message",
+      "webhookId": "047df220-718b-45af-83be-38d7faf5c637",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "qvNHoKP0BppxRrp2",
+          "name": "Slack OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "1VeQ0NLPCFkcMWJAdS4MFg9nU35T0DWoe",
+          "mode": "list",
+          "cachedResultName": "financeflow_scored.csv",
+          "cachedResultUrl": "https://drive.google.com/file/d/1VeQ0NLPCFkcMWJAdS4MFg9nU35T0DWoe/view?usp=drivesdk"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        480,
+        -224
+      ],
+      "id": "d72a238a-e1e3-4b1f-9f51-0f580996437e",
+      "name": "Download file",
+      "alwaysOutputData": false,
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LBiiOULQLzoAFQNr",
+          "name": "Google Drive OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        672,
+        -224
+      ],
+      "id": "8a3212b6-c92d-488c-a576-b2283607fc80",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C0BA885FX6W",
+          "mode": "list",
+          "cachedResultName": "credit-team-"
+        },
+        "text": "=Daily Loan Decisions: ✅ Approve: {{$json[\"Approve\"]}} 🔎 Review: {{$json[\"Review\"]}} ❌ Decline: {{$json[\"Decline\"]}} 💰 Total Loan Value at Risk: ${{$json[\"ValueAtRiskUSD\"]}}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.5,
+      "position": [
+        1088,
+        -224
+      ],
+      "id": "1ac6b00f-a1be-4ae4-8585-7c0e48131c88",
+      "name": "Declined count/amount to Slack",
+      "webhookId": "ec6db0ee-49e7-418f-9a19-7ebe9cbfa402",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "qvNHoKP0BppxRrp2",
+          "name": "Slack OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const rows = items; // n8n passes parsed rows as items\nlet counts = { Approve: 0, Review: 0, Decline: 0 };\nlet valueAtRisk = 0;\n\nrows.forEach(item => {\n  const decision = item.json.decision;\n  const loanAmount = parseFloat(item.json.loan_amount_usd);\n\n  if (decision === \"Approve\") counts.Approve++;\n  else if (decision === \"Review\") {\n    counts.Review++;\n    valueAtRisk += loanAmount;\n  }\n  else if (decision === \"Decline\") {\n    counts.Decline++;\n    valueAtRisk += loanAmount;\n  }\n});\n\nreturn [{\n  json: {\n    Approve: counts.Approve,\n    Review: counts.Review,\n    Decline: counts.Decline,\n    ValueAtRiskUSD: valueAtRisk\n  }\n}];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        -224
+      ],
+      "id": "85c2906c-92ea-4dde-8edc-03e5e699a3a2",
+      "name": "Decline count/ amount finder Script"
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "1OdfL_lV4v2BErhsyO8OR9KutnjqVOjYJ",
+          "mode": "list",
+          "cachedResultName": "financeflow_decisions_today.csv",
+          "cachedResultUrl": "https://drive.google.com/file/d/1OdfL_lV4v2BErhsyO8OR9KutnjqVOjYJ/view?usp=drivesdk"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1296,
+        -224
+      ],
+      "id": "cb44f22d-3a7e-426e-8937-ea6d08432605",
+      "name": "Download file1",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LBiiOULQLzoAFQNr",
+          "name": "Google Drive OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "rajarajan1087@gmail.com",
+        "subject": "=Declined Records and Reasons on Loan Application - {{$now.format(\"DD\")}}",
+        "emailType": "text",
+        "message": "Hi Team,  Please find attached the underwriter briefs for all Declined loan applications today.  Regards, Automation Workflow",
+        "options": {
+          "attachmentsUi": {
+            "attachmentsBinary": [
+              {}
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        1504,
+        -224
+      ],
+      "id": "29c25dcb-4167-4906-89e8-514b1516d537",
+      "name": "Send a message1",
+      "webhookId": "6a9250a5-d4f8-41db-a1c2-f72b8ee2676b",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "rOyGT3c90aXgtXMV",
+          "name": "Gmail OAuth2 API"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Download file",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download file": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Decline count/ amount finder Script",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Decline count/ amount finder Script": {
+      "main": [
+        [
+          {
+            "node": "Declined count/amount to Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Declined count/amount to Slack": {
+      "main": [
+        [
+          {
+            "node": "Download file1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download file1": {
+      "main": [
+        [
+          {
+            "node": "Send a message1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "603e916d-3acd-48ce-a92b-b531c0b11b6e",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "9be41f1ca7e9a04f1c11e17376baaa267ae48b702df0b9896df1f60d989ccf1f"
+  },
+  "nodeGroups": [],
+  "id": "XdDwCRQ1hO260G0V",
+  "tags": []
+}
