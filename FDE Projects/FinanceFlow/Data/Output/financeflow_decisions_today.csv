@@ -1,0 +1,631 @@
+loan_id,sector,loan_amount_usd,credit_score,debt_to_income_ratio,default_probability,decision,underwriter_brief
+L00006,Hospitality,410197.01,580,0.527,0.7,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which is the primary risk factor given the business's relatively short operating history and other financial indicators.
+
+Key Signals:
+- The business has a low credit score of 580, indicating a history of poor credit management or limited credit experience.
+- The default probability of 0.7 suggests a high likelihood of the business being unable to repay the loan, posing a significant risk to our investment.
+
+Analyst Action: Request 12 months of detailed financial statements, including income statements and balance sheets, to verify the business's revenue and expenses, and assess its ability to manage the proposed loan repayment schedule."
+L00007,Healthcare,358269.44,591,0.532,0.715,Decline,"Risk Summary: We have decided to decline loan application L00007 due to the high default probability of 0.715, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 591, which suggests a history of poor credit management and increases the likelihood of default.
+- The debt-to-income ratio of 0.532 is also a concern, as it shows that a substantial portion of the business's income is already committed to debt repayment, leaving limited room for additional debt obligations.
+
+Analyst Action: Request a detailed breakdown of the business's existing debts and liabilities, including outstanding loan balances, interest rates, and repayment terms, to confirm the accuracy of the debt-to-income ratio and better understand the business's overall financial situation."
+L00045,Hospitality,219065.37,615,0.251,0.72,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability of 0.72, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 615, indicating a history of poor credit management or limited credit experience.
+- The high default probability of 0.72 is a major concern, as it indicates a strong likelihood that the business may default on the loan.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt obligations to verify the debt-to-income ratio and better understand the business's overall financial health."
+L00049,Manufacturing,131449.96,548,0.52,0.82,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00049, primarily due to the high default probability of 0.82, which indicates a significant risk of the business not being able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 548, which suggests a history of poor credit management and increases the likelihood of default.
+- The high default probability of 0.82 is a major concern, as it outweighs the business's 19 years of experience and other positive factors.
+
+Analyst Action: Request a detailed explanation from the business owner, supported by documentation, to understand the circumstances surrounding the low credit score and high default probability, which will help us better assess the loan application and consider potential alternatives or additional requirements."
+L00050,Technology,424158.24,682,0.543,0.735,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00050, primarily due to the high default probability of 0.735, which suggests a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a high default probability of 0.735, indicating a substantial risk of non-repayment.
+- The debt-to-income ratio of 0.543 is also a concern, as it shows that a significant portion of the business's income is already going towards debt repayment, leaving limited capacity to take on additional debt.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and assess the business's overall creditworthiness."
+L00051,Technology,79630.12,772,0.398,0.665,Decline,"Risk Summary: We are declining the loan application for Loan ID L00051 due to the high default probability of 0.665, which poses a significant risk to our investment.
+
+Key Signals:
+- The default probability of 0.665 indicates a high likelihood that the business may not be able to repay the loan.
+- The debt-to-income ratio of 0.398, although relatively manageable, combined with the high default probability, raises concerns about the business's ability to take on additional debt.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its overall financial health."
+L00052,Manufacturing,267959.77,623,0.544,0.875,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which is the most significant risk factor in this case.
+
+Key Signals:
+- The business has a relatively high default probability of 0.875, indicating a significant likelihood of not being able to repay the loan.
+- The debt-to-income ratio of 0.544, although not extremely high, combined with a credit score of 623, suggests that the business may struggle to manage its existing debt obligations and take on additional loan repayments.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its finances, which may help to reassess the default probability and provide a more comprehensive understanding of the business's financial situation."
+L00080,Manufacturing,472072.43,712,0.568,0.82,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00080 due to the high default probability of 0.82, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.82 is a major concern, as it suggests that the business is likely to struggle with loan repayment.
+- The debt-to-income ratio of 0.568 is also a contributing factor, as it indicates that the business already has a significant amount of debt relative to its income.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to take on additional debt."
+L00087,Hospitality,36301.71,556,0.36,0.7,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00087 due to the high default probability of 0.7, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 556, which suggests a history of late or missed payments and increases the likelihood of default.
+- The high default probability of 0.7 is a major concern, as it indicates that the business is more likely to fail to meet its repayment obligations.
+
+Analyst Action: Request a detailed explanation from the business owner, along with supporting documents such as financial statements and a payment history, to understand the factors contributing to the high default probability and to verify if there are any mitigating circumstances that could reduce the risk."
+L00106,Healthcare,366059.46,717,0.182,0.71,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00106, primarily due to the high default probability of 0.71, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The default probability of 0.71 suggests that the business is at a high risk of defaulting on the loan, which outweighs other positive factors such as the business's long age and good credit score.
+- The debt-to-income ratio of 0.182, although relatively low, is not sufficient to offset the high default probability and the large loan amount of $366059.46, which poses a significant repayment burden.
+
+Analyst Action: Request a detailed financial statement and a written explanation from the business owner to understand the factors contributing to the high default probability and to assess their plan for managing the loan repayment."
+L00107,Manufacturing,427416.86,771,0.276,0.665,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00107, primarily due to the high Default Probability of 0.665, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The Default Probability of 0.665 suggests that there is a strong likelihood of the business defaulting on the loan, which outweighs other positive factors such as the business age and credit score.
+- The Debt-to-Income Ratio of 0.276, although relatively manageable, combined with the high Default Probability, raises concerns about the business's ability to take on additional debt.
+
+Analyst Action: Request a detailed financial statement and verification of outstanding liabilities with a credit bureau check to further understand the business's financial situation and assess if there are any mitigating factors that could support a reconsideration of the loan application."
+L00109,Construction,207685.43,520,0.554,0.84,Decline,"Risk Summary: We have decided to decline loan application L00109 primarily due to the high default probability of 0.84, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 520, which suggests a history of poor credit management and increases the likelihood of default.
+- The debt-to-income ratio of 0.554 is also a concern, as it indicates that a substantial portion of the business's income is already committed to debt repayment, leaving limited room for additional loan payments.
+
+Analyst Action: To further verify the business's financial situation and potential for loan repayment, the analyst should request 6 months of bank statements to review the business's cash flow and assess its ability to manage the proposed loan repayments."
+L00119,Construction,376455.67,736,0.545,0.725,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00119 due to a high default probability, which is the primary risk factor in this case.
+
+Key Signals:
+- The default probability of 0.725 indicates a high likelihood that the business may not be able to repay the loan.
+- The debt-to-income ratio of 0.545 suggests that the business already has a significant amount of debt relative to its income, which could make it difficult to take on additional loan repayments.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to confirm the debt-to-income ratio and understand the business's overall financial obligations."
+L00127,Manufacturing,186790.93,791,0.361,0.675,Decline,"Risk Summary: The loan application for L00127 has been declined due to a high default probability, which is the top risk factor indicating a significant chance that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.675 suggests a high risk of the business being unable to meet its loan obligations.
+- The debt-to-income ratio of 0.361, although relatively manageable, in combination with the high default probability, raises concerns about the business's ability to take on additional debt.
+
+Analyst Action: Request a detailed financial statement, including income and expenses for the past 12 months, to verify the business's current financial health and assess its ability to service the loan."
+L00128,Hospitality,310713.54,540,0.475,0.465,Review,"Risk Summary: The loan application for L00128 has been flagged for review due to a high default probability of 0.465, which is the top risk factor given the business's relatively weak credit profile.
+
+Key Signals:
+- The business's credit score of 540 is lower than what we typically consider acceptable, indicating a history of credit difficulties.
+- The debt-to-income ratio of 0.475 suggests that the business may be over-extended and struggling to manage its existing debt obligations.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to service the proposed loan, as well as to assess its financial stability and potential for repayment."
+L00133,Hospitality,339916.38,552,0.516,0.805,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00133 due to the high default probability of 0.805, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 552, which suggests a history of poor credit management and increases the likelihood of default.
+- The debt-to-income ratio of 0.516 is also a concern, as it indicates that the business already has a significant amount of debt relative to its income, making it more challenging to take on additional debt.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to confirm the debt-to-income ratio and assess the business's ability to manage its existing debt obligations."
+L00140,Hospitality,333116.9,706,0.544,0.8,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00140 due to the high default probability of 0.8, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively high debt-to-income ratio of 0.544, which means that a large portion of its income is already going towards debt repayment, leaving limited room for additional loan payments.
+- The default probability of 0.8 is alarmingly high, suggesting that the business is at a high risk of defaulting on the loan, which outweighs its otherwise decent credit score of 706 and 11 years of operational history.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and gain a more comprehensive understanding of the business's current debt obligations."
+L00141,Agriculture,324010.89,588,0.474,0.78,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability of 0.78, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 588, which suggests a history of late or missed payments.
+- The debt-to-income ratio of 0.474 is also a concern, as it indicates that nearly half of the business's income is already committed to paying off existing debts.
+
+Analyst Action: To further verify the business's financial situation, we should request 3 months of bank statements to confirm the business's cash flow and ability to manage its existing debt obligations."
+L00142,Hospitality,248615.98,561,0.563,0.83,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability of 0.83, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 561, which suggests a history of poor credit management and increases the likelihood of default.
+- The debt-to-income ratio of 0.563 is also a concern, as it indicates that the business already has a significant amount of debt compared to its income, making it more challenging to take on additional debt.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to manage additional debt."
+L00147,Retail,30976.14,704,0.313,0.725,Decline,"Risk Summary: We are declining the loan application for Loan ID L00147 due to the high default probability of 0.725, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The high default probability of 0.725 suggests that the business is at a high risk of defaulting on the loan, which outweighs other positive factors such as the relatively good credit score of 704.
+- The debt-to-income ratio of 0.313, although relatively manageable, combined with the high default probability, raises concerns about the business's ability to take on additional debt.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to confirm the debt-to-income ratio and assess the business's overall financial health."
+L00153,Retail,98218.39,529,0.583,0.675,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00153, primarily due to the high default probability, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The default probability of 0.675 suggests that the business is likely to default on the loan, which is a major concern for our investment.
+- The credit score of 529 is also a contributing factor, as it indicates a history of poor credit management and increases the risk of lending to this business.
+
+Analyst Action: To further verify the business's financial situation, we should request 6 months of bank statements to confirm the business's cash flow and ability to manage its finances."
+L00156,Healthcare,345340.24,610,0.362,0.72,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability of 0.72, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a high default probability of 0.72, indicating a high likelihood of loan default.
+- The credit score of 610 is also a concern, as it is below the average credit score and may indicate some history of late or missed payments.
+
+Analyst Action: Request a detailed explanation of the business's current financial situation and debt management strategy from the business owner, including a breakdown of existing debts and a plan for repayment, to better understand the circumstances surrounding the high default probability."
+L00158,Construction,469826.6,715,0.293,0.835,Decline,"Risk Summary: The loan application for Loan ID L00158 has been declined due to a high Default Probability of 0.835, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business is in the construction sector, which can be a high-risk industry with unpredictable cash flows and project delays.
+- The default probability of 0.835 is extremely high, suggesting that the business may not have a stable financial foundation to support the loan repayment.
+
+Analyst Action: Request a detailed cash flow forecast and verification of outstanding liabilities with a credit bureau check to understand the business's current financial situation and ability to manage debt."
+L00164,Healthcare,138915.08,539,0.498,0.81,Decline,"Risk Summary: The loan application for L00164 has been declined due to the high default probability of 0.81, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business's credit score of 539 is relatively low, suggesting a history of poor credit management or limited credit experience.
+- The default probability of 0.81 is extremely high, indicating a strong likelihood that the business will be unable to meet its loan repayment obligations.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt obligations to confirm the debt-to-income ratio and assess the business's overall financial health."
+L00166,Healthcare,311443.09,520,0.637,0.825,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which is primarily driven by the business's low credit score.
+
+Key Signals:
+- The business has a credit score of 520, which indicates a higher-than-average risk of default on the loan.
+- The debt-to-income ratio of 0.637 and default probability of 0.825 also suggest that the business may struggle to repay the loan, but the credit score is the most significant concern.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and payment history from a credit bureau check to verify the credit score and default probability, and assess if there are any mitigating factors that could support a reconsideration of the loan decision."
+L00167,Hospitality,208670.97,555,0.606,0.79,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00167 due to the high default probability of 0.79, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business's debt-to-income ratio of 0.606 is relatively high, which means it already has a significant amount of debt compared to its income, making it challenging to take on additional debt.
+- The credit score of 555 is lower than ideal, which suggests that the business has had some issues with managing its debt in the past.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to verify the debt-to-income ratio and understand the business's overall financial situation better."
+L00168,Agriculture,180566.67,619,0.35,0.73,Decline,"Risk Summary: We are declining this loan application due to the high default probability of 0.73, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.73 indicates a high likelihood of loan default, making this a risky investment.
+- The credit score of 619 is also a concern, as it is below the average credit score and may indicate some issues with the business's financial management.
+
+Analyst Action: Request a detailed explanation of the business's credit history and a plan for improving their credit score, as well as verify the business's revenue and expenses with the latest financial statements to better understand their financial situation."
+L00169,Hospitality,45469.13,579,0.542,0.845,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00169 due to the high default probability of 0.845, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business's credit score of 579 is relatively low, suggesting a history of poor credit management or late payments.
+- The debt-to-income ratio of 0.542 is also a concern, as it shows that a substantial portion of the business's income is already committed to debt repayment, leaving limited room for additional loan obligations.
+
+Analyst Action: Request 3 months of bank statements to verify the business's current cash flow and ability to manage its existing debt obligations, which will help to further assess the business's financial health and confirm the default probability assessment."
+L00172,Construction,150771.9,695,0.142,0.425,Review,"Risk Summary: The loan application for L00172 has been marked for review due to a high default probability, primarily driven by the business's relatively young age and uncertain credit history.
+
+Key Signals:
+- The business is only 1 year old, which is a relatively short period of time to establish a stable financial track record.
+- The default probability of 0.425 indicates a significant likelihood of the business being unable to repay the loan, which warrants further investigation.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and revenue stability, which will help assess its ability to repay the loan of $150771.9."
+L00174,Agriculture,184453.41,560,0.472,0.845,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00174 due to the high default probability of 0.845, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 560, which suggests a history of poor credit management or limited credit experience.
+- The debt-to-income ratio of 0.472, although not extremely high, combined with the other factors, contributes to the elevated default probability and increases the risk of lending to this business.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt obligations from a credit bureau check to verify the accuracy of the debt-to-income ratio and assess the business's overall financial health."
+L00181,Hospitality,447702.5,681,0.532,0.445,Review,"Risk Summary: The loan application for L00181 has been flagged for review due to a high default probability of 0.445, which is the top risk factor indicating a significant concern about the business's ability to repay the loan.
+
+Key Signals:
+- The business's debt-to-income ratio of 0.532 suggests that a substantial portion of its income is already committed to debt repayment, leaving limited room for additional loan obligations.
+- The credit score of 681, although not severely impaired, is not strong enough to offset the concerns raised by the high default probability and debt-to-income ratio.
+
+Analyst Action: Request 6 months of detailed financial statements, including income statements and balance sheets, to verify the business's revenue and expense trends, and to assess its ability to manage the proposed loan repayment schedule."
+L00187,Hospitality,21319.54,560,0.216,0.745,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The default probability of 0.745 suggests that there is a very high likelihood of the business defaulting on the loan.
+- The credit score of 560 is lower than ideal, indicating a history of credit problems or late payments that contribute to the high default probability.
+
+Analyst Action: Request a detailed explanation of the business's current financial situation and a plan for how they intend to manage their debts and repay the loan, verified by an accountant's letter or a review of their financial statements."
+L00192,Retail,425493.78,793,0.105,0.805,Decline,"Risk Summary: We regret to inform you that your loan application (L00192) has been declined, primarily due to a high default probability which indicates a significant risk of not being able to repay the loan.
+
+Key Signals:
+- The default probability of 0.805 suggests a high likelihood of loan default, which is a major concern for our lending decision.
+- The business age of only 1 year raises concerns about the company's stability and ability to manage debt over time.
+
+Analyst Action: To further assess the decision, we recommend verifying the company's revenue and expenses with an accountant letter to confirm the debt-to-income ratio of 0.105 is accurate and sustainable."
+L00196,Construction,143345.72,684,0.111,0.645,Review,"Risk Summary: The loan application for L00196 has been marked for review due to a high default probability of 0.645, which poses a significant risk to the lender.
+
+Key Signals:
+- The business is in the construction sector, which can be prone to fluctuations and instability.
+- The credit score of 684, although not extremely low, is not exceptionally high either, indicating some potential credit risk.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage debts, which will help in making a more informed decision about the loan application."
+L00201,Healthcare,322874.81,546,0.575,0.84,Decline,"Risk Summary: The loan application for L00201 has been declined due to the high default probability of 0.84, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The credit score of 546 is relatively low, suggesting that the business has had difficulties managing its debt in the past.
+- The debt-to-income ratio of 0.575 is also high, meaning that a significant portion of the business's income is already going towards paying off existing debts.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to verify the debt-to-income ratio and assess the business's ability to take on additional debt."
+L00213,Agriculture,29920.04,559,0.62,0.785,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which is the primary risk factor driving this decision.
+
+Key Signals:
+- The business's default probability of 0.785 indicates a high likelihood of missing payments, making it a risky investment.
+- The credit score of 559 is also relatively low, suggesting a history of poor credit management and contributing to the overall risk assessment.
+
+Analyst Action: To further verify the business's financial situation, we recommend requesting 6 months of bank statements to review the company's cash flow and payment history."
+L00218,Construction,301923.79,674,0.104,0.52,Review,"Risk Summary: The loan application for L00218 has been flagged for review due to a high default probability of 0.52, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business is relatively new, with only 1 year of operation, which may not provide enough track record to assess its financial stability.
+- The default probability of 0.52 is significantly high, suggesting that the business may be at risk of defaulting on the loan.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its finances, which will help to better understand its financial situation and assess the risk of lending."
+L00219,Retail,347962.4,781,0.406,0.73,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00219 due to the high default probability of 0.73, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The default probability of 0.73 is a major concern, suggesting that the business is likely to struggle with repayment.
+- The debt-to-income ratio of 0.406, although not excessively high, combined with the other factors, contributes to the overall risk profile of the business.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and assess the business's overall creditworthiness."
+L00232,Technology,312802.74,524,0.137,0.9,Decline,"Risk Summary: The loan application for L00232 has been declined due to a high default probability of 0.9, indicating a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a low credit score of 524, which suggests a history of poor credit management and increases the likelihood of default.
+- The high default probability of 0.9 is a strong indicator that the business is at risk of not meeting its repayment obligations, despite having a relatively low debt-to-income ratio.
+
+Analyst Action: Verify the business's cash flow and revenue stability by requesting the last 6 months of bank statements to confirm if the business has a consistent income stream to support loan repayments."
+L00245,Construction,470178.18,788,0.453,0.62,Review,"Risk Summary: The loan application for L00245 has been flagged for review due to a high default probability of 0.62, which is the top risk factor indicating a relatively high likelihood of the business being unable to repay the loan.
+
+Key Signals:
+- The business's debt-to-income ratio of 0.453 suggests that nearly half of its income is going towards debt repayment, which may leave limited financial flexibility to handle unexpected expenses or downturns.
+- The default probability of 0.62 is significantly higher than what is typically considered acceptable, indicating a higher risk of loan default.
+
+Analyst Action: Request 6 months of detailed financial statements, including income statements and balance sheets, to verify the business's revenue, expenses, and cash flow, and to better understand its ability to manage its debt obligations and repay the loan."
+L00246,Agriculture,497959.82,540,0.407,0.495,Review,"Risk Summary: The loan application for L00246 has been flagged for review due to a high default probability, primarily driven by the business's relatively low credit score of 540.
+
+Key Signals:
+- The credit score of 540 indicates a higher-than-average risk of loan default, suggesting the business has had some difficulties managing its credit in the past.
+- The default probability of 0.495 further reinforces this concern, indicating that our models predict a nearly 50% chance of the business being unable to repay the loan.
+
+Analyst Action: Request 12 months of bank statements to verify the business's current cash flow and ability to manage its debt obligations, which will help to better assess the business's financial health and inform the underwriting decision."
+L00249,Hospitality,448939.5,685,0.48,0.715,Decline,"Risk Summary: The loan application for Loan ID L00249 has been declined due to a high default probability of 0.715, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively high default probability of 0.715, suggesting a high likelihood of loan default.
+- The debt-to-income ratio of 0.48, although not excessively high, combined with the high default probability, raises concerns about the business's ability to manage its debt obligations.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to confirm the debt-to-income ratio and assess the business's overall debt management strategy."
+L00251,Agriculture,287090.87,594,0.198,0.84,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which is the primary risk factor indicating a strong likelihood that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.84 suggests that there is a high chance of the business defaulting on the loan, posing a significant risk to our investment.
+- The credit score of 594 is relatively low, indicating a history of poor credit management and increasing the likelihood of default.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and assess the business's overall creditworthiness."
+L00252,Technology,228666.53,587,0.628,0.805,Decline,"Risk Summary: The loan application for Loan ID L00252 has been declined due to a high default probability of 0.805, indicating a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 587, suggesting a history of poor credit management or limited credit experience.
+- The debt-to-income ratio of 0.628 is also a concern, as it indicates that a significant portion of the business's income is already committed to debt repayment, leaving limited capacity to take on additional debt.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to confirm the debt-to-income ratio and assess the business's ability to manage its existing debt obligations."
+L00255,Manufacturing,293265.43,564,0.127,0.9,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.9 suggests that the business is very likely to miss payments, making it a high-risk investment.
+- The credit score of 564 is also a concern, as it indicates that the business has had some issues with managing its debt in the past.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to take on additional debt."
+L00261,Retail,400398.95,732,0.328,0.785,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00261 due to the high default probability of 0.785, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business is only 1 year old, which suggests that it may not have a stable financial track record.
+- The default probability of 0.785 is very high, indicating a strong likelihood that the business will default on the loan.
+
+Analyst Action: Request a detailed breakdown of the business's cash flow for the past 6 months to verify its ability to manage debt and understand the factors contributing to the high default probability."
+L00263,Retail,204064.17,534,0.558,0.795,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00263 due to the high Default Probability of 0.795, indicating a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low Credit Score of 534, which suggests a history of poor credit management and increases the likelihood of default.
+- The Debt-to-Income Ratio of 0.558 is also a concern, as it shows that a substantial portion of the business's income is already committed to debt repayment, leaving limited room for additional loan payments.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and payment schedules to confirm the Debt-to-Income Ratio and assess the business's ability to manage its existing debt obligations."
+L00265,Construction,156678.44,529,0.215,0.785,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00265 due to the high default probability of 0.785, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 529, indicating a history of poor credit management.
+- The default probability of 0.785 is extremely high, suggesting that the business is likely to struggle with repaying the loan.
+
+Analyst Action: Request a detailed explanation of the business's financial history and current situation from the business owner, including a written account of the factors that have led to the low credit score and high default probability, to better understand the underlying risks and determine if there are any mitigating circumstances."
+L00267,Construction,52530.91,674,0.219,0.755,Decline,"Risk Summary: The loan application for L00267 has been declined due to a high default probability of 0.755, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.755 suggests that the business is at a high risk of not meeting its repayment obligations.
+- The credit score of 674, although not extremely low, combined with the high default probability, raises concerns about the business's ability to manage its debt.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to verify the debt-to-income ratio and understand the business's overall financial health."
+L00268,Agriculture,227449.31,776,0.185,0.81,Decline,"Risk Summary: We are declining loan application L00268 due to the high Default Probability of 0.81, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The Default Probability of 0.81 suggests that the business is at a high risk of default, which outweighs the relatively strong credit score of 776.
+- The Debt-to-Income Ratio of 0.185, although relatively low, is not enough to offset the high default risk, especially considering the business is only 2 years old and operates in the agriculture sector, which can be unpredictable.
+
+Analyst Action: Request a detailed financial projection report from the business, including cash flow forecasts and revenue projections for the next 12 months, to better understand their ability to manage debt and assess if there are any mitigating factors that could reduce the default risk."
+L00280,Healthcare,350125.25,559,0.507,0.845,Decline,"Risk Summary: The loan application for Loan ID L00280 has been declined due to a high default probability, primarily driven by the business's high debt-to-income ratio.
+
+Key Signals:
+- The debt-to-income ratio of 0.507 indicates that over half of the business's income is going towards debt repayment, leaving limited room for unexpected expenses or further borrowing.
+- The default probability of 0.845 suggests that there is a very high likelihood of the business being unable to meet its loan repayment obligations.
+
+Analyst Action: Request 12 months of financial statements and a detailed breakdown of existing debts to verify the business's debt-to-income ratio and assess its ability to manage its current debt obligations."
+L00282,Technology,40126.29,520,0.516,0.835,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00282 due to the high default probability, which is the top risk factor indicating a significant likelihood that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.835 suggests that there is a very high chance of the business defaulting on the loan, which is a major concern for us.
+- The credit score of 520 is also a concern, as it indicates that the business has a poor credit history and may not be able to manage its debt effectively.
+
+Analyst Action: To further verify the business's financial situation, we should request 3 months of bank statements to get a clearer picture of the business's cash flow and ability to repay the loan."
+L00284,Retail,493346.61,670,0.134,0.68,Decline,"Risk Summary: We have decided to decline loan application L00284 due to the high default probability of 0.68, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.68 suggests a high likelihood of the business defaulting on the loan, making it a risky investment.
+- The business's debt-to-income ratio of 0.134, although relatively low, is outweighed by the high default probability, indicating that other factors such as cash flow or credit history may be contributing to the risk.
+
+Analyst Action: Request a detailed cash flow statement for the past 6 months to verify the business's ability to generate sufficient cash to service the loan, and to better understand the factors driving the high default probability."
+L00291,Healthcare,130163.34,796,0.539,0.72,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00291 due to the high Default Probability of 0.72, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a high Default Probability of 0.72, which suggests a high likelihood of loan default.
+- The Debt-to-Income Ratio of 0.539 is also a concern, as it indicates that a substantial portion of the business's income is already committed to debt repayment.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debt repayment schedule to verify the accuracy of the Debt-to-Income Ratio and assess the business's overall financial health."
+L00294,Agriculture,150539.67,559,0.568,0.83,Decline,"Risk Summary: We have decided to decline the loan application due to a high default probability, which is largely driven by the business's high debt-to-income ratio.
+
+Key Signals:
+- The business has a high debt-to-income ratio of 0.568, indicating that a significant portion of its income is already committed to paying off debts.
+- The default probability of 0.83 suggests that the business is at a high risk of being unable to repay the loan.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its existing debt obligations, which may help to reassess the default probability and provide a more comprehensive understanding of the business's financial situation."
+L00295,Healthcare,135908.3,597,0.463,0.775,Decline,"Risk Summary: The loan application for L00295 has been declined due to a high default probability, primarily driven by the business's poor credit score and high debt-to-income ratio.
+
+Key Signals:
+- The business has a credit score of 597, which indicates a higher risk of default on the loan.
+- The debt-to-income ratio of 0.463 suggests that the business may struggle to manage its debt obligations, including the proposed loan.
+
+Analyst Action: Request a detailed breakdown of the business's current debts and liabilities, including outstanding loan balances, interest rates, and repayment terms, to confirm the debt-to-income ratio and assess the business's ability to manage its debt obligations."
+L00303,Healthcare,301127.91,582,0.489,0.525,Review,"Risk Summary: The loan application for L00303 has been flagged for review due to a high default probability, primarily driven by the business's relatively low credit score and short operating history.
+
+Key Signals:
+- The business has a credit score of 582, which is lower than what we typically consider acceptable for a loan of this size.
+- The business is only 1 year old, which suggests that it may not have a stable financial track record or a proven ability to manage debt.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its finances, which will help us better understand its creditworthiness and make a more informed decision."
+L00307,Hospitality,386666.59,574,0.602,0.79,Decline,"Risk Summary: We have decided to decline loan application L00307 due to the high default probability of 0.79, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business's debt-to-income ratio of 0.602 indicates that a large portion of its income is already committed to paying off existing debts, leaving limited funds for new loan repayments.
+- The credit score of 574 is relatively low, indicating a history of poor credit management and increasing the likelihood of default.
+
+Analyst Action: Request 3 months of bank statements to verify the business's current cash flow and assess its ability to manage its existing debts alongside the proposed new loan repayments."
+L00310,Hospitality,392116.64,703,0.283,0.825,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00310 due to the high default probability, which is the primary risk factor driving this decision.
+
+Key Signals:
+- The business is relatively new, with only 1 year of operation, which increases the uncertainty of its long-term viability.
+- The default probability of 0.825 indicates a high likelihood that the business may not be able to repay the loan, making it a risky investment.
+
+Analyst Action: Verify the business's cash flow and revenue stability by requesting 6 months of bank statements and a detailed income statement from the business owner to confirm if there are any mitigating factors that may have been overlooked in the initial assessment."
+L00312,Hospitality,350982.32,703,0.368,0.885,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00312 due to the high default probability, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.885 suggests that there is a high likelihood of the business defaulting on the loan, which is a major concern for our company.
+- The business age of 2 years is also a factor, as it indicates that the business is still relatively new and may not have a stable financial track record.
+
+Analyst Action: Request a detailed breakdown of the business's cash flow and expenses over the past year to verify its ability to manage debt and understand the root causes of the high default probability."
+L00313,Retail,498227.94,552,0.536,0.885,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00313 due to the high default probability of 0.885, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 552, which suggests a history of poor credit management and increases the likelihood of default.
+- The debt-to-income ratio of 0.536 is also a concern, as it indicates that a significant portion of the business's income is already being used to service existing debts, leaving limited capacity to take on additional loan repayments.
+
+Analyst Action: To further verify the business's financial situation and debt obligations, we should request 6 months of bank statements to review the business's cash flow and assess its ability to manage its debts and repay the loan."
+L00314,Agriculture,497958.48,692,0.533,0.725,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The default probability of 0.725 suggests that there is a high likelihood of the business defaulting on the loan, which is a major concern for our investment.
+- The debt-to-income ratio of 0.533, although not extremely high, combined with the other factors, contributes to the overall risk profile of the business.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and assess the business's current financial obligations."
+L00316,Hospitality,32442.83,545,0.598,0.77,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00316 due to the high default probability of 0.77, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 545, which indicates a history of poor credit management and increases the likelihood of default.
+- The debt-to-income ratio of 0.598 is also a concern, as it shows that a large portion of the business's income is already committed to debt repayment, leaving limited room for additional loan payments.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to manage additional debt."
+L00323,Healthcare,432738.22,757,0.524,0.745,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00323 due to the high default probability, which poses a significant risk to our investment.
+
+Key Signals:
+- The default probability of 0.745 indicates a high likelihood that the business may not be able to repay the loan.
+- The debt-to-income ratio of 0.524 suggests that the business already has a significant amount of debt compared to its income, which could make it difficult to take on additional debt.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to manage additional debt."
+L00325,Manufacturing,312241.48,546,0.609,0.83,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00325, primarily due to the high default probability of 0.83, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a high debt-to-income ratio of 0.609, which means that a large portion of its income is already committed to paying off debts, leaving limited room for additional loan repayments.
+- The credit score of 546 is also a concern, as it suggests that the business has had difficulties managing its credit obligations in the past.
+
+Analyst Action: To further verify the business's financial situation, we should request 3 months of bank statements to get a more detailed understanding of its cash flow and ability to manage its debt obligations."
+L00326,Hospitality,448588.8,686,0.33,0.88,Decline,"Risk Summary: We are declining loan application L00326 due to the high default probability of 0.88, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business is relatively new, with only 1 year of operation, which increases the uncertainty of its financial stability and ability to manage debt.
+- The default probability of 0.88 is extremely high, suggesting that the business is likely to struggle with loan repayment.
+
+Analyst Action: Request a detailed cash flow statement and 6 months of bank statements to verify the business's current financial health and ability to manage the loan repayment, which may help to reassess the default probability and provide a more comprehensive understanding of the business's financial situation."
+L00328,Hospitality,308622.44,589,0.352,0.895,Decline,"Risk Summary: We have decided to decline loan application L00328 due to the high default probability of 0.895, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 589, indicating a history of poor credit management.
+- The high default probability of 0.895 indicates a strong likelihood of loan default, which outweighs other factors such as the debt-to-income ratio.
+
+Analyst Action: Request a detailed explanation of the business's credit history and a plan for improving credit management from the business owner, to be verified with a credit bureau check and reviewed for potential reconsideration of the loan application."
+L00329,Manufacturing,349183.16,576,0.568,0.825,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00329, primarily due to the high default probability of 0.825, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 576, indicating a history of poor credit management.
+- The debt-to-income ratio of 0.568 is also a concern, as it shows that a significant portion of the business's income is already committed to debt repayment.
+
+Analyst Action: To further verify the business's financial situation, we should request 6 months of bank statements to confirm the business's cash flow and ability to manage its debt obligations."
+L00330,Agriculture,154629.14,607,0.418,0.7,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00330 due to a high default probability, which suggests that the business is at a significant risk of not being able to repay the loan.
+
+Key Signals:
+- The business has a high default probability of 0.7, indicating a significant risk of default.
+- The credit score of 607 is relatively low, which, combined with other factors, contributes to the overall risk assessment.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the debt-to-income ratio and ensure that the business's financial situation has not changed since the loan application was submitted."
+L00335,Hospitality,438357.53,709,0.445,0.835,Decline,"Risk Summary: We have declined the loan application for Loan ID L00335 due to the high default probability of 0.835, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business is relatively new, operating for only 1 year, which increases the uncertainty about its long-term financial stability.
+- The default probability of 0.835 indicates a high likelihood of the business being unable to meet its loan repayment obligations.
+
+Analyst Action: Request a detailed cash flow statement from the business to verify its revenue and expenses over the past year, which may help to reassess the loan application and provide a more comprehensive understanding of the business's financial situation."
+L00337,Construction,473207.89,576,0.311,0.795,Decline,"Risk Summary: We have decided to decline loan application L00337 due to the high default probability of 0.795, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 576, which suggests a history of poor credit management and increases the likelihood of default.
+- The high default probability of 0.795 is a major concern, as it suggests that the business is more likely to default on the loan than not.
+
+Analyst Action: Request a detailed explanation of the business's credit history and a plan for improving its credit score, as well as verify outstanding liabilities with a credit bureau check to confirm the accuracy of the default probability assessment."
+L00339,Healthcare,112799.05,656,0.377,0.74,Decline,"Risk Summary: We have decided to decline loan application L00339 due to the high default probability of 0.74, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The default probability of 0.74 indicates a high likelihood of loan default, which is a major concern for our lending decision.
+- The debt-to-income ratio of 0.377, although not extremely high, combined with the relatively low credit score of 656, raises additional concerns about the business's ability to manage its finances and repay the loan.
+
+Analyst Action: Request a detailed breakdown of the business's current outstanding liabilities and debts from a credit bureau check to verify the debt-to-income ratio and understand the business's overall financial obligations."
+L00347,Technology,137599.53,537,0.466,0.87,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00347 due to the high default probability of 0.87, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business has a low credit score of 537, which suggests a history of poor credit management and increases the likelihood of default.
+- The default probability of 0.87 is extremely high, indicating a strong likelihood that the business will be unable to meet its loan repayment obligations.
+
+Analyst Action: Request a detailed explanation of the business's credit history and a plan for improving its credit management practices, as well as verification of outstanding liabilities with a credit bureau check to confirm the accuracy of the provided debt-to-income ratio."
+L00349,Retail,488044.51,671,0.361,0.435,Review,"Risk Summary: The loan application for L00349 has been flagged for review due to a high default probability of 0.435, which poses a significant risk to the lender.
+
+Key Signals:
+- The business has a relatively low credit score of 671, indicating a history of questionable credit decisions.
+- The default probability of 0.435 suggests that the business is more likely to miss payments, which could result in financial losses for the lender.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its finances, which will help the underwriter to better assess the default probability and make a more informed decision."
+L00353,Construction,360822.25,710,0.107,0.84,Decline,"Risk Summary: We have decided to decline loan application L00353 due to the high default probability of 0.84, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business is in the construction sector, which can be volatile and prone to unexpected expenses and project delays.
+- The default probability of 0.84 is a strong indicator that the business may struggle to meet its loan repayment obligations.
+
+Analyst Action: Verify the business's outstanding liabilities with a credit bureau check to confirm the debt-to-income ratio and assess the business's overall financial health before reconsidering the loan application."
+L00355,Construction,419400.65,626,0.267,0.58,Review,"Risk Summary: The loan decision for L00355 is currently under review due to a high default probability of 0.58, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business's default probability of 0.58 suggests a higher-than-average likelihood of default, which is a major concern for lending.
+- The credit score of 626 is lower than ideal, indicating some potential issues with the business's credit history and ability to manage debt.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its finances, which will help to assess the business's ability to repay the loan of $419400.65."
+L00357,Technology,413171.62,675,0.372,0.71,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00357 due to a high default probability of 0.71, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively high debt-to-income ratio of 0.372, indicating that a substantial portion of its income is already committed to debt repayment, leaving limited room for additional loan obligations.
+- The credit score of 675 is below the ideal range, suggesting a history of credit difficulties or late payments, which contributes to the elevated default probability.
+
+Analyst Action: Request a detailed breakdown of the business's current debt obligations and repayment schedules to verify the debt-to-income ratio and assess the potential impact of the proposed loan on the business's cash flow."
+L00358,Manufacturing,323872.05,667,0.329,0.835,Decline,"Risk Summary: The loan application for L00358 has been declined due to a high default probability, which poses a significant risk to our investment.
+
+Key Signals:
+- The business is relatively new, with only 1 year of operation, which increases the uncertainty of its long-term viability.
+- The default probability of 0.835 indicates a high likelihood of the business being unable to repay the loan, making it a risky investment.
+
+Analyst Action: Request a comprehensive business plan and 6 months of bank statements to verify the business's revenue and cash flow, and assess whether there are any mitigating factors that could reduce the default probability."
+L00359,Retail,497223.15,705,0.42,0.915,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00359, primarily due to the high default probability of 0.915, which suggests a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business is relatively new, with only 1 year of operation, which increases the uncertainty about its long-term viability and ability to manage debt.
+- The default probability of 0.915 is extremely high, indicating a strong likelihood of loan default based on our assessment.
+
+Analyst Action: Request a detailed explanation from the business owner, including a written plan outlining how they intend to manage their debt and reduce the risk of default, to better understand their strategy for loan repayment and assess if there are any mitigating factors that could reduce the perceived risk."
+L00360,Construction,350180.1,528,0.565,0.605,Review,"Risk Summary: The loan application for L00360 has been flagged for review due to a high default probability, primarily driven by the business's low credit score and high debt-to-income ratio.
+
+Key Signals:
+- The credit score of 528 is lower than desired, indicating a history of late payments or other credit issues.
+- The debt-to-income ratio of 0.565 suggests that the business may be over-extended and struggling to manage its debt obligations.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its debt obligations, which will help to better understand its financial situation and assess the risk of lending."
+L00361,Manufacturing,349708.69,659,0.299,0.56,Review,"Risk Summary: The loan application for L00361 has been flagged for review due to a high default probability of 0.56, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The business is relatively new, with only 2 years of operation, which may not provide a stable enough financial track record to support a loan of $349708.69.
+- The credit score of 659 is considered fair, but when combined with a default probability of 0.56, it raises concerns about the business's ability to manage its debt obligations.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to service the loan, and to assess its financial stability before making a final decision."
+L00368,Retail,381093.68,536,0.536,0.56,Review,"Risk Summary: The loan application for L00368 has been flagged for review due to a high default probability of 0.56, which is the primary concern driving the need for further evaluation.
+
+Key Signals:
+- The business's credit score of 536 is lower than ideal, indicating a history of potential credit issues or late payments.
+- The debt-to-income ratio of 0.536 suggests that the business may have a significant amount of debt relative to its income, which could impact its ability to repay the loan.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and assess its ability to manage debt and repay the loan, providing a more detailed understanding of its financial situation."
+L00369,Hospitality,31207.93,569,0.53,0.44,Review,"Risk Summary: The loan application for L00369 has been marked for review due to the high default probability of 0.44, which indicates a significant risk of the business not being able to repay the loan.
+
+Key Signals:
+- The business's credit score of 569 is relatively low, suggesting a history of poor credit management or limited credit experience.
+- The debt-to-income ratio of 0.53 is moderate, but combined with the low credit score and high default probability, it raises concerns about the business's ability to manage its debt obligations.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its debt obligations, which will help to better understand its financial situation and make a more informed lending decision."
+L00379,Technology,62937.97,638,0.446,0.67,Decline,"Risk Summary: We have decided to decline the loan application for Loan ID L00379 due to the high default probability of 0.67, which suggests a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively low credit score of 638, indicating a history of credit issues or late payments.
+- The default probability of 0.67 is particularly concerning, as it indicates a high likelihood of the business being unable to meet its loan obligations.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to take on additional debt."
+L00383,Retail,431576.74,604,0.37,0.82,Decline,"Risk Summary: We are declining loan application L00383 due to the high default probability of 0.82, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a relatively high default probability of 0.82, suggesting a high likelihood of non-repayment.
+- The credit score of 604 is lower than ideal, which, combined with the business's young age of 2 years, contributes to the overall risk assessment.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage debt, which may help to reassess the default probability and inform a potential reconsideration of the loan application."
+L00385,Retail,299612.11,700,0.522,0.675,Decline,"Risk Summary: We have decided to decline the loan application due to the high default probability, which indicates a significant risk of the business being unable to repay the loan.
+
+Key Signals:
+- The default probability of 0.675 suggests that the business is more likely to default on the loan than not, which is a major concern for our investment.
+- The debt-to-income ratio of 0.522 indicates that the business already has a significant amount of debt compared to its income, which could make it difficult to take on additional debt.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the business's current debt obligations and assess its ability to manage additional debt."
+L00387,Technology,131330.83,553,0.578,0.45,Review,"Risk Summary: The loan application for L00387 has been flagged for review due to a high default probability, primarily driven by the business's low credit score and high debt-to-income ratio.
+
+Key Signals:
+- The credit score of 553 is lower than expected, indicating a history of late payments or other credit issues.
+- The debt-to-income ratio of 0.578 suggests that the business may be over-extended and struggling to manage its debt obligations.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its debt payments, as well as to assess its overall financial health."
+L00388,Retail,235845.6,735,0.247,0.715,Decline,"Risk Summary: We have decided to decline loan application L00388 due to the high default probability of 0.715, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a high default probability of 0.715, which suggests a greater likelihood of loan default.
+- The debt-to-income ratio of 0.247, although relatively low, combined with the high default probability, raises concerns about the business's ability to manage its debt.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and assess the business's overall debt management."
+L00398,Retail,146108.28,541,0.63,0.48,Review,"Risk Summary: The loan application for L00398 has been flagged for review due to a high default probability, primarily driven by the business's relatively low credit score and high debt-to-income ratio.
+
+Key Signals:
+- The business's credit score of 541 is lower than expected, indicating a history of late payments or other credit issues.
+- The debt-to-income ratio of 0.63 suggests that the business may be over-extended and struggling to manage its debt obligations.
+
+Analyst Action: Request 6 months of bank statements to verify the business's cash flow and ability to manage its debt obligations, which will help to better understand the business's financial situation and assess its creditworthiness."
+L00399,Agriculture,304783.87,728,0.593,0.81,Decline,"Risk Summary: The decision to decline the loan application for Loan ID L00399 is primarily driven by the high Default Probability of 0.81, which indicates a significant risk that the business may not be able to repay the loan.
+
+Key Signals:
+- The business has a high Debt-to-Income Ratio of 0.593, indicating that a substantial portion of its income is already committed to debt repayment, leaving limited capacity to take on additional debt.
+- The Default Probability of 0.81 is extremely high, suggesting that the business is at a significant risk of defaulting on the loan.
+
+Analyst Action: Verify outstanding liabilities with a credit bureau check to confirm the accuracy of the debt-to-income ratio and assess the business's overall credit profile."
