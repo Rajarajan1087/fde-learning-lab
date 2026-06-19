@@ -1,2 +1,0 @@
-# Futurense
-Futurense Projects
