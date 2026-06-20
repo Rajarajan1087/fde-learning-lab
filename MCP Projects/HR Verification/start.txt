@@ -1,0 +1,14 @@
+# for backend
+
+cd backend
+source venv/bin/activate
+python main.py
+
+
+
+# for frontend
+
+cd frontend
+source ~/.nvm/nvm.sh
+nvm use 20
+npm run dev
