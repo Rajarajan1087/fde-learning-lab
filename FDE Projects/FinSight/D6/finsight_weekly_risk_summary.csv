@@ -1,0 +1,17 @@
+metric,dimension,value,pct
+Applications by Risk Tier,Low,1890.0,94.5
+Applications by Risk Tier,High,110.0,5.5
+Default Rate by Branch,Hyderabad,81.0,31.3
+Default Rate by Branch,Mumbai,85.0,29.9
+Default Rate by Branch,Kolkata,90.0,29.6
+Default Rate by Branch,Pune,78.0,28.0
+Default Rate by Branch,Bangalore,78.0,27.8
+Default Rate by Branch,Delhi,81.0,26.9
+Default Rate by Branch,Chennai,61.0,20.9
+Avg Credit Score by Tier,High,557.0,
+Avg Loan Amount by Tier,High,577317.0,
+Avg Credit Score by Tier,Low,664.0,
+Avg Loan Amount by Tier,Low,455678.0,
+Top Loan Purposes (High Risk),Home,24.0,
+Top Loan Purposes (High Risk),Education,24.0,
+Top Loan Purposes (High Risk),Vehicle,22.0,
