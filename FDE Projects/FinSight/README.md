@@ -221,6 +221,41 @@ FinSight/
 
 ---
 
+## Known Limitations & V2 Improvements
+
+### V1 Limitations
+
+**1. Loan-to-income ratio not engineered as a feature.**
+The model treats `loan_amount` and `annual_income` as independent signals.
+A borrower with credit score 410 requesting 6.7x their annual income is 
+classified Low risk because the model never learned the ratio relationship.
+V2 will add `loan_to_income = loan_amount / annual_income` as an explicit feature.
+
+**2. Input boundary constraints.**
+Model trained on synthetic data with bounded ranges:
+- annual_income: ₹1,00,000 – ₹11,55,914
+- loan_amount: ₹1,00,000 – ₹11,88,621
+- existing_emis: 0 – 6
+- applicant_age: 22 – 64
+Inputs outside these ranges produce unreliable scores. 
+Flask API enforces validation and returns 400 for out-of-range inputs.
+
+**3. Synthetic training data.**
+Model trained on 2,000 synthetically generated records.
+Real-world performance will differ. Production deployment requires 
+minimum 5,000 historical loan records with verified default outcomes.
+
+**4. ngrok URL is session-bound.**
+Flask API URL changes on every Colab restart. 
+V2 will deploy to Railway.app or Google Cloud Run for a stable endpoint.
+
+### Planned V2 Improvements
+- Engineer loan_to_income, debt_service_coverage_ratio as features
+- Train on real RBI-published NPA dataset when available
+- Deploy Flask API to Railway.app — permanent stable URL
+- Add LangSmith observability to trace every LLM alert generation
+- Add LangGraph agentic layer for multi-step underwriting decisions
+
 ## Author
 
 **Rajan** — Senior Test Architect transitioning to Forward Deployed AI Engineering.
