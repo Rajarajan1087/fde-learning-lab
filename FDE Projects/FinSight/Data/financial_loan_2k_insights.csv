@@ -1,0 +1,2001 @@
+loan_id,application_date,applicant_age,employment_status,annual_income,loan_amount,loan_tenure,credit_score,existing_emi,loan_purpose,branch,loan_status,default_flag
+LN00001,16-10-2025,59,Self-Employed,526575,340817,24,814,0,Vehicle,Pune,Approved,0
+LN00002,24-04-2024,49,Salaried,389133,170353,36,799,2,Medical,Mumbai,Closed,0
+LN00003,26-01-2024,35,Salaried,227525,232316,60,637,1,Medical,Chennai,Closed,0
+LN00004,29-01-2026,63,Retired,592908,203828,24,809,2,Vehicle,Kolkata,Closed,0
+LN00005,08-10-2024,28,Salaried,435075,416562,36,580,0,Vehicle,Ahmedabad,Approved,0
+LN00006,07-09-2024,41,Self-Employed,549656,690733,24,825,0,Business,Pune,Approved,0
+LN00007,16-08-2024,59,Self-Employed,864881,1106974,36,570,0,Medical,Chennai,Approved,0
+LN00008,22-05-2024,39,Salaried,383802,304716,24,571,0,Education,Delhi,Approved,0
+LN00009,24-01-2026,43,Salaried,503889,405748,24,641,2,Home Renovation,Kolkata,Defaulted,1
+LN00010,14-04-2024,31,Salaried,280434,107873,24,686,0,Home Renovation,Bangalore,Defaulted,1
+LN00011,23-11-2025,31,Retired,645319,669738,24,527,0,Business,Pune,Rejected,0
+LN00012,28-01-2026,44,Salaried,825792,993746,60,564,0,Business,Chennai,Defaulted,1
+LN00013,12-07-2025,56,Salaried,504133,286912,24,764,2,Medical,Kolkata,Closed,0
+LN00014,30-03-2024,60,Salaried,256773,196028,24,803,3,Education,Hyderabad,Approved,0
+LN00015,27-08-2025,44,Self-Employed,518288,633722,36,626,0,Education,Delhi,Defaulted,1
+LN00016,08-03-2025,23,Salaried,1019460,1289446,24,546,2,Vehicle,Pune,Approved,0
+LN00017,02-02-2024,42,Salaried,361759,205297,48,712,1,Business,Pune,Closed,0
+LN00018,31-01-2024,22,Self-Employed,767866,695400,60,581,0,Home Renovation,Bangalore,Approved,0
+LN00019,05-04-2024,44,Unemployed,171159,87589,36,461,2,Home Renovation,Kolkata,Rejected,0
+LN00020,11-08-2024,64,Salaried,603903,248848,60,801,0,Medical,Hyderabad,Closed,0
+LN00021,26-08-2024,50,Salaried,244994,319039,36,640,2,Home Renovation,Kolkata,Closed,0
+LN00022,01-06-2025,58,Salaried,687319,826541,24,799,0,Education,Hyderabad,Approved,0
+LN00023,08-09-2025,22,Self-Employed,924360,1050108,36,558,4,Education,Bangalore,Approved,0
+LN00024,28-01-2024,41,Salaried,309431,109428,36,796,0,Business,Delhi,Approved,0
+LN00025,28-07-2025,53,Self-Employed,577091,708726,36,613,1,Medical,Pune,Defaulted,1
+LN00026,22-07-2024,32,Self-Employed,645887,504985,60,634,3,Home Renovation,Hyderabad,Rejected,0
+LN00027,03-01-2026,42,Self-Employed,612942,414737,36,695,0,Business,Mumbai,Approved,0
+LN00028,27-10-2025,64,Salaried,568204,512022,60,640,1,Vehicle,Bangalore,Approved,0
+LN00029,19-12-2025,45,Retired,395406,158355,48,532,1,Vehicle,Bangalore,Rejected,0
+LN00030,12-07-2025,47,Self-Employed,1450257,1642142,36,682,1,Home Renovation,Chennai,Approved,0
+LN00031,05-03-2025,62,Self-Employed,579586,545204,36,794,0,Home Renovation,Delhi,Approved,0
+LN00032,13-08-2024,48,Salaried,385534,194790,24,695,0,Home Renovation,Mumbai,Approved,0
+LN00033,04-04-2025,36,Unemployed,334309,169513,60,613,2,Education,Mumbai,Defaulted,1
+LN00034,26-08-2025,35,Salaried,891540,448153,36,843,1,Home Renovation,Chennai,Approved,0
+LN00035,11-10-2024,67,Salaried,649129,235440,12,692,2,Vehicle,Hyderabad,Approved,0
+LN00036,08-04-2026,64,Salaried,791856,749553,24,794,0,Home Renovation,Hyderabad,Approved,0
+LN00037,07-01-2024,23,Self-Employed,2004744,2454574,36,583,0,Medical,Ahmedabad,Approved,0
+LN00038,16-02-2026,57,Salaried,755429,241169,12,620,1,Vehicle,Ahmedabad,Closed,0
+LN00039,05-04-2026,27,Salaried,567364,200793,12,841,1,Medical,Mumbai,Approved,0
+LN00040,12-06-2024,41,Salaried,1019962,948612,36,585,1,Vehicle,Delhi,Closed,0
+LN00041,15-12-2025,29,Salaried,1076955,1293902,24,564,0,Business,Hyderabad,Approved,0
+LN00042,08-03-2025,59,Self-Employed,1745976,1151318,36,606,0,Vehicle,Bangalore,Approved,0
+LN00043,14-12-2024,38,Self-Employed,503490,344677,24,586,0,Vehicle,Kolkata,Rejected,0
+LN00044,11-10-2024,24,Salaried,265851,254148,24,778,0,Medical,Chennai,Closed,0
+LN00045,08-06-2024,45,Self-Employed,486866,292915,36,724,0,Medical,Delhi,Approved,0
+LN00046,08-08-2024,34,Self-Employed,971894,320014,36,697,2,Vehicle,Hyderabad,Approved,0
+LN00047,20-02-2026,29,Salaried,525245,582366,24,799,1,Vehicle,Kolkata,Approved,0
+LN00048,10-12-2024,46,Salaried,445558,440307,24,536,1,Education,Mumbai,Closed,0
+LN00049,14-04-2024,22,Unemployed,212564,199561,36,439,0,Business,Chennai,Rejected,0
+LN00050,04-04-2024,40,Self-Employed,898304,1002374,12,721,0,Business,Hyderabad,Approved,0
+LN00051,24-01-2025,48,Salaried,388254,404853,24,691,1,Home Renovation,Mumbai,Closed,0
+LN00052,09-04-2024,67,Self-Employed,2237814,1178142,12,781,3,Vehicle,Hyderabad,Closed,0
+LN00053,02-01-2025,27,Salaried,426997,293658,48,713,2,Vehicle,Chennai,Rejected,0
+LN00054,17-05-2026,64,Self-Employed,131804,57825,48,668,2,Vehicle,Bangalore,Approved,0
+LN00055,18-12-2024,28,Salaried,463039,205053,48,554,3,Vehicle,Pune,Approved,0
+LN00056,10-09-2025,67,Salaried,811047,846583,48,548,1,Business,Bangalore,Approved,0
+LN00057,27-09-2024,55,Salaried,490376,610253,36,782,0,Medical,Pune,Closed,0
+LN00058,06-04-2026,34,Unemployed,274607,373192,36,620,2,Education,Kolkata,Rejected,0
+LN00059,14-02-2024,37,Self-Employed,978181,969555,36,572,0,Medical,Mumbai,Closed,0
+LN00060,17-01-2026,56,Salaried,1178049,591983,12,798,1,Medical,Pune,Approved,0
+LN00061,15-04-2025,60,Salaried,389420,162082,36,595,2,Business,Bangalore,Approved,0
+LN00062,03-07-2025,24,Self-Employed,368649,440217,48,695,2,Education,Chennai,Approved,0
+LN00063,07-05-2024,22,Salaried,952407,892054,36,529,0,Vehicle,Mumbai,Rejected,0
+LN00064,22-01-2025,26,Salaried,1182527,1159010,24,636,1,Business,Hyderabad,Approved,0
+LN00065,21-03-2024,62,Unemployed,318862,369755,24,423,2,Business,Pune,Rejected,0
+LN00066,19-07-2025,24,Salaried,489756,525804,36,737,3,Education,Ahmedabad,Closed,0
+LN00067,27-10-2024,49,Self-Employed,1598560,1946892,36,694,2,Home Renovation,Pune,Approved,0
+LN00068,29-04-2026,38,Unemployed,162518,58804,60,633,5,Business,Delhi,Closed,0
+LN00069,05-10-2025,46,Salaried,573627,643765,24,771,0,Medical,Pune,Approved,0
+LN00070,25-09-2025,64,Salaried,284162,351206,48,814,1,Medical,Pune,Closed,0
+LN00071,01-06-2026,54,Salaried,578429,355588,36,841,0,Vehicle,Hyderabad,Closed,0
+LN00072,05-01-2025,30,Retired,512091,514391,60,525,0,Business,Chennai,Defaulted,1
+LN00073,14-08-2025,56,Retired,705061,455172,36,540,3,Vehicle,Kolkata,Closed,0
+LN00074,15-07-2024,34,Self-Employed,1968699,2665162,36,592,5,Business,Mumbai,Defaulted,1
+LN00075,22-12-2025,51,Salaried,385024,129662,36,849,0,Education,Hyderabad,Closed,0
+LN00076,12-03-2024,35,Self-Employed,548901,514744,48,555,0,Business,Mumbai,Closed,0
+LN00077,16-02-2024,28,Retired,687651,332241,60,752,0,Home Renovation,Ahmedabad,Rejected,0
+LN00078,08-11-2025,34,Self-Employed,796741,863222,12,735,3,Medical,Bangalore,Approved,0
+LN00079,21-08-2024,43,Unemployed,225601,111329,12,613,0,Education,Delhi,Approved,0
+LN00080,02-03-2026,60,Retired,464127,259410,60,725,0,Medical,Ahmedabad,Approved,0
+LN00081,23-10-2024,41,Self-Employed,220516,186073,36,563,0,Vehicle,Chennai,Closed,0
+LN00082,22-03-2024,36,Self-Employed,213695,279153,36,610,1,Education,Hyderabad,Rejected,0
+LN00083,25-05-2026,65,Salaried,637509,339719,36,835,4,Home Renovation,Delhi,Closed,0
+LN00084,26-08-2024,38,Salaried,551341,252880,12,612,0,Medical,Pune,Approved,0
+LN00085,13-04-2024,67,Self-Employed,840089,953395,48,602,1,Business,Chennai,Closed,0
+LN00086,24-01-2025,44,Salaried,519443,441880,48,801,0,Business,Ahmedabad,Approved,0
+LN00087,11-10-2024,46,Retired,352412,459180,24,540,1,Business,Chennai,Closed,0
+LN00088,09-04-2025,45,Unemployed,109404,50465,24,627,2,Education,Kolkata,Approved,0
+LN00089,12-10-2025,65,Self-Employed,1265901,1279219,48,649,0,Home Renovation,Ahmedabad,Defaulted,1
+LN00090,04-05-2026,61,Salaried,559555,311206,12,694,0,Home Renovation,Ahmedabad,Approved,0
+LN00091,08-01-2025,49,Salaried,365385,172621,60,627,3,Home Renovation,Bangalore,Approved,0
+LN00092,15-06-2024,35,Salaried,539580,567515,24,802,0,Medical,Kolkata,Closed,0
+LN00093,14-01-2025,65,Self-Employed,524067,499463,36,590,2,Education,Kolkata,Closed,0
+LN00094,29-12-2024,21,Self-Employed,756877,855505,60,569,1,Business,Mumbai,Approved,0
+LN00095,02-08-2024,45,Unemployed,208570,133570,36,494,0,Medical,Mumbai,Rejected,0
+LN00096,17-11-2025,27,Salaried,339984,269528,36,798,2,Home Renovation,Pune,Approved,0
+LN00097,30-09-2024,29,Retired,402191,300042,36,651,3,Business,Delhi,Defaulted,1
+LN00098,19-12-2025,44,Retired,694755,960497,24,795,1,Education,Bangalore,Closed,0
+LN00099,30-11-2025,21,Salaried,457232,284157,24,532,0,Vehicle,Ahmedabad,Approved,0
+LN00100,25-10-2025,64,Retired,738051,460764,60,522,1,Home Renovation,Chennai,Rejected,0
+LN00101,14-03-2024,28,Salaried,704001,485762,48,743,1,Home Renovation,Pune,Approved,0
+LN00102,15-09-2025,44,Salaried,301027,277261,36,694,1,Home Renovation,Bangalore,Closed,0
+LN00103,12-10-2025,31,Self-Employed,675323,390036,24,609,2,Home Renovation,Bangalore,Defaulted,1
+LN00104,24-06-2024,37,Salaried,1549026,2024296,12,760,0,Business,Ahmedabad,Closed,0
+LN00105,30-06-2025,28,Self-Employed,1286005,761641,12,554,1,Education,Ahmedabad,Approved,0
+LN00106,16-01-2026,55,Self-Employed,500373,643178,36,533,1,Medical,Delhi,Approved,0
+LN00107,07-09-2024,55,Self-Employed,473655,196009,48,714,0,Business,Mumbai,Approved,0
+LN00108,16-06-2024,53,Salaried,367163,375320,36,825,2,Education,Ahmedabad,Closed,0
+LN00109,18-04-2025,25,Self-Employed,1062862,1379259,48,732,0,Medical,Bangalore,Approved,0
+LN00110,23-01-2025,62,Self-Employed,1597902,775980,12,522,0,Home Renovation,Bangalore,Rejected,0
+LN00111,03-10-2024,59,Self-Employed,909083,1241043,24,698,4,Education,Bangalore,Closed,0
+LN00112,17-10-2025,61,Salaried,524774,418859,24,559,0,Home Renovation,Hyderabad,Approved,0
+LN00113,05-12-2025,48,Salaried,400364,536602,36,683,0,Education,Bangalore,Approved,0
+LN00114,24-07-2025,27,Self-Employed,791080,826284,12,826,1,Vehicle,Bangalore,Approved,0
+LN00115,12-08-2024,29,Salaried,338048,213560,60,754,5,Home Renovation,Ahmedabad,Approved,0
+LN00116,02-12-2025,28,Self-Employed,227596,115421,24,776,5,Home Renovation,Chennai,Approved,0
+LN00117,28-11-2024,32,Self-Employed,1623758,1029638,60,635,1,Home Renovation,Kolkata,Closed,0
+LN00118,13-05-2026,54,Self-Employed,379573,152709,36,571,0,Business,Hyderabad,Approved,0
+LN00119,25-02-2026,53,Self-Employed,552021,252966,60,661,3,Medical,Bangalore,Approved,0
+LN00120,05-03-2026,43,Unemployed,340349,141287,36,485,1,Home Renovation,Kolkata,Defaulted,1
+LN00121,27-02-2024,44,Retired,677530,518471,60,565,1,Home Renovation,Bangalore,Approved,0
+LN00122,22-08-2024,57,Retired,691441,812537,12,757,3,Business,Delhi,Closed,0
+LN00123,21-04-2026,55,Retired,731201,333078,48,529,1,Business,Ahmedabad,Rejected,0
+LN00124,02-02-2024,64,Salaried,656948,291259,60,671,0,Vehicle,Ahmedabad,Approved,0
+LN00125,04-04-2026,60,Salaried,285737,287957,24,580,3,Education,Delhi,Defaulted,1
+LN00126,19-11-2024,42,Self-Employed,559198,289050,12,537,1,Home Renovation,Kolkata,Approved,0
+LN00127,14-02-2025,47,Salaried,360296,146774,36,605,0,Education,Ahmedabad,Closed,0
+LN00128,01-10-2024,55,Self-Employed,646277,312496,60,656,0,Business,Hyderabad,Defaulted,1
+LN00129,08-03-2024,21,Salaried,851192,1120257,36,749,1,Business,Chennai,Closed,0
+LN00130,04-08-2024,55,Self-Employed,163478,196765,36,647,0,Vehicle,Hyderabad,Approved,0
+LN00131,03-08-2025,57,Self-Employed,526357,362907,24,623,0,Medical,Hyderabad,Approved,0
+LN00132,05-01-2026,67,Self-Employed,505737,516561,12,705,2,Business,Delhi,Closed,0
+LN00133,18-11-2024,34,Self-Employed,330638,294599,48,697,3,Home Renovation,Delhi,Closed,0
+LN00134,05-08-2024,23,Retired,305863,319576,12,525,1,Vehicle,Chennai,Rejected,0
+LN00135,02-11-2025,21,Salaried,636328,668741,36,826,2,Medical,Pune,Approved,0
+LN00136,26-05-2025,25,Retired,423115,419563,60,555,2,Vehicle,Pune,Approved,0
+LN00137,09-02-2025,46,Salaried,399543,236813,24,846,2,Business,Pune,Approved,0
+LN00138,20-10-2025,34,Unemployed,343347,117736,36,499,0,Medical,Bangalore,Rejected,0
+LN00139,14-04-2025,59,Self-Employed,1202290,963182,12,800,3,Education,Chennai,Approved,0
+LN00140,26-05-2024,47,Salaried,398214,509742,36,819,1,Medical,Bangalore,Approved,0
+LN00141,28-09-2024,29,Salaried,530535,491512,24,533,0,Home Renovation,Kolkata,Approved,0
+LN00142,22-05-2024,35,Self-Employed,915537,1112954,48,756,0,Education,Kolkata,Rejected,0
+LN00143,09-09-2024,35,Salaried,380468,529149,24,804,2,Education,Mumbai,Approved,0
+LN00144,01-02-2026,46,Salaried,406017,194879,36,849,0,Home Renovation,Pune,Approved,0
+LN00145,28-07-2025,62,Self-Employed,396454,420620,36,569,0,Education,Delhi,Approved,0
+LN00146,05-07-2025,33,Self-Employed,648688,675753,24,780,2,Business,Mumbai,Rejected,0
+LN00147,26-09-2024,52,Self-Employed,413893,570324,48,629,3,Medical,Mumbai,Rejected,0
+LN00148,03-02-2026,59,Unemployed,310534,429828,24,596,2,Medical,Delhi,Rejected,0
+LN00149,21-08-2025,52,Self-Employed,1053984,1112318,36,771,0,Home Renovation,Ahmedabad,Approved,0
+LN00150,14-03-2025,24,Self-Employed,1506522,855668,24,607,0,Business,Mumbai,Rejected,0
+LN00151,20-08-2025,50,Salaried,472482,556778,36,832,2,Education,Ahmedabad,Approved,0
+LN00152,12-02-2025,57,Self-Employed,337875,141141,24,545,0,Medical,Pune,Approved,0
+LN00153,05-01-2025,43,Salaried,355934,412445,36,781,2,Medical,Hyderabad,Closed,0
+LN00154,12-08-2024,59,Unemployed,280359,364807,24,543,0,Medical,Ahmedabad,Defaulted,1
+LN00155,21-05-2024,65,Retired,667122,481072,48,579,3,Medical,Bangalore,Rejected,0
+LN00156,05-06-2025,35,Self-Employed,1148998,1141757,24,787,1,Vehicle,Pune,Closed,0
+LN00157,20-05-2025,63,Salaried,454825,351651,60,594,0,Home Renovation,Ahmedabad,Defaulted,1
+LN00158,03-04-2024,49,Retired,695150,543288,60,522,3,Education,Chennai,Rejected,0
+LN00159,12-02-2026,56,Self-Employed,1166730,748349,24,582,0,Education,Delhi,Closed,0
+LN00160,18-02-2024,33,Salaried,738167,840286,36,755,0,Home Renovation,Hyderabad,Approved,0
+LN00161,31-05-2026,52,Salaried,381820,507742,12,748,3,Business,Kolkata,Closed,0
+LN00162,22-04-2024,27,Self-Employed,618949,826189,24,794,0,Home Renovation,Chennai,Approved,0
+LN00163,05-06-2024,42,Salaried,367323,180818,48,537,1,Medical,Chennai,Defaulted,1
+LN00164,04-10-2025,48,Retired,496536,626736,36,599,0,Medical,Ahmedabad,Approved,0
+LN00165,12-06-2024,22,Salaried,383465,426096,36,734,0,Home Renovation,Chennai,Approved,0
+LN00166,22-03-2026,62,Salaried,299123,172929,24,690,0,Home Renovation,Mumbai,Approved,0
+LN00167,27-11-2025,65,Retired,671234,251050,24,848,2,Education,Mumbai,Approved,0
+LN00168,08-03-2025,26,Salaried,528756,314502,24,774,2,Education,Mumbai,Closed,0
+LN00169,02-09-2025,48,Self-Employed,372692,485777,48,645,0,Vehicle,Pune,Approved,0
+LN00170,06-03-2024,48,Salaried,492597,490871,36,774,0,Vehicle,Ahmedabad,Approved,0
+LN00171,29-01-2025,64,Salaried,417305,456181,48,591,4,Medical,Mumbai,Approved,0
+LN00172,25-01-2025,64,Self-Employed,2101599,1224953,24,557,5,Vehicle,Hyderabad,Approved,0
+LN00173,02-09-2025,40,Self-Employed,531672,580227,24,843,1,Vehicle,Mumbai,Approved,0
+LN00174,24-04-2025,50,Self-Employed,1818383,601764,24,723,3,Business,Ahmedabad,Approved,0
+LN00175,25-06-2025,31,Self-Employed,911478,649750,12,691,2,Home Renovation,Delhi,Closed,0
+LN00176,14-09-2024,48,Self-Employed,424725,420235,24,742,0,Education,Chennai,Approved,0
+LN00177,20-07-2025,45,Salaried,567425,261416,48,736,0,Vehicle,Hyderabad,Approved,0
+LN00178,31-05-2026,59,Salaried,426349,513880,60,764,0,Education,Ahmedabad,Closed,0
+LN00179,12-01-2024,53,Retired,440246,245892,36,710,3,Vehicle,Kolkata,Approved,0
+LN00180,27-11-2025,21,Self-Employed,754029,767231,36,817,2,Vehicle,Mumbai,Approved,0
+LN00181,08-01-2026,47,Self-Employed,1559052,1162611,12,839,2,Medical,Kolkata,Approved,0
+LN00182,27-04-2024,33,Salaried,432225,413054,60,701,0,Business,Chennai,Approved,0
+LN00183,29-11-2025,61,Salaried,438220,183261,12,724,2,Home Renovation,Hyderabad,Closed,0
+LN00184,03-07-2025,23,Self-Employed,559662,178310,60,718,2,Home Renovation,Chennai,Approved,0
+LN00185,07-02-2026,59,Retired,373728,486041,36,684,3,Medical,Kolkata,Closed,0
+LN00186,30-09-2024,26,Self-Employed,675773,403161,24,761,0,Medical,Pune,Rejected,0
+LN00187,26-02-2026,28,Retired,394972,474616,60,649,2,Home Renovation,Hyderabad,Approved,0
+LN00188,18-10-2025,47,Self-Employed,1382732,1934836,12,746,0,Home Renovation,Bangalore,Approved,0
+LN00189,14-12-2024,29,Salaried,417467,222332,36,641,2,Business,Pune,Approved,0
+LN00190,24-04-2024,57,Salaried,1636554,968329,36,563,2,Vehicle,Hyderabad,Approved,0
+LN00191,27-10-2024,53,Salaried,280696,288877,24,715,0,Business,Mumbai,Closed,0
+LN00192,21-03-2025,62,Salaried,658240,896518,36,723,2,Home Renovation,Ahmedabad,Closed,0
+LN00193,10-06-2024,64,Retired,464566,607371,36,837,0,Vehicle,Kolkata,Approved,0
+LN00194,09-04-2025,44,Self-Employed,695520,593391,48,776,3,Home Renovation,Chennai,Approved,0
+LN00195,04-01-2024,35,Self-Employed,724902,851485,12,536,0,Business,Ahmedabad,Approved,0
+LN00196,09-01-2026,52,Salaried,361718,162527,60,791,2,Business,Chennai,Closed,0
+LN00197,06-01-2026,52,Salaried,408202,561352,24,528,4,Business,Chennai,Defaulted,1
+LN00198,26-09-2024,44,Salaried,443503,603513,24,768,0,Vehicle,Delhi,Closed,0
+LN00199,27-05-2025,61,Salaried,542189,260305,24,720,1,Education,Delhi,Approved,0
+LN00200,19-02-2026,32,Self-Employed,648995,408455,12,578,1,Education,Mumbai,Closed,0
+LN00201,01-07-2024,59,Salaried,828908,339993,24,659,0,Home Renovation,Bangalore,Approved,0
+LN00202,03-06-2025,22,Self-Employed,1051696,629849,60,638,1,Vehicle,Ahmedabad,Closed,0
+LN00203,18-04-2024,23,Salaried,447598,536021,24,560,2,Medical,Delhi,Closed,0
+LN00204,02-10-2025,57,Salaried,910548,652086,24,841,3,Education,Hyderabad,Approved,0
+LN00205,01-11-2024,37,Salaried,1135813,451186,24,786,3,Vehicle,Pune,Closed,0
+LN00206,11-05-2026,22,Self-Employed,214463,145073,48,527,1,Vehicle,Kolkata,Defaulted,1
+LN00207,16-10-2025,22,Self-Employed,1102134,1520417,60,702,2,Education,Mumbai,Approved,0
+LN00208,03-06-2025,48,Salaried,357953,355322,24,653,3,Vehicle,Pune,Defaulted,1
+LN00209,15-09-2025,43,Salaried,701051,531240,12,700,1,Vehicle,Bangalore,Approved,0
+LN00210,22-07-2024,57,Self-Employed,1304109,630135,24,591,0,Education,Pune,Rejected,0
+LN00211,05-06-2024,52,Salaried,329507,456299,12,632,1,Business,Ahmedabad,Defaulted,1
+LN00212,17-01-2025,53,Salaried,212448,255560,24,626,3,Home Renovation,Hyderabad,Closed,0
+LN00213,19-02-2026,21,Retired,400872,244381,36,809,1,Medical,Chennai,Closed,0
+LN00214,14-06-2024,39,Self-Employed,1044959,394028,24,832,2,Home Renovation,Delhi,Approved,0
+LN00215,06-07-2025,22,Salaried,1492144,540586,36,636,0,Business,Hyderabad,Approved,0
+LN00216,08-03-2026,64,Retired,533006,230480,24,639,4,Business,Bangalore,Closed,0
+LN00217,27-06-2025,46,Self-Employed,2296620,2156171,60,666,1,Vehicle,Mumbai,Closed,0
+LN00218,01-01-2024,52,Salaried,558652,738336,60,846,2,Home Renovation,Pune,Closed,0
+LN00219,05-09-2025,26,Self-Employed,811280,686681,36,729,0,Business,Hyderabad,Closed,0
+LN00220,27-11-2024,52,Self-Employed,1389855,1705685,24,815,0,Home Renovation,Ahmedabad,Approved,0
+LN00221,15-05-2025,24,Salaried,666636,526959,24,622,2,Business,Mumbai,Approved,0
+LN00222,20-01-2024,31,Salaried,458717,495158,36,643,4,Medical,Chennai,Defaulted,1
+LN00223,24-04-2024,37,Salaried,287004,317156,48,764,0,Business,Bangalore,Approved,0
+LN00224,06-01-2025,58,Self-Employed,445520,218910,36,728,0,Home Renovation,Bangalore,Closed,0
+LN00225,01-05-2026,44,Salaried,434622,303078,60,833,1,Vehicle,Pune,Approved,0
+LN00226,06-04-2026,25,Retired,449737,450201,60,628,0,Home Renovation,Delhi,Closed,0
+LN00227,10-11-2024,54,Self-Employed,713652,269593,24,569,0,Education,Kolkata,Approved,0
+LN00228,02-09-2024,26,Salaried,633246,441812,36,624,2,Home Renovation,Bangalore,Defaulted,1
+LN00229,29-02-2024,42,Self-Employed,992700,881794,12,546,4,Medical,Ahmedabad,Closed,0
+LN00230,03-09-2024,31,Salaried,766406,1069785,24,807,0,Medical,Hyderabad,Rejected,0
+LN00231,03-08-2025,36,Self-Employed,1403759,1153871,36,776,1,Medical,Ahmedabad,Approved,0
+LN00232,21-03-2024,53,Self-Employed,921709,1103896,24,792,0,Business,Hyderabad,Closed,0
+LN00233,28-03-2024,29,Salaried,1143153,886256,60,656,0,Medical,Hyderabad,Rejected,0
+LN00234,19-01-2026,26,Self-Employed,704840,828912,24,820,0,Home Renovation,Chennai,Closed,0
+LN00235,12-05-2025,36,Salaried,452256,431884,36,841,1,Vehicle,Bangalore,Closed,0
+LN00236,15-04-2026,49,Salaried,642606,819486,36,551,0,Medical,Bangalore,Approved,0
+LN00237,11-03-2024,23,Salaried,443571,333581,36,564,1,Home Renovation,Hyderabad,Approved,0
+LN00238,17-02-2026,40,Salaried,1125405,1085717,24,784,0,Business,Pune,Approved,0
+LN00239,29-06-2025,56,Unemployed,185402,184107,60,429,0,Business,Ahmedabad,Rejected,0
+LN00240,23-02-2026,39,Salaried,521031,395525,36,603,0,Vehicle,Delhi,Defaulted,1
+LN00241,08-05-2024,46,Salaried,187445,85989,36,685,3,Vehicle,Pune,Approved,0
+LN00242,11-05-2024,23,Self-Employed,1007027,405746,12,835,2,Home Renovation,Delhi,Approved,0
+LN00243,06-11-2025,39,Salaried,538707,171491,36,520,3,Vehicle,Bangalore,Rejected,0
+LN00244,01-05-2025,40,Unemployed,207449,261569,48,404,1,Vehicle,Pune,Rejected,0
+LN00245,16-07-2025,52,Self-Employed,520166,291356,36,582,0,Business,Ahmedabad,Approved,0
+LN00246,18-06-2024,27,Self-Employed,784613,417929,48,683,1,Home Renovation,Bangalore,Approved,0
+LN00247,28-09-2024,61,Salaried,257424,285647,36,840,0,Vehicle,Mumbai,Approved,0
+LN00248,24-06-2025,53,Salaried,704900,459607,24,720,2,Home Renovation,Bangalore,Approved,0
+LN00249,13-09-2025,60,Salaried,344612,295211,12,741,0,Medical,Pune,Defaulted,1
+LN00250,09-03-2025,59,Retired,548783,262736,24,671,0,Business,Ahmedabad,Approved,0
+LN00251,04-08-2024,38,Salaried,667968,905577,36,651,1,Business,Hyderabad,Closed,0
+LN00252,06-07-2025,60,Salaried,546959,676445,48,633,1,Business,Kolkata,Defaulted,1
+LN00253,12-02-2026,21,Unemployed,278487,348155,24,605,5,Education,Chennai,Rejected,0
+LN00254,17-01-2026,31,Self-Employed,403761,301791,36,736,1,Home Renovation,Ahmedabad,Defaulted,1
+LN00255,07-12-2025,48,Salaried,541004,615985,36,715,2,Medical,Bangalore,Rejected,0
+LN00256,24-07-2024,45,Salaried,608321,278771,36,800,0,Vehicle,Bangalore,Approved,0
+LN00257,31-12-2025,43,Unemployed,317434,98239,24,601,5,Medical,Hyderabad,Closed,0
+LN00258,15-11-2024,51,Salaried,399310,128565,24,654,1,Home Renovation,Ahmedabad,Approved,0
+LN00259,12-02-2025,50,Self-Employed,1317744,1245613,24,753,2,Business,Mumbai,Approved,0
+LN00260,18-11-2025,62,Self-Employed,491671,393796,12,660,0,Education,Kolkata,Closed,0
+LN00261,27-10-2025,55,Salaried,574528,499734,24,715,2,Home Renovation,Ahmedabad,Approved,0
+LN00262,17-01-2025,27,Self-Employed,441517,136079,12,562,0,Home Renovation,Bangalore,Rejected,0
+LN00263,24-03-2025,36,Salaried,687670,526036,36,576,1,Vehicle,Delhi,Rejected,0
+LN00264,13-06-2025,46,Salaried,665622,725444,24,661,3,Medical,Delhi,Approved,0
+LN00265,07-04-2025,22,Self-Employed,1824350,1435696,60,729,5,Medical,Delhi,Closed,0
+LN00266,03-05-2024,21,Retired,540198,597157,24,591,1,Vehicle,Chennai,Closed,0
+LN00267,10-09-2024,32,Self-Employed,591695,329172,24,743,3,Education,Chennai,Approved,0
+LN00268,18-08-2024,25,Self-Employed,934841,1116626,24,546,0,Business,Ahmedabad,Defaulted,1
+LN00269,06-03-2024,57,Salaried,810055,767344,12,647,3,Business,Kolkata,Closed,0
+LN00270,12-12-2024,52,Salaried,338310,179926,48,625,2,Education,Bangalore,Rejected,0
+LN00271,22-01-2024,29,Salaried,335946,188261,12,684,1,Vehicle,Bangalore,Approved,0
+LN00272,25-08-2025,61,Salaried,459235,455025,60,734,3,Home Renovation,Bangalore,Approved,0
+LN00273,21-07-2025,55,Salaried,370699,449633,60,590,3,Medical,Chennai,Rejected,0
+LN00274,23-08-2024,39,Salaried,233616,176891,36,723,0,Home Renovation,Kolkata,Closed,0
+LN00275,25-08-2025,36,Salaried,312241,182389,36,672,2,Medical,Bangalore,Approved,0
+LN00276,13-08-2024,23,Salaried,280816,352062,36,586,0,Home Renovation,Hyderabad,Approved,0
+LN00277,08-01-2024,40,Self-Employed,1282918,1329353,24,609,3,Vehicle,Mumbai,Defaulted,1
+LN00278,13-03-2024,44,Retired,521365,413387,36,779,2,Vehicle,Pune,Approved,0
+LN00279,25-12-2025,53,Salaried,1052072,880258,12,747,0,Education,Ahmedabad,Closed,0
+LN00280,08-10-2025,44,Unemployed,232482,121979,12,478,2,Home Renovation,Ahmedabad,Rejected,0
+LN00281,01-03-2024,31,Retired,461127,456277,36,615,1,Home Renovation,Delhi,Closed,0
+LN00282,22-08-2024,28,Salaried,722967,502184,36,849,1,Education,Delhi,Closed,0
+LN00283,10-03-2024,56,Self-Employed,513730,716761,60,765,0,Education,Ahmedabad,Approved,0
+LN00284,02-02-2024,58,Self-Employed,404706,335178,24,791,0,Vehicle,Hyderabad,Closed,0
+LN00285,30-05-2026,60,Self-Employed,1116171,931415,48,676,2,Vehicle,Bangalore,Closed,0
+LN00286,04-12-2024,40,Salaried,725213,668963,24,635,0,Home Renovation,Kolkata,Rejected,0
+LN00287,13-03-2024,55,Self-Employed,1483580,1941162,24,537,1,Vehicle,Kolkata,Closed,0
+LN00288,10-06-2025,45,Salaried,372580,439979,24,691,2,Vehicle,Chennai,Closed,0
+LN00289,31-08-2024,55,Self-Employed,581722,463192,36,535,0,Home Renovation,Bangalore,Rejected,0
+LN00290,12-10-2024,45,Self-Employed,267877,292138,24,759,1,Education,Kolkata,Closed,0
+LN00291,16-11-2025,49,Self-Employed,531862,502534,36,575,1,Home Renovation,Bangalore,Rejected,0
+LN00292,12-05-2025,38,Self-Employed,1141796,960939,48,598,2,Business,Delhi,Approved,0
+LN00293,07-08-2024,66,Self-Employed,510643,261218,36,622,1,Home Renovation,Pune,Defaulted,1
+LN00294,06-07-2025,38,Salaried,652271,528554,36,803,1,Business,Pune,Approved,0
+LN00295,15-05-2024,22,Salaried,448773,255980,48,712,0,Home Renovation,Pune,Approved,0
+LN00296,10-01-2026,55,Retired,425595,555965,48,524,3,Business,Delhi,Rejected,0
+LN00297,07-08-2025,36,Salaried,390908,261496,36,625,0,Business,Chennai,Approved,0
+LN00298,13-08-2025,61,Salaried,366441,493775,24,797,4,Home Renovation,Pune,Approved,0
+LN00299,29-04-2025,56,Salaried,309382,274224,60,619,2,Vehicle,Delhi,Approved,0
+LN00300,05-09-2024,53,Salaried,746809,742850,36,757,3,Medical,Bangalore,Approved,0
+LN00301,14-03-2026,24,Unemployed,328966,295159,24,412,1,Vehicle,Pune,Rejected,0
+LN00302,29-04-2025,53,Self-Employed,640267,283202,24,840,0,Business,Hyderabad,Approved,0
+LN00303,06-04-2026,34,Unemployed,318129,226954,48,543,3,Home Renovation,Chennai,Rejected,0
+LN00304,20-02-2025,41,Self-Employed,861717,352494,12,605,0,Home Renovation,Hyderabad,Approved,0
+LN00305,13-07-2024,40,Self-Employed,320459,315732,60,839,0,Home Renovation,Ahmedabad,Approved,0
+LN00306,06-04-2024,28,Salaried,717992,568334,24,551,0,Home Renovation,Bangalore,Approved,0
+LN00307,09-04-2024,27,Self-Employed,486237,561984,48,570,4,Medical,Chennai,Closed,0
+LN00308,05-11-2025,23,Salaried,330296,179191,24,598,2,Education,Hyderabad,Defaulted,1
+LN00309,17-03-2025,37,Retired,468306,225265,36,705,1,Business,Chennai,Closed,0
+LN00310,28-12-2024,53,Retired,637001,475817,60,693,2,Medical,Bangalore,Closed,0
+LN00311,09-03-2025,32,Salaried,804585,1061443,36,625,1,Vehicle,Ahmedabad,Approved,0
+LN00312,24-02-2025,42,Unemployed,122299,132261,36,462,2,Education,Kolkata,Rejected,0
+LN00313,23-04-2025,42,Retired,527785,401547,12,595,1,Education,Pune,Approved,0
+LN00314,16-01-2026,66,Self-Employed,619871,538667,12,835,3,Home Renovation,Ahmedabad,Closed,0
+LN00315,25-02-2024,50,Salaried,678192,266281,24,840,0,Medical,Chennai,Approved,0
+LN00316,20-11-2025,58,Self-Employed,842223,1164822,36,600,0,Vehicle,Pune,Closed,0
+LN00317,31-10-2025,58,Self-Employed,1327873,1371756,24,647,1,Home Renovation,Ahmedabad,Approved,0
+LN00318,23-10-2025,65,Salaried,355683,218369,24,702,1,Home Renovation,Pune,Approved,0
+LN00319,10-04-2024,28,Salaried,305742,288739,36,762,2,Business,Kolkata,Defaulted,1
+LN00320,03-03-2024,47,Self-Employed,367827,154645,36,704,1,Education,Bangalore,Closed,0
+LN00321,16-02-2025,47,Salaried,458167,624216,48,739,0,Vehicle,Chennai,Closed,0
+LN00322,15-01-2026,54,Self-Employed,392042,192987,24,590,1,Education,Chennai,Closed,0
+LN00323,13-12-2024,41,Unemployed,247249,250422,12,600,1,Medical,Kolkata,Defaulted,1
+LN00324,30-03-2026,50,Retired,516909,294638,60,673,0,Business,Delhi,Closed,0
+LN00325,01-06-2026,53,Salaried,521990,568612,24,764,1,Home Renovation,Kolkata,Rejected,0
+LN00326,21-04-2024,48,Retired,672739,776679,60,659,0,Business,Kolkata,Approved,0
+LN00327,11-09-2024,67,Salaried,645252,671553,60,590,1,Home Renovation,Kolkata,Closed,0
+LN00328,15-07-2024,53,Salaried,542092,529054,48,565,0,Business,Bangalore,Closed,0
+LN00329,13-07-2024,25,Self-Employed,1692923,2169846,24,566,4,Home Renovation,Ahmedabad,Approved,0
+LN00330,03-07-2025,39,Salaried,475347,183716,48,598,2,Education,Mumbai,Defaulted,1
+LN00331,04-04-2025,24,Salaried,212610,141174,48,668,0,Education,Kolkata,Defaulted,1
+LN00332,23-05-2024,55,Self-Employed,1013771,581008,36,649,2,Education,Chennai,Closed,0
+LN00333,08-03-2025,37,Salaried,235352,326389,24,646,3,Education,Hyderabad,Approved,0
+LN00334,06-07-2024,64,Salaried,283774,206680,24,638,1,Business,Delhi,Closed,0
+LN00335,12-10-2024,48,Self-Employed,578916,640208,24,781,3,Home Renovation,Kolkata,Closed,0
+LN00336,18-04-2025,50,Self-Employed,706136,743700,36,763,0,Education,Kolkata,Closed,0
+LN00337,12-09-2024,49,Self-Employed,378978,202104,36,622,3,Business,Delhi,Approved,0
+LN00338,18-03-2024,66,Salaried,431579,242934,24,556,1,Home Renovation,Kolkata,Closed,0
+LN00339,29-03-2025,26,Salaried,674564,411088,36,661,0,Business,Chennai,Approved,0
+LN00340,07-04-2026,55,Salaried,717465,539705,24,556,1,Education,Mumbai,Rejected,0
+LN00341,01-06-2026,61,Salaried,858683,478936,36,527,5,Medical,Kolkata,Rejected,0
+LN00342,26-05-2026,57,Self-Employed,1886398,606696,60,750,2,Business,Delhi,Approved,0
+LN00343,17-07-2025,44,Salaried,703941,892127,24,815,1,Education,Kolkata,Closed,0
+LN00344,10-04-2024,49,Salaried,443506,604130,24,626,0,Vehicle,Bangalore,Approved,0
+LN00345,21-02-2024,66,Self-Employed,1058774,715442,24,537,1,Home Renovation,Chennai,Approved,0
+LN00346,29-10-2025,51,Self-Employed,853152,573623,36,832,0,Education,Chennai,Approved,0
+LN00347,07-07-2025,55,Self-Employed,871962,268390,48,602,0,Vehicle,Mumbai,Approved,0
+LN00348,06-05-2026,53,Salaried,529531,555094,60,807,1,Business,Ahmedabad,Approved,0
+LN00349,16-01-2024,41,Salaried,324349,391808,24,713,3,Business,Bangalore,Defaulted,1
+LN00350,05-04-2024,52,Salaried,307846,141999,60,734,2,Vehicle,Bangalore,Closed,0
+LN00351,10-02-2026,43,Salaried,468034,222612,12,800,0,Vehicle,Mumbai,Closed,0
+LN00352,19-05-2026,53,Self-Employed,716333,837458,36,739,1,Home Renovation,Pune,Rejected,0
+LN00353,30-08-2024,23,Retired,667216,652483,12,808,4,Business,Pune,Approved,0
+LN00354,19-06-2024,38,Self-Employed,454206,158675,60,713,2,Vehicle,Ahmedabad,Approved,0
+LN00355,20-02-2025,45,Self-Employed,1075038,1058699,36,677,2,Medical,Hyderabad,Approved,0
+LN00356,12-05-2025,62,Salaried,966708,618508,36,623,4,Medical,Ahmedabad,Rejected,0
+LN00357,07-05-2025,51,Self-Employed,540342,381264,48,553,2,Vehicle,Pune,Closed,0
+LN00358,06-08-2024,23,Salaried,606104,695022,24,621,0,Home Renovation,Ahmedabad,Approved,0
+LN00359,14-02-2025,60,Self-Employed,775407,924307,12,646,0,Business,Kolkata,Approved,0
+LN00360,01-03-2024,66,Self-Employed,812351,601458,60,733,4,Medical,Bangalore,Approved,0
+LN00361,17-06-2024,44,Salaried,583423,782876,24,844,1,Vehicle,Ahmedabad,Approved,0
+LN00362,23-01-2025,52,Salaried,1000215,747269,24,815,0,Vehicle,Hyderabad,Closed,0
+LN00363,03-01-2024,67,Unemployed,211724,243275,36,578,1,Education,Hyderabad,Rejected,0
+LN00364,03-02-2025,42,Salaried,207209,172452,36,599,2,Vehicle,Chennai,Defaulted,1
+LN00365,28-09-2024,43,Salaried,331978,427350,12,660,5,Home Renovation,Kolkata,Approved,0
+LN00366,13-03-2026,22,Salaried,405906,527084,24,550,0,Medical,Chennai,Rejected,0
+LN00367,14-03-2026,47,Self-Employed,1863986,738433,12,582,1,Education,Delhi,Defaulted,1
+LN00368,10-04-2025,62,Self-Employed,896366,1192294,36,567,3,Medical,Pune,Defaulted,1
+LN00369,19-10-2024,22,Self-Employed,316628,382514,60,606,1,Medical,Chennai,Approved,0
+LN00370,09-03-2025,46,Salaried,608478,712188,60,823,0,Home Renovation,Bangalore,Approved,0
+LN00371,14-12-2025,37,Self-Employed,281808,146822,36,580,4,Vehicle,Bangalore,Closed,0
+LN00372,18-01-2026,60,Salaried,795885,943626,24,793,1,Home Renovation,Kolkata,Approved,0
+LN00373,13-03-2026,53,Retired,324960,401373,60,803,1,Vehicle,Hyderabad,Closed,0
+LN00374,23-07-2025,29,Self-Employed,509345,314808,36,599,2,Education,Bangalore,Defaulted,1
+LN00375,08-11-2025,63,Salaried,392473,528851,24,699,0,Home Renovation,Pune,Approved,0
+LN00376,05-01-2026,59,Salaried,590693,209605,60,791,4,Home Renovation,Chennai,Approved,0
+LN00377,13-05-2025,49,Salaried,507026,235716,48,596,1,Business,Pune,Approved,0
+LN00378,07-06-2024,62,Salaried,368046,328053,48,740,1,Home Renovation,Ahmedabad,Closed,0
+LN00379,13-07-2024,46,Salaried,555295,518296,48,801,0,Business,Chennai,Rejected,0
+LN00380,30-10-2024,55,Self-Employed,562479,567915,24,547,1,Vehicle,Kolkata,Closed,0
+LN00381,10-08-2024,45,Self-Employed,968385,308591,24,596,3,Vehicle,Ahmedabad,Approved,0
+LN00382,29-02-2024,44,Salaried,439052,595531,36,683,2,Vehicle,Pune,Closed,0
+LN00383,16-08-2025,33,Salaried,273650,95516,24,528,4,Business,Chennai,Rejected,0
+LN00384,23-01-2026,27,Salaried,551360,252174,36,694,1,Vehicle,Pune,Approved,0
+LN00385,09-07-2025,56,Retired,561367,177064,48,826,2,Medical,Mumbai,Closed,0
+LN00386,03-03-2024,65,Salaried,608043,561554,48,595,1,Home Renovation,Kolkata,Defaulted,1
+LN00387,04-02-2026,40,Self-Employed,850786,1127711,36,764,3,Business,Kolkata,Closed,0
+LN00388,17-11-2024,21,Retired,634794,655451,48,641,2,Vehicle,Bangalore,Closed,0
+LN00389,28-02-2024,28,Self-Employed,445528,536827,48,704,1,Medical,Kolkata,Approved,0
+LN00390,21-02-2024,66,Retired,349319,109899,36,551,0,Home Renovation,Delhi,Closed,0
+LN00391,21-08-2025,36,Salaried,732075,656097,24,769,0,Home Renovation,Bangalore,Approved,0
+LN00392,03-05-2025,34,Unemployed,346674,279252,24,456,1,Vehicle,Bangalore,Rejected,0
+LN00393,29-05-2025,32,Salaried,458674,389352,24,829,4,Medical,Ahmedabad,Approved,0
+LN00394,23-05-2026,43,Salaried,347498,131852,24,663,0,Business,Ahmedabad,Approved,0
+LN00395,27-06-2025,35,Self-Employed,938669,988304,24,837,0,Vehicle,Pune,Approved,0
+LN00396,10-06-2024,48,Unemployed,238441,203519,24,483,0,Home Renovation,Mumbai,Rejected,0
+LN00397,28-02-2024,54,Retired,392867,448522,36,575,2,Home Renovation,Bangalore,Closed,0
+LN00398,04-06-2025,22,Salaried,522843,435956,60,798,1,Home Renovation,Ahmedabad,Closed,0
+LN00399,23-03-2024,52,Salaried,689770,320273,24,792,0,Vehicle,Hyderabad,Approved,0
+LN00400,21-05-2026,43,Unemployed,250497,253774,48,607,1,Education,Chennai,Closed,0
+LN00401,09-07-2024,42,Salaried,279692,136944,36,685,2,Education,Chennai,Closed,0
+LN00402,11-03-2024,45,Self-Employed,681765,858774,12,677,1,Education,Kolkata,Approved,0
+LN00403,01-09-2025,42,Retired,385693,375830,60,768,2,Medical,Pune,Defaulted,1
+LN00404,10-03-2024,42,Self-Employed,843892,399097,36,705,0,Vehicle,Mumbai,Approved,0
+LN00405,22-11-2025,62,Salaried,401120,544950,24,597,1,Home Renovation,Chennai,Closed,0
+LN00406,01-06-2026,26,Self-Employed,892993,777084,48,541,0,Medical,Hyderabad,Approved,0
+LN00407,28-08-2024,35,Salaried,505935,192350,24,627,0,Education,Mumbai,Closed,0
+LN00408,17-02-2025,63,Retired,303822,300636,36,792,1,Business,Delhi,Closed,0
+LN00409,02-05-2024,57,Self-Employed,272245,157498,12,771,0,Medical,Chennai,Rejected,0
+LN00410,06-08-2025,53,Retired,274042,324482,48,534,2,Medical,Bangalore,Defaulted,1
+LN00411,09-09-2024,28,Salaried,506007,607008,36,823,0,Vehicle,Hyderabad,Approved,0
+LN00412,15-08-2025,64,Unemployed,272690,375451,36,559,0,Medical,Pune,Rejected,0
+LN00413,31-08-2025,64,Salaried,450940,384226,24,724,3,Vehicle,Pune,Approved,0
+LN00414,10-02-2024,25,Salaried,674397,539822,36,632,1,Business,Hyderabad,Closed,0
+LN00415,26-09-2025,59,Salaried,194371,219410,48,687,2,Home Renovation,Chennai,Approved,0
+LN00416,24-03-2024,24,Self-Employed,1248546,556499,36,772,3,Home Renovation,Ahmedabad,Closed,0
+LN00417,05-03-2025,26,Self-Employed,548564,494589,36,705,1,Education,Ahmedabad,Closed,0
+LN00418,04-11-2025,65,Retired,661495,595922,36,746,2,Education,Kolkata,Approved,0
+LN00419,20-08-2025,52,Salaried,367114,146265,60,535,1,Business,Delhi,Approved,0
+LN00420,01-08-2025,50,Salaried,211933,161022,36,675,0,Home Renovation,Bangalore,Approved,0
+LN00421,19-06-2025,67,Self-Employed,1587747,1966604,48,630,0,Education,Delhi,Closed,0
+LN00422,19-11-2024,55,Salaried,416427,517106,48,520,1,Medical,Delhi,Rejected,0
+LN00423,24-09-2024,60,Self-Employed,2381662,974484,36,560,0,Vehicle,Chennai,Defaulted,1
+LN00424,28-07-2024,36,Unemployed,190260,76064,24,447,0,Education,Bangalore,Rejected,0
+LN00425,16-11-2025,33,Unemployed,260863,153639,36,558,0,Business,Chennai,Rejected,0
+LN00426,03-01-2026,62,Unemployed,250206,315820,48,563,0,Home Renovation,Chennai,Rejected,0
+LN00427,17-11-2024,50,Self-Employed,1934533,854662,24,627,0,Business,Kolkata,Approved,0
+LN00428,01-09-2024,39,Salaried,284654,310841,36,680,0,Vehicle,Hyderabad,Rejected,0
+LN00429,28-09-2024,37,Salaried,409193,168293,48,680,0,Vehicle,Pune,Closed,0
+LN00430,09-02-2025,39,Self-Employed,785911,774477,24,647,0,Business,Kolkata,Defaulted,1
+LN00431,14-05-2024,48,Retired,443725,306913,36,729,1,Education,Pune,Approved,0
+LN00432,18-11-2025,46,Salaried,420926,491559,24,670,0,Education,Kolkata,Closed,0
+LN00433,22-10-2025,57,Salaried,401427,223618,24,774,3,Home Renovation,Chennai,Approved,0
+LN00434,03-11-2024,46,Salaried,383781,384979,48,737,3,Home Renovation,Kolkata,Closed,0
+LN00435,13-04-2025,43,Self-Employed,1826918,1021705,12,549,1,Medical,Pune,Rejected,0
+LN00436,19-11-2024,29,Retired,361362,392087,24,564,2,Medical,Kolkata,Rejected,0
+LN00437,08-02-2026,32,Self-Employed,721119,909364,60,599,1,Home Renovation,Mumbai,Rejected,0
+LN00438,15-03-2024,21,Salaried,492086,216262,24,558,0,Medical,Bangalore,Approved,0
+LN00439,10-01-2024,21,Unemployed,266298,333739,60,639,3,Business,Hyderabad,Defaulted,1
+LN00440,14-04-2025,67,Self-Employed,277341,264287,60,564,0,Education,Pune,Defaulted,1
+LN00441,28-09-2025,54,Salaried,329516,144928,24,597,4,Medical,Bangalore,Approved,0
+LN00442,30-07-2025,52,Salaried,296068,228060,12,807,1,Medical,Hyderabad,Rejected,0
+LN00443,12-04-2024,45,Salaried,177147,84489,48,799,0,Business,Ahmedabad,Approved,0
+LN00444,16-03-2024,60,Salaried,362784,388317,36,635,1,Vehicle,Mumbai,Closed,0
+LN00445,04-07-2025,65,Unemployed,341004,386955,24,412,1,Home Renovation,Chennai,Rejected,0
+LN00446,06-08-2024,21,Self-Employed,328360,136721,48,831,0,Business,Ahmedabad,Rejected,0
+LN00447,02-06-2025,36,Retired,587353,503216,12,572,1,Vehicle,Pune,Approved,0
+LN00448,28-09-2024,59,Salaried,1051924,1258193,60,587,2,Business,Ahmedabad,Closed,0
+LN00449,15-05-2024,25,Salaried,442970,589052,24,701,1,Education,Hyderabad,Approved,0
+LN00450,23-12-2024,42,Self-Employed,628501,543571,24,553,0,Business,Hyderabad,Approved,0
+LN00451,11-03-2024,49,Salaried,392421,527926,24,803,0,Business,Hyderabad,Closed,0
+LN00452,07-09-2024,23,Self-Employed,1386120,1232618,60,825,3,Education,Mumbai,Approved,0
+LN00453,13-01-2025,32,Unemployed,331249,243007,36,529,1,Home Renovation,Ahmedabad,Rejected,0
+LN00454,18-10-2024,46,Self-Employed,560044,690547,48,768,1,Vehicle,Bangalore,Defaulted,1
+LN00455,10-06-2024,36,Self-Employed,767362,646334,24,630,4,Medical,Mumbai,Rejected,0
+LN00456,24-03-2025,57,Salaried,523527,428817,24,613,0,Home Renovation,Hyderabad,Defaulted,1
+LN00457,03-05-2026,42,Salaried,859980,721818,24,698,1,Business,Kolkata,Approved,0
+LN00458,10-07-2025,49,Salaried,440445,542391,36,566,3,Medical,Hyderabad,Approved,0
+LN00459,21-12-2025,34,Self-Employed,1252357,1521783,36,801,2,Education,Kolkata,Approved,0
+LN00460,05-11-2024,48,Salaried,679767,505659,36,611,0,Home Renovation,Chennai,Approved,0
+LN00461,18-09-2025,25,Salaried,444174,296099,24,731,0,Vehicle,Mumbai,Rejected,0
+LN00462,06-04-2026,67,Self-Employed,946070,795759,60,594,2,Home Renovation,Kolkata,Approved,0
+LN00463,31-10-2025,50,Salaried,395153,367511,24,721,0,Home Renovation,Mumbai,Closed,0
+LN00464,25-06-2025,66,Salaried,1407875,791466,60,816,4,Medical,Delhi,Approved,0
+LN00465,09-01-2024,25,Salaried,147421,172976,12,827,0,Education,Bangalore,Closed,0
+LN00466,14-11-2025,32,Unemployed,337524,281876,36,610,0,Education,Delhi,Approved,0
+LN00467,16-04-2026,36,Self-Employed,609761,406985,24,653,0,Home Renovation,Kolkata,Approved,0
+LN00468,21-07-2025,46,Self-Employed,737960,308100,36,849,2,Education,Delhi,Closed,0
+LN00469,02-11-2024,46,Salaried,523820,294769,36,585,3,Medical,Ahmedabad,Approved,0
+LN00470,10-11-2025,41,Unemployed,338937,455602,36,423,2,Medical,Pune,Rejected,0
+LN00471,16-04-2024,59,Self-Employed,1138121,723400,36,547,4,Vehicle,Bangalore,Closed,0
+LN00472,17-05-2024,56,Salaried,468594,227617,48,636,0,Education,Kolkata,Approved,0
+LN00473,27-09-2024,53,Retired,676792,545995,36,836,0,Vehicle,Chennai,Rejected,0
+LN00474,28-04-2024,50,Salaried,590558,376655,48,844,3,Business,Ahmedabad,Approved,0
+LN00475,19-04-2024,57,Self-Employed,846094,286551,24,633,3,Medical,Chennai,Rejected,0
+LN00476,30-01-2026,43,Self-Employed,539800,353817,36,594,3,Home Renovation,Bangalore,Closed,0
+LN00477,20-07-2025,30,Salaried,439163,394596,36,721,2,Medical,Bangalore,Closed,0
+LN00478,08-06-2024,25,Unemployed,173136,157014,24,570,1,Business,Kolkata,Rejected,0
+LN00479,05-10-2024,56,Self-Employed,1339237,927039,36,578,0,Home Renovation,Mumbai,Approved,0
+LN00480,15-10-2024,54,Self-Employed,1384249,1096370,24,534,4,Education,Pune,Closed,0
+LN00481,11-09-2025,51,Salaried,394961,537964,24,750,0,Education,Kolkata,Approved,0
+LN00482,03-08-2024,30,Salaried,505369,361380,24,624,1,Medical,Ahmedabad,Approved,0
+LN00483,04-01-2026,39,Salaried,420260,245452,24,684,2,Home Renovation,Mumbai,Closed,0
+LN00484,17-12-2024,52,Self-Employed,1336146,758682,36,718,0,Home Renovation,Mumbai,Closed,0
+LN00485,27-07-2024,21,Salaried,797696,640981,36,554,3,Vehicle,Mumbai,Approved,0
+LN00486,04-12-2025,25,Self-Employed,842328,956439,60,681,0,Business,Kolkata,Approved,0
+LN00487,11-10-2025,65,Self-Employed,350274,184449,48,764,2,Education,Hyderabad,Approved,0
+LN00488,23-05-2026,24,Salaried,354420,382853,12,806,2,Medical,Hyderabad,Approved,0
+LN00489,27-09-2024,36,Self-Employed,374850,121175,60,538,1,Home Renovation,Chennai,Approved,0
+LN00490,01-06-2025,44,Salaried,177785,135263,60,799,1,Education,Hyderabad,Approved,0
+LN00491,15-05-2025,36,Unemployed,125739,145033,36,483,0,Medical,Hyderabad,Approved,0
+LN00492,14-09-2024,22,Self-Employed,1320769,888357,36,701,1,Education,Mumbai,Closed,0
+LN00493,16-05-2026,48,Salaried,531820,489333,60,666,1,Medical,Mumbai,Approved,0
+LN00494,22-02-2024,52,Salaried,304129,159812,36,695,1,Education,Bangalore,Approved,0
+LN00495,04-04-2024,47,Salaried,914136,1020353,60,682,0,Vehicle,Mumbai,Closed,0
+LN00496,11-10-2025,40,Self-Employed,568867,203373,12,694,0,Business,Kolkata,Approved,0
+LN00497,09-03-2025,44,Self-Employed,1108552,1372162,24,566,0,Education,Bangalore,Rejected,0
+LN00498,29-04-2026,32,Self-Employed,1215531,629664,36,775,2,Business,Pune,Closed,0
+LN00499,10-10-2024,55,Salaried,796094,1004541,36,693,0,Education,Bangalore,Closed,0
+LN00500,15-02-2024,53,Salaried,378933,260623,48,622,3,Home Renovation,Ahmedabad,Approved,0
+LN00501,04-01-2024,53,Salaried,376758,412531,60,640,2,Vehicle,Hyderabad,Rejected,0
+LN00502,07-12-2024,63,Self-Employed,583187,379740,24,664,2,Vehicle,Ahmedabad,Rejected,0
+LN00503,28-02-2026,57,Retired,288346,373841,12,561,3,Business,Mumbai,Closed,0
+LN00504,13-05-2024,32,Salaried,609895,267927,48,548,0,Home Renovation,Hyderabad,Closed,0
+LN00505,14-10-2025,23,Salaried,416185,206582,36,792,3,Medical,Mumbai,Approved,0
+LN00506,25-09-2024,21,Self-Employed,611292,514911,24,533,1,Vehicle,Hyderabad,Approved,0
+LN00507,14-06-2024,53,Retired,616645,240573,36,825,3,Home Renovation,Pune,Closed,0
+LN00508,29-01-2026,60,Self-Employed,991336,511111,48,832,3,Home Renovation,Hyderabad,Closed,0
+LN00509,28-03-2025,30,Retired,572554,766159,48,708,0,Business,Hyderabad,Closed,0
+LN00510,18-07-2025,63,Salaried,507659,697593,36,814,1,Home Renovation,Kolkata,Closed,0
+LN00511,23-12-2025,64,Salaried,386934,276226,24,702,1,Home Renovation,Pune,Approved,0
+LN00512,13-03-2025,49,Retired,562849,740492,60,555,2,Medical,Ahmedabad,Approved,0
+LN00513,28-07-2025,33,Self-Employed,837885,753515,36,556,0,Business,Chennai,Closed,0
+LN00514,10-01-2024,32,Salaried,661555,394760,36,533,0,Business,Pune,Approved,0
+LN00515,24-04-2024,51,Self-Employed,360596,386789,24,642,1,Home Renovation,Hyderabad,Closed,0
+LN00516,18-03-2024,66,Retired,612793,627985,48,602,1,Medical,Delhi,Approved,0
+LN00517,08-12-2025,22,Self-Employed,422250,586098,24,678,4,Education,Delhi,Closed,0
+LN00518,01-06-2024,55,Self-Employed,254699,150667,24,848,2,Vehicle,Delhi,Closed,0
+LN00519,12-07-2025,43,Salaried,958114,995734,36,621,1,Business,Kolkata,Closed,0
+LN00520,06-02-2024,37,Self-Employed,675176,241190,24,602,0,Medical,Bangalore,Approved,0
+LN00521,04-05-2026,46,Self-Employed,842097,357900,36,563,0,Medical,Ahmedabad,Closed,0
+LN00522,13-01-2025,28,Retired,648138,197235,24,587,1,Home Renovation,Hyderabad,Defaulted,1
+LN00523,19-08-2025,49,Retired,634922,888514,36,567,3,Vehicle,Pune,Closed,0
+LN00524,19-07-2025,46,Retired,629162,743984,24,576,1,Business,Delhi,Approved,0
+LN00525,31-05-2024,30,Salaried,988477,1151966,12,594,1,Education,Kolkata,Approved,0
+LN00526,16-03-2025,46,Self-Employed,827417,712156,24,541,3,Home Renovation,Bangalore,Approved,0
+LN00527,10-05-2024,54,Self-Employed,674532,425004,60,651,3,Business,Ahmedabad,Approved,0
+LN00528,12-02-2024,61,Self-Employed,359370,167606,60,821,0,Business,Delhi,Closed,0
+LN00529,11-11-2024,27,Self-Employed,348340,213581,24,786,0,Medical,Mumbai,Closed,0
+LN00530,08-01-2025,24,Retired,689358,491904,48,806,0,Vehicle,Chennai,Approved,0
+LN00531,26-03-2026,65,Self-Employed,556877,630351,36,639,2,Education,Hyderabad,Approved,0
+LN00532,31-05-2026,31,Self-Employed,447219,399647,60,765,4,Vehicle,Chennai,Approved,0
+LN00533,10-02-2024,49,Salaried,354875,136709,24,575,0,Medical,Chennai,Defaulted,1
+LN00534,01-01-2025,56,Salaried,465189,148782,36,557,0,Education,Mumbai,Closed,0
+LN00535,03-08-2024,45,Self-Employed,403062,166289,12,764,3,Education,Mumbai,Closed,0
+LN00536,29-11-2025,41,Self-Employed,1048730,788171,24,540,2,Home Renovation,Mumbai,Closed,0
+LN00537,12-09-2024,56,Salaried,414097,549304,60,629,5,Education,Bangalore,Closed,0
+LN00538,13-11-2025,30,Salaried,132171,132322,36,613,1,Business,Delhi,Approved,0
+LN00539,15-04-2024,57,Self-Employed,537050,634797,24,655,1,Vehicle,Pune,Approved,0
+LN00540,28-12-2024,29,Salaried,306402,249108,24,750,0,Vehicle,Hyderabad,Closed,0
+LN00541,09-03-2026,44,Salaried,234667,163758,48,527,0,Home Renovation,Mumbai,Rejected,0
+LN00542,27-07-2025,55,Salaried,280171,117459,36,847,1,Education,Kolkata,Approved,0
+LN00543,20-02-2025,55,Salaried,513617,648968,24,809,1,Medical,Ahmedabad,Approved,0
+LN00544,27-09-2025,56,Salaried,889031,1032588,60,770,0,Business,Hyderabad,Approved,0
+LN00545,06-02-2026,38,Salaried,562942,272987,12,606,3,Home Renovation,Ahmedabad,Closed,0
+LN00546,07-06-2024,59,Salaried,372157,321352,24,723,0,Education,Pune,Closed,0
+LN00547,30-08-2024,52,Retired,591651,494686,60,738,2,Medical,Hyderabad,Closed,0
+LN00548,15-06-2024,44,Self-Employed,848094,837578,24,760,0,Education,Hyderabad,Approved,0
+LN00549,30-03-2026,43,Self-Employed,416733,558757,24,839,3,Home Renovation,Mumbai,Approved,0
+LN00550,10-04-2026,52,Salaried,867590,813581,36,777,0,Medical,Mumbai,Approved,0
+LN00551,30-06-2024,57,Salaried,313223,280096,48,628,2,Medical,Delhi,Closed,0
+LN00552,26-02-2025,32,Self-Employed,577147,205092,24,775,0,Medical,Pune,Approved,0
+LN00553,26-01-2024,33,Salaried,581774,214789,60,801,1,Medical,Mumbai,Closed,0
+LN00554,02-07-2024,43,Self-Employed,533201,269843,48,739,2,Education,Mumbai,Approved,0
+LN00555,24-01-2026,45,Self-Employed,248500,83425,24,602,0,Medical,Hyderabad,Closed,0
+LN00556,06-12-2024,55,Self-Employed,1099179,1228539,48,626,0,Education,Delhi,Defaulted,1
+LN00557,12-03-2026,61,Salaried,369328,404659,24,588,3,Medical,Chennai,Defaulted,1
+LN00558,25-02-2025,50,Salaried,683652,307412,36,616,3,Medical,Mumbai,Defaulted,1
+LN00559,01-04-2026,37,Self-Employed,329298,401640,48,731,0,Home Renovation,Kolkata,Closed,0
+LN00560,16-11-2025,40,Salaried,298926,140574,60,805,0,Education,Mumbai,Closed,0
+LN00561,22-01-2026,45,Self-Employed,1060592,669544,24,756,0,Education,Chennai,Approved,0
+LN00562,10-04-2026,42,Self-Employed,795940,456769,36,527,0,Vehicle,Hyderabad,Rejected,0
+LN00563,11-09-2024,33,Unemployed,322782,229026,36,437,5,Home Renovation,Pune,Rejected,0
+LN00564,30-09-2024,39,Salaried,616881,357871,24,708,1,Education,Delhi,Closed,0
+LN00565,12-06-2024,56,Retired,291347,244103,24,600,1,Home Renovation,Hyderabad,Defaulted,1
+LN00566,17-03-2026,32,Self-Employed,1127088,843229,12,627,5,Home Renovation,Pune,Approved,0
+LN00567,19-12-2025,61,Salaried,603512,836000,36,840,1,Home Renovation,Bangalore,Closed,0
+LN00568,20-04-2024,39,Salaried,1247399,450958,36,586,2,Business,Mumbai,Rejected,0
+LN00569,26-01-2025,32,Self-Employed,755581,344846,24,693,0,Education,Pune,Closed,0
+LN00570,09-02-2024,29,Salaried,129458,50000,48,847,1,Home Renovation,Kolkata,Closed,0
+LN00571,29-05-2026,27,Salaried,854605,844713,48,562,1,Business,Pune,Defaulted,1
+LN00572,26-04-2025,48,Salaried,356383,128283,36,706,0,Business,Bangalore,Approved,0
+LN00573,15-08-2024,34,Retired,260068,317304,24,821,0,Medical,Mumbai,Approved,0
+LN00574,23-07-2024,51,Self-Employed,526850,454741,36,719,0,Medical,Bangalore,Approved,0
+LN00575,16-04-2026,39,Self-Employed,976546,859075,24,558,0,Education,Chennai,Approved,0
+LN00576,16-04-2025,67,Salaried,1365106,1252831,24,739,1,Medical,Mumbai,Approved,0
+LN00577,24-12-2024,36,Salaried,370297,180666,48,826,1,Education,Kolkata,Closed,0
+LN00578,08-11-2024,25,Self-Employed,283715,146810,12,523,1,Business,Mumbai,Defaulted,1
+LN00579,20-04-2026,55,Self-Employed,234683,152708,12,640,0,Business,Bangalore,Rejected,0
+LN00580,25-03-2026,32,Salaried,673821,642047,12,596,2,Education,Ahmedabad,Approved,0
+LN00581,21-08-2024,45,Self-Employed,234278,124431,24,698,0,Medical,Delhi,Approved,0
+LN00582,16-08-2024,41,Unemployed,303135,129731,12,532,1,Medical,Bangalore,Rejected,0
+LN00583,25-01-2024,56,Self-Employed,617482,844177,60,830,2,Education,Mumbai,Approved,0
+LN00584,06-11-2025,43,Self-Employed,673502,218335,24,748,0,Vehicle,Ahmedabad,Closed,0
+LN00585,16-07-2024,36,Unemployed,336686,398288,24,419,2,Medical,Mumbai,Rejected,0
+LN00586,12-02-2025,59,Salaried,742382,866240,24,671,2,Home Renovation,Pune,Approved,0
+LN00587,02-12-2024,65,Self-Employed,889625,557737,60,683,0,Medical,Ahmedabad,Closed,0
+LN00588,12-10-2024,62,Unemployed,254726,114420,36,433,0,Vehicle,Delhi,Rejected,0
+LN00589,12-03-2024,59,Salaried,539208,248138,24,628,5,Business,Hyderabad,Defaulted,1
+LN00590,02-03-2026,34,Self-Employed,414925,442797,60,645,0,Business,Delhi,Closed,0
+LN00591,12-10-2024,51,Self-Employed,263521,265388,24,759,3,Business,Hyderabad,Defaulted,1
+LN00592,25-12-2024,25,Self-Employed,720666,836707,24,829,1,Medical,Kolkata,Approved,0
+LN00593,18-10-2025,55,Self-Employed,409868,545628,24,665,0,Business,Mumbai,Closed,0
+LN00594,05-06-2025,43,Unemployed,97135,103071,24,582,0,Vehicle,Pune,Rejected,0
+LN00595,13-02-2025,49,Self-Employed,111113,52382,24,828,1,Vehicle,Ahmedabad,Closed,0
+LN00596,26-11-2025,63,Salaried,318525,180854,36,825,1,Medical,Chennai,Approved,0
+LN00597,13-05-2026,31,Retired,699129,857420,24,591,2,Home Renovation,Chennai,Approved,0
+LN00598,03-07-2025,38,Salaried,360537,191169,36,738,3,Medical,Bangalore,Closed,0
+LN00599,05-12-2024,67,Salaried,601459,228418,12,726,3,Business,Delhi,Approved,0
+LN00600,29-01-2024,32,Self-Employed,1355972,1455782,24,692,0,Medical,Ahmedabad,Approved,0
+LN00601,28-04-2024,29,Self-Employed,444130,329890,36,660,3,Vehicle,Delhi,Approved,0
+LN00602,24-09-2024,30,Salaried,493161,647048,60,791,3,Medical,Ahmedabad,Closed,0
+LN00603,01-07-2024,64,Unemployed,307034,311725,24,613,4,Medical,Chennai,Approved,0
+LN00604,17-08-2025,37,Self-Employed,514418,205489,36,788,1,Home Renovation,Hyderabad,Approved,0
+LN00605,28-09-2024,58,Self-Employed,1079596,1449511,24,539,2,Vehicle,Delhi,Approved,0
+LN00606,09-02-2024,27,Salaried,733608,428730,24,585,1,Education,Hyderabad,Closed,0
+LN00607,21-04-2024,66,Retired,253009,169752,12,822,0,Education,Hyderabad,Closed,0
+LN00608,02-09-2025,33,Retired,602048,447012,24,666,5,Vehicle,Hyderabad,Approved,0
+LN00609,20-03-2025,60,Self-Employed,1670516,595282,24,684,0,Education,Hyderabad,Approved,0
+LN00610,19-12-2024,62,Salaried,680804,576073,24,829,0,Business,Pune,Approved,0
+LN00611,16-01-2026,29,Salaried,1090132,474916,48,525,3,Education,Bangalore,Rejected,0
+LN00612,16-03-2026,47,Salaried,232006,171932,12,533,0,Business,Bangalore,Approved,0
+LN00613,17-11-2024,22,Salaried,386156,264818,36,651,3,Vehicle,Pune,Closed,0
+LN00614,22-03-2025,25,Salaried,351200,403923,24,762,2,Education,Chennai,Approved,0
+LN00615,12-09-2025,49,Unemployed,229707,271855,36,582,0,Education,Ahmedabad,Defaulted,1
+LN00616,07-06-2025,57,Self-Employed,981476,460070,36,750,1,Business,Bangalore,Approved,0
+LN00617,28-04-2024,58,Salaried,454758,319788,24,747,2,Business,Ahmedabad,Closed,0
+LN00618,29-01-2025,39,Salaried,586699,416960,24,681,1,Medical,Kolkata,Approved,0
+LN00619,13-08-2025,28,Salaried,853766,398325,48,802,4,Home Renovation,Pune,Approved,0
+LN00620,13-07-2024,65,Salaried,882064,1039335,60,782,3,Education,Delhi,Closed,0
+LN00621,17-09-2024,21,Salaried,688754,742443,24,650,0,Home Renovation,Kolkata,Approved,0
+LN00622,15-02-2024,42,Salaried,277342,141283,12,744,0,Home Renovation,Pune,Approved,0
+LN00623,26-12-2025,37,Self-Employed,541324,380764,60,777,4,Education,Bangalore,Closed,0
+LN00624,22-03-2025,27,Unemployed,211585,88100,24,633,1,Business,Delhi,Approved,0
+LN00625,02-01-2024,45,Salaried,432168,428290,36,835,0,Medical,Ahmedabad,Approved,0
+LN00626,16-06-2025,65,Salaried,429863,186349,24,543,3,Vehicle,Delhi,Approved,0
+LN00627,05-04-2026,24,Retired,363985,503947,24,790,3,Education,Ahmedabad,Approved,0
+LN00628,05-07-2025,56,Salaried,188774,218741,36,614,2,Education,Hyderabad,Closed,0
+LN00629,04-12-2025,26,Salaried,311777,227367,36,661,1,Vehicle,Chennai,Approved,0
+LN00630,06-01-2026,51,Retired,301033,281893,24,701,2,Home Renovation,Hyderabad,Approved,0
+LN00631,29-01-2026,39,Salaried,439443,572363,36,725,2,Medical,Pune,Approved,0
+LN00632,24-01-2026,64,Self-Employed,366235,333094,48,600,3,Home Renovation,Hyderabad,Closed,0
+LN00633,17-11-2025,59,Self-Employed,1888475,929032,36,793,4,Vehicle,Kolkata,Defaulted,1
+LN00634,20-07-2024,47,Salaried,274798,196913,12,795,1,Vehicle,Ahmedabad,Approved,0
+LN00635,07-01-2025,30,Salaried,532461,653574,36,727,2,Medical,Ahmedabad,Rejected,0
+LN00636,17-03-2025,46,Self-Employed,1148645,1158562,48,815,4,Vehicle,Bangalore,Closed,0
+LN00637,12-03-2024,39,Salaried,277974,282365,48,558,0,Vehicle,Ahmedabad,Rejected,0
+LN00638,11-11-2025,59,Salaried,531319,666010,36,807,0,Medical,Kolkata,Approved,0
+LN00639,04-12-2024,23,Self-Employed,1105550,1418830,24,643,3,Education,Bangalore,Closed,0
+LN00640,30-09-2025,65,Self-Employed,664556,871745,48,802,0,Home Renovation,Kolkata,Closed,0
+LN00641,17-11-2024,33,Salaried,1777611,718748,36,699,0,Education,Delhi,Closed,0
+LN00642,10-11-2025,48,Retired,499737,449032,12,616,0,Education,Bangalore,Approved,0
+LN00643,18-05-2026,40,Salaried,845210,942037,36,710,1,Home Renovation,Ahmedabad,Approved,0
+LN00644,07-05-2024,48,Retired,440167,498541,24,593,0,Education,Bangalore,Closed,0
+LN00645,07-01-2026,28,Self-Employed,723551,699954,36,792,0,Medical,Kolkata,Closed,0
+LN00646,03-11-2024,61,Self-Employed,932486,450825,24,568,5,Home Renovation,Mumbai,Approved,0
+LN00647,03-06-2025,59,Self-Employed,578544,681040,36,729,2,Business,Delhi,Closed,0
+LN00648,12-11-2024,21,Unemployed,241883,264165,60,515,2,Education,Pune,Rejected,0
+LN00649,13-11-2025,23,Salaried,519124,204923,48,542,0,Vehicle,Ahmedabad,Rejected,0
+LN00650,22-02-2025,33,Self-Employed,613702,497215,60,617,2,Home Renovation,Delhi,Closed,0
+LN00651,30-11-2024,48,Salaried,238836,117358,60,847,2,Business,Ahmedabad,Approved,0
+LN00652,16-02-2025,45,Salaried,724603,486371,12,832,2,Vehicle,Pune,Rejected,0
+LN00653,14-12-2025,53,Salaried,578501,185056,36,709,0,Business,Mumbai,Closed,0
+LN00654,29-10-2024,58,Unemployed,170165,125983,36,581,1,Education,Kolkata,Rejected,0
+LN00655,21-07-2025,26,Unemployed,294994,266929,60,547,3,Vehicle,Kolkata,Rejected,0
+LN00656,10-05-2024,64,Salaried,802815,787995,24,542,2,Education,Delhi,Closed,0
+LN00657,15-07-2024,65,Salaried,714199,735510,60,624,2,Vehicle,Kolkata,Approved,0
+LN00658,06-03-2025,52,Self-Employed,422900,515904,36,682,1,Home Renovation,Chennai,Approved,0
+LN00659,11-11-2025,65,Salaried,340785,183004,48,586,1,Medical,Chennai,Rejected,0
+LN00660,23-01-2025,67,Salaried,412949,178612,12,809,2,Medical,Ahmedabad,Approved,0
+LN00661,24-11-2025,41,Self-Employed,483880,598409,24,808,0,Business,Pune,Closed,0
+LN00662,05-02-2026,36,Self-Employed,634694,299749,48,565,2,Vehicle,Mumbai,Approved,0
+LN00663,27-06-2024,41,Unemployed,330011,452853,12,480,5,Education,Ahmedabad,Rejected,0
+LN00664,22-09-2025,31,Salaried,825929,1013243,48,666,2,Home Renovation,Bangalore,Approved,0
+LN00665,05-08-2025,57,Salaried,279143,237540,12,741,0,Home Renovation,Ahmedabad,Closed,0
+LN00666,04-11-2024,56,Self-Employed,223350,308125,36,534,0,Home Renovation,Chennai,Approved,0
+LN00667,19-02-2025,55,Self-Employed,974612,396778,24,640,2,Medical,Ahmedabad,Rejected,0
+LN00668,15-07-2025,39,Self-Employed,434475,275184,36,597,3,Education,Pune,Rejected,0
+LN00669,03-05-2026,40,Self-Employed,772914,774496,36,841,1,Home Renovation,Ahmedabad,Approved,0
+LN00670,01-01-2024,38,Salaried,975608,668298,24,814,1,Home Renovation,Kolkata,Approved,0
+LN00671,07-11-2024,67,Retired,403466,533063,24,760,0,Business,Mumbai,Closed,0
+LN00672,20-10-2024,61,Salaried,363803,135403,12,537,2,Vehicle,Pune,Closed,0
+LN00673,03-08-2024,34,Salaried,651064,588791,36,775,2,Vehicle,Pune,Closed,0
+LN00674,16-03-2025,35,Self-Employed,551266,523676,36,796,4,Vehicle,Chennai,Closed,0
+LN00675,15-03-2026,51,Salaried,291129,296369,48,546,0,Business,Hyderabad,Approved,0
+LN00676,16-08-2025,21,Salaried,529725,307893,36,521,2,Medical,Mumbai,Rejected,0
+LN00677,13-09-2025,23,Retired,497997,349107,36,814,1,Business,Delhi,Approved,0
+LN00678,01-11-2025,36,Self-Employed,1256209,1542685,24,831,1,Home Renovation,Pune,Approved,0
+LN00679,25-11-2024,43,Self-Employed,710598,365557,12,758,3,Education,Chennai,Closed,0
+LN00680,21-04-2025,31,Salaried,506773,612969,24,532,0,Home Renovation,Delhi,Approved,0
+LN00681,28-03-2025,32,Self-Employed,895136,822559,60,703,0,Home Renovation,Mumbai,Rejected,0
+LN00682,28-03-2025,30,Salaried,331782,377702,60,713,2,Education,Chennai,Closed,0
+LN00683,22-11-2025,52,Salaried,495594,537703,24,575,1,Vehicle,Delhi,Defaulted,1
+LN00684,06-08-2024,36,Unemployed,281896,148915,36,629,0,Business,Ahmedabad,Defaulted,1
+LN00685,07-06-2025,28,Self-Employed,1555483,1439901,48,547,1,Medical,Bangalore,Closed,0
+LN00686,29-04-2025,58,Self-Employed,362982,455359,36,839,1,Home Renovation,Pune,Closed,0
+LN00687,23-03-2026,32,Salaried,401771,311504,12,590,3,Home Renovation,Bangalore,Approved,0
+LN00688,26-03-2026,44,Retired,576571,786010,12,729,0,Medical,Hyderabad,Approved,0
+LN00689,23-01-2026,48,Self-Employed,175548,139988,36,703,3,Business,Kolkata,Closed,0
+LN00690,22-06-2024,28,Self-Employed,648662,296480,60,560,0,Home Renovation,Mumbai,Approved,0
+LN00691,05-11-2025,48,Self-Employed,767664,559149,36,779,0,Medical,Kolkata,Defaulted,1
+LN00692,27-03-2024,56,Salaried,790983,1065353,12,603,0,Home Renovation,Kolkata,Closed,0
+LN00693,17-10-2024,46,Salaried,509423,331987,24,565,3,Vehicle,Delhi,Rejected,0
+LN00694,11-06-2025,28,Self-Employed,484527,608036,48,678,0,Vehicle,Hyderabad,Approved,0
+LN00695,10-11-2025,48,Salaried,771884,979810,48,526,2,Home Renovation,Mumbai,Rejected,0
+LN00696,10-10-2025,48,Salaried,338414,231883,36,655,1,Home Renovation,Bangalore,Approved,0
+LN00697,26-09-2025,57,Unemployed,184108,72093,36,582,5,Vehicle,Kolkata,Defaulted,1
+LN00698,09-12-2024,61,Self-Employed,268892,294978,12,716,3,Home Renovation,Delhi,Approved,0
+LN00699,05-04-2024,56,Self-Employed,766250,492440,48,691,2,Business,Kolkata,Closed,0
+LN00700,18-04-2026,47,Self-Employed,1180508,1370824,48,795,3,Business,Chennai,Approved,0
+LN00701,08-02-2026,37,Self-Employed,383684,301928,24,597,2,Education,Bangalore,Approved,0
+LN00702,28-08-2024,29,Salaried,925741,771876,48,697,3,Business,Kolkata,Approved,0
+LN00703,19-11-2025,53,Salaried,714454,825694,24,546,0,Home Renovation,Chennai,Approved,0
+LN00704,13-11-2024,40,Salaried,841478,606368,12,639,0,Home Renovation,Chennai,Rejected,0
+LN00705,18-08-2024,33,Salaried,532481,419296,24,800,2,Medical,Delhi,Approved,0
+LN00706,05-04-2026,48,Self-Employed,382306,272893,24,827,1,Business,Delhi,Approved,0
+LN00707,22-07-2024,49,Salaried,694791,489184,24,715,1,Vehicle,Chennai,Closed,0
+LN00708,30-05-2024,33,Self-Employed,468115,411258,36,796,1,Vehicle,Hyderabad,Approved,0
+LN00709,26-01-2024,66,Salaried,515580,613374,36,537,1,Education,Kolkata,Approved,0
+LN00710,17-02-2024,55,Salaried,452657,315929,36,814,2,Medical,Chennai,Closed,0
+LN00711,07-09-2024,26,Salaried,811072,711050,24,790,0,Vehicle,Chennai,Approved,0
+LN00712,01-05-2025,38,Salaried,679183,704856,12,572,4,Education,Delhi,Approved,0
+LN00713,17-09-2025,25,Salaried,471533,281214,36,813,4,Business,Kolkata,Approved,0
+LN00714,20-05-2026,67,Salaried,203165,122970,24,571,4,Medical,Mumbai,Closed,0
+LN00715,25-02-2026,45,Salaried,367378,487420,24,735,1,Medical,Bangalore,Approved,0
+LN00716,15-03-2024,22,Self-Employed,972205,1065427,60,591,1,Home Renovation,Delhi,Approved,0
+LN00717,11-04-2025,30,Salaried,554626,518522,48,547,4,Business,Kolkata,Rejected,0
+LN00718,28-02-2025,50,Salaried,248587,251692,60,771,3,Medical,Kolkata,Approved,0
+LN00719,06-10-2025,65,Self-Employed,244354,81181,36,554,2,Education,Ahmedabad,Closed,0
+LN00720,12-08-2025,25,Salaried,533908,523183,24,720,1,Vehicle,Pune,Approved,0
+LN00721,18-07-2024,53,Retired,688166,592139,36,768,1,Business,Hyderabad,Closed,0
+LN00722,05-01-2026,21,Self-Employed,1223250,1101322,24,618,2,Business,Bangalore,Defaulted,1
+LN00723,14-12-2025,38,Salaried,1388894,965789,36,827,0,Medical,Delhi,Approved,0
+LN00724,28-01-2025,52,Self-Employed,735181,286442,12,659,2,Medical,Delhi,Defaulted,1
+LN00725,21-05-2025,67,Salaried,325516,166883,48,602,3,Medical,Mumbai,Approved,0
+LN00726,13-02-2025,31,Self-Employed,281551,378916,24,567,2,Education,Pune,Approved,0
+LN00727,06-09-2024,41,Salaried,549129,411610,60,797,1,Home Renovation,Pune,Approved,0
+LN00728,31-05-2024,46,Retired,588585,478726,60,767,1,Medical,Hyderabad,Approved,0
+LN00729,02-11-2025,45,Salaried,580177,207692,36,696,5,Home Renovation,Ahmedabad,Approved,0
+LN00730,05-12-2025,42,Self-Employed,597922,204084,48,571,2,Home Renovation,Ahmedabad,Approved,0
+LN00731,06-01-2024,47,Self-Employed,251199,273530,36,598,2,Business,Pune,Closed,0
+LN00732,07-02-2026,33,Salaried,529873,472595,48,841,2,Vehicle,Hyderabad,Approved,0
+LN00733,31-05-2026,53,Salaried,992395,853039,36,583,2,Vehicle,Ahmedabad,Approved,0
+LN00734,27-02-2026,54,Self-Employed,272440,154592,48,527,2,Education,Kolkata,Rejected,0
+LN00735,19-04-2024,61,Retired,733241,820662,36,733,1,Education,Kolkata,Closed,0
+LN00736,08-03-2026,55,Salaried,297557,144333,60,544,1,Vehicle,Delhi,Approved,0
+LN00737,11-03-2025,21,Self-Employed,711120,361909,36,775,1,Vehicle,Ahmedabad,Closed,0
+LN00738,12-08-2024,41,Unemployed,173886,140288,36,600,0,Business,Mumbai,Closed,0
+LN00739,29-06-2024,26,Retired,578055,355450,48,717,0,Business,Delhi,Approved,0
+LN00740,03-04-2026,48,Salaried,356934,204240,48,613,0,Vehicle,Pune,Approved,0
+LN00741,13-12-2025,37,Self-Employed,1250872,1263082,36,726,3,Medical,Chennai,Approved,0
+LN00742,14-06-2025,25,Salaried,499371,507395,24,534,0,Medical,Kolkata,Closed,0
+LN00743,20-04-2025,51,Unemployed,208580,251749,36,577,0,Business,Chennai,Rejected,0
+LN00744,21-02-2024,25,Self-Employed,968343,735436,60,594,0,Home Renovation,Pune,Approved,0
+LN00745,24-07-2025,58,Salaried,413171,157167,48,623,2,Vehicle,Ahmedabad,Approved,0
+LN00746,12-09-2024,23,Self-Employed,605880,364153,48,813,0,Education,Mumbai,Closed,0
+LN00747,18-05-2026,43,Salaried,690235,951147,12,687,1,Medical,Delhi,Approved,0
+LN00748,04-05-2024,57,Unemployed,319304,305217,36,593,0,Home Renovation,Kolkata,Closed,0
+LN00749,12-04-2025,57,Unemployed,329731,356343,36,514,3,Medical,Mumbai,Rejected,0
+LN00750,16-05-2024,30,Self-Employed,1150523,354468,48,558,4,Home Renovation,Delhi,Defaulted,1
+LN00751,31-03-2026,30,Salaried,316754,275584,12,792,4,Vehicle,Delhi,Approved,0
+LN00752,20-04-2025,39,Self-Employed,1616312,551617,60,654,1,Vehicle,Chennai,Closed,0
+LN00753,14-11-2025,37,Salaried,430209,398439,36,751,2,Vehicle,Bangalore,Closed,0
+LN00754,27-06-2025,41,Salaried,1000251,1313177,24,558,1,Business,Pune,Rejected,0
+LN00755,26-07-2025,34,Retired,457370,624429,24,810,1,Home Renovation,Hyderabad,Approved,0
+LN00756,01-09-2025,29,Salaried,706555,632089,24,826,1,Education,Kolkata,Approved,0
+LN00757,20-11-2024,66,Salaried,189456,152327,36,566,0,Education,Hyderabad,Rejected,0
+LN00758,12-02-2026,21,Unemployed,248124,332366,12,435,2,Vehicle,Ahmedabad,Defaulted,1
+LN00759,29-03-2025,65,Salaried,539345,561442,24,839,0,Education,Mumbai,Approved,0
+LN00760,19-09-2025,33,Salaried,314749,116894,48,614,1,Medical,Ahmedabad,Closed,0
+LN00761,14-04-2026,24,Retired,608766,494499,24,532,1,Home Renovation,Ahmedabad,Closed,0
+LN00762,06-01-2026,21,Salaried,790173,445870,24,665,1,Home Renovation,Hyderabad,Approved,0
+LN00763,31-05-2025,60,Self-Employed,495430,404659,36,584,3,Home Renovation,Chennai,Closed,0
+LN00764,12-03-2025,52,Unemployed,318892,255436,36,627,2,Medical,Bangalore,Approved,0
+LN00765,30-04-2026,54,Retired,558690,525369,48,761,2,Business,Kolkata,Rejected,0
+LN00766,15-07-2025,48,Self-Employed,659587,456729,36,527,1,Medical,Pune,Defaulted,1
+LN00767,01-04-2025,51,Salaried,353298,169829,48,823,0,Home Renovation,Delhi,Closed,0
+LN00768,11-06-2024,28,Salaried,561652,479702,36,562,1,Home Renovation,Delhi,Approved,0
+LN00769,31-01-2026,59,Retired,526837,639170,24,763,4,Home Renovation,Pune,Approved,0
+LN00770,01-06-2026,46,Retired,539385,555789,24,700,5,Education,Chennai,Approved,0
+LN00771,01-05-2025,54,Self-Employed,649064,436303,36,604,2,Business,Kolkata,Closed,0
+LN00772,05-04-2025,23,Salaried,966082,1283995,24,674,0,Medical,Hyderabad,Closed,0
+LN00773,22-09-2024,32,Salaried,952344,1241312,48,794,0,Home Renovation,Pune,Approved,0
+LN00774,08-02-2026,21,Salaried,176480,93584,36,542,1,Vehicle,Delhi,Closed,0
+LN00775,10-09-2024,64,Self-Employed,394611,135493,24,634,3,Business,Hyderabad,Rejected,0
+LN00776,10-05-2026,25,Salaried,175659,195937,24,825,2,Vehicle,Chennai,Approved,0
+LN00777,14-10-2025,50,Retired,351894,425922,24,818,3,Business,Delhi,Approved,0
+LN00778,10-10-2024,50,Self-Employed,342337,467170,36,618,2,Home Renovation,Mumbai,Rejected,0
+LN00779,23-02-2026,37,Salaried,585497,748745,36,623,0,Business,Bangalore,Closed,0
+LN00780,07-03-2026,67,Self-Employed,709336,681379,36,570,0,Business,Hyderabad,Closed,0
+LN00781,17-06-2025,43,Salaried,472196,416976,24,631,0,Home Renovation,Pune,Closed,0
+LN00782,11-05-2025,35,Self-Employed,342007,113076,36,763,1,Vehicle,Kolkata,Defaulted,1
+LN00783,03-10-2025,57,Self-Employed,1465944,837526,60,688,0,Vehicle,Hyderabad,Approved,0
+LN00784,01-09-2024,41,Retired,656245,528655,24,591,2,Education,Hyderabad,Closed,0
+LN00785,08-10-2024,34,Retired,272490,270134,36,658,2,Vehicle,Hyderabad,Approved,0
+LN00786,26-03-2025,22,Salaried,1102662,1006705,60,750,0,Vehicle,Pune,Approved,0
+LN00787,20-03-2024,31,Salaried,336038,375320,24,758,0,Business,Chennai,Approved,0
+LN00788,31-12-2025,59,Self-Employed,540973,328772,36,772,0,Education,Chennai,Approved,0
+LN00789,19-10-2024,58,Salaried,295673,272447,12,568,2,Home Renovation,Kolkata,Defaulted,1
+LN00790,28-08-2024,54,Salaried,416059,165157,36,822,1,Home Renovation,Chennai,Rejected,0
+LN00791,05-10-2024,58,Salaried,334979,252919,12,591,0,Medical,Pune,Approved,0
+LN00792,09-12-2024,54,Self-Employed,957463,1077315,60,782,3,Education,Kolkata,Closed,0
+LN00793,23-11-2024,38,Salaried,507045,538857,48,841,1,Business,Ahmedabad,Approved,0
+LN00794,07-07-2025,50,Self-Employed,453803,630653,48,741,1,Medical,Kolkata,Closed,0
+LN00795,23-03-2024,35,Unemployed,153965,93253,48,476,2,Medical,Chennai,Rejected,0
+LN00796,21-05-2024,47,Salaried,345867,293298,36,581,3,Home Renovation,Ahmedabad,Approved,0
+LN00797,03-06-2024,54,Salaried,434695,287978,36,676,2,Vehicle,Delhi,Closed,0
+LN00798,24-08-2024,58,Salaried,421574,330793,60,813,1,Business,Chennai,Closed,0
+LN00799,27-01-2025,53,Retired,498099,618960,60,644,1,Education,Delhi,Closed,0
+LN00800,11-12-2025,44,Salaried,387949,408366,36,748,2,Medical,Mumbai,Closed,0
+LN00801,05-06-2024,35,Salaried,338643,430308,60,680,1,Business,Chennai,Closed,0
+LN00802,24-12-2025,50,Salaried,506441,265305,36,548,2,Home Renovation,Mumbai,Closed,0
+LN00803,07-08-2024,62,Self-Employed,1060127,1336499,36,633,3,Medical,Chennai,Closed,0
+LN00804,06-03-2024,37,Salaried,520516,190372,36,598,3,Medical,Mumbai,Defaulted,1
+LN00805,28-02-2025,25,Self-Employed,277243,354166,24,542,0,Home Renovation,Bangalore,Approved,0
+LN00806,21-02-2025,49,Retired,408223,270235,12,625,0,Home Renovation,Mumbai,Approved,0
+LN00807,04-12-2024,24,Salaried,340690,220101,24,650,0,Home Renovation,Delhi,Approved,0
+LN00808,09-07-2025,30,Retired,261618,225854,36,692,2,Business,Hyderabad,Closed,0
+LN00809,22-04-2025,37,Salaried,442519,590656,24,783,1,Business,Kolkata,Closed,0
+LN00810,01-03-2025,30,Retired,674195,237693,36,804,0,Business,Mumbai,Approved,0
+LN00811,04-03-2024,37,Self-Employed,350755,241127,60,521,0,Vehicle,Hyderabad,Approved,0
+LN00812,30-07-2024,40,Retired,336436,417930,24,752,0,Medical,Pune,Closed,0
+LN00813,02-05-2026,44,Salaried,613855,451588,36,770,0,Business,Bangalore,Closed,0
+LN00814,06-03-2025,25,Salaried,955605,496028,24,840,0,Vehicle,Bangalore,Approved,0
+LN00815,02-02-2025,54,Salaried,1358854,1042612,12,627,2,Medical,Ahmedabad,Closed,0
+LN00816,27-02-2026,26,Salaried,407591,295139,48,795,0,Business,Pune,Closed,0
+LN00817,21-08-2025,22,Salaried,609956,797186,36,699,0,Home Renovation,Pune,Approved,0
+LN00818,13-12-2025,33,Salaried,631840,719114,48,732,3,Education,Ahmedabad,Closed,0
+LN00819,21-01-2024,63,Salaried,533901,456820,24,812,3,Business,Pune,Closed,0
+LN00820,27-05-2026,63,Salaried,467670,648755,36,591,0,Education,Delhi,Approved,0
+LN00821,22-02-2026,31,Retired,586128,475821,24,802,0,Business,Pune,Closed,0
+LN00822,12-08-2025,67,Self-Employed,384339,139923,24,694,2,Home Renovation,Delhi,Approved,0
+LN00823,24-01-2025,43,Salaried,235988,138879,12,642,1,Education,Ahmedabad,Approved,0
+LN00824,03-05-2025,36,Salaried,865453,674774,24,746,0,Vehicle,Mumbai,Approved,0
+LN00825,07-01-2024,51,Salaried,594564,280986,24,820,0,Home Renovation,Ahmedabad,Approved,0
+LN00826,26-12-2024,31,Unemployed,245666,329762,24,571,0,Education,Chennai,Rejected,0
+LN00827,01-11-2024,36,Salaried,1599324,1828881,60,602,1,Education,Pune,Rejected,0
+LN00828,10-02-2026,28,Self-Employed,884218,526212,24,772,3,Home Renovation,Pune,Closed,0
+LN00829,03-02-2025,24,Unemployed,193780,184068,24,545,2,Home Renovation,Bangalore,Rejected,0
+LN00830,23-05-2026,60,Retired,290696,317903,24,639,1,Home Renovation,Ahmedabad,Closed,0
+LN00831,05-05-2026,24,Self-Employed,882650,1178696,36,584,1,Medical,Ahmedabad,Approved,0
+LN00832,05-03-2025,45,Retired,466486,592343,12,800,2,Vehicle,Hyderabad,Approved,0
+LN00833,05-07-2025,23,Unemployed,254744,220789,60,426,1,Business,Chennai,Rejected,0
+LN00834,04-02-2026,52,Self-Employed,1335432,1538575,60,625,0,Education,Bangalore,Closed,0
+LN00835,22-01-2026,23,Self-Employed,804747,739046,24,819,2,Business,Mumbai,Closed,0
+LN00836,13-07-2025,47,Self-Employed,293565,266549,36,626,3,Home Renovation,Pune,Closed,0
+LN00837,30-03-2026,49,Self-Employed,1269889,541247,12,555,1,Vehicle,Bangalore,Rejected,0
+LN00838,09-09-2025,52,Self-Employed,273697,120084,36,666,3,Vehicle,Delhi,Closed,0
+LN00839,13-08-2024,39,Salaried,442759,390729,36,781,1,Medical,Hyderabad,Rejected,0
+LN00840,14-05-2025,41,Salaried,434053,258586,24,678,1,Home Renovation,Hyderabad,Approved,0
+LN00841,12-08-2024,25,Salaried,1012842,327290,24,784,0,Education,Delhi,Closed,0
+LN00842,06-10-2024,38,Salaried,434751,476105,36,721,2,Medical,Ahmedabad,Closed,0
+LN00843,22-03-2025,48,Salaried,434048,145725,36,674,3,Home Renovation,Pune,Defaulted,1
+LN00844,12-05-2025,62,Salaried,264769,252802,24,532,2,Medical,Pune,Approved,0
+LN00845,30-01-2024,42,Self-Employed,464065,414462,36,816,0,Business,Chennai,Approved,0
+LN00846,02-02-2025,41,Salaried,338478,462258,36,841,0,Home Renovation,Delhi,Approved,0
+LN00847,10-12-2024,26,Retired,279793,232965,60,604,1,Education,Pune,Closed,0
+LN00848,15-11-2025,21,Salaried,547794,202662,24,799,1,Education,Hyderabad,Approved,0
+LN00849,26-11-2025,25,Salaried,911675,826758,48,764,1,Home Renovation,Pune,Approved,0
+LN00850,28-03-2026,61,Self-Employed,842651,1032420,36,819,4,Medical,Mumbai,Closed,0
+LN00851,18-02-2025,32,Self-Employed,1209512,1689124,24,835,2,Vehicle,Pune,Approved,0
+LN00852,11-01-2026,46,Salaried,603164,466473,36,528,1,Home Renovation,Chennai,Rejected,0
+LN00853,18-06-2024,66,Retired,587462,383218,36,766,0,Education,Kolkata,Approved,0
+LN00854,10-05-2026,54,Retired,616330,799576,60,831,0,Business,Bangalore,Approved,0
+LN00855,23-04-2025,34,Salaried,896094,457336,24,797,2,Education,Kolkata,Rejected,0
+LN00856,10-05-2024,46,Salaried,500469,488944,36,757,3,Vehicle,Mumbai,Closed,0
+LN00857,29-09-2025,65,Unemployed,296235,221075,24,602,2,Education,Kolkata,Rejected,0
+LN00858,30-06-2025,47,Self-Employed,906400,312880,60,766,1,Vehicle,Pune,Approved,0
+LN00859,28-01-2024,29,Self-Employed,580480,395897,24,754,0,Home Renovation,Chennai,Closed,0
+LN00860,07-02-2025,46,Retired,524864,310588,60,600,4,Education,Hyderabad,Closed,0
+LN00861,29-08-2025,67,Salaried,480048,506306,60,532,5,Medical,Hyderabad,Closed,0
+LN00862,31-07-2025,42,Salaried,273829,367935,24,846,1,Medical,Mumbai,Approved,0
+LN00863,09-11-2025,67,Salaried,557781,331797,48,535,0,Education,Kolkata,Rejected,0
+LN00864,28-01-2024,50,Self-Employed,714999,852716,60,564,1,Education,Ahmedabad,Closed,0
+LN00865,26-03-2024,63,Self-Employed,470820,169916,24,840,3,Business,Ahmedabad,Approved,0
+LN00866,20-10-2025,37,Self-Employed,713216,636140,36,658,2,Education,Chennai,Approved,0
+LN00867,14-03-2025,46,Salaried,999371,377367,36,845,2,Business,Bangalore,Closed,0
+LN00868,18-05-2024,56,Salaried,668593,887514,24,667,0,Business,Pune,Approved,0
+LN00869,17-04-2025,21,Self-Employed,352372,402756,12,755,0,Business,Kolkata,Approved,0
+LN00870,05-07-2024,28,Self-Employed,620741,635480,24,710,0,Business,Ahmedabad,Approved,0
+LN00871,21-02-2024,55,Self-Employed,423906,511351,24,620,3,Home Renovation,Ahmedabad,Closed,0
+LN00872,23-09-2024,35,Salaried,410665,415704,36,624,1,Medical,Kolkata,Rejected,0
+LN00873,23-01-2025,67,Retired,350699,478998,24,769,2,Business,Bangalore,Approved,0
+LN00874,01-12-2024,42,Salaried,405904,440549,60,613,0,Medical,Delhi,Approved,0
+LN00875,04-08-2024,34,Unemployed,180140,237266,48,619,4,Business,Pune,Rejected,0
+LN00876,10-04-2025,46,Salaried,383768,333434,12,817,3,Medical,Mumbai,Closed,0
+LN00877,30-11-2024,48,Self-Employed,612485,262615,36,652,0,Education,Pune,Approved,0
+LN00878,11-12-2024,43,Salaried,556146,489962,36,674,3,Education,Chennai,Closed,0
+LN00879,18-02-2026,34,Retired,326946,143712,60,547,0,Medical,Mumbai,Closed,0
+LN00880,23-01-2025,44,Self-Employed,167013,158953,12,801,0,Business,Bangalore,Approved,0
+LN00881,11-10-2024,22,Salaried,418843,347950,24,635,0,Home Renovation,Chennai,Defaulted,1
+LN00882,09-02-2026,65,Salaried,633341,623735,60,824,3,Medical,Hyderabad,Rejected,0
+LN00883,01-05-2026,46,Salaried,463992,144325,60,753,3,Vehicle,Hyderabad,Approved,0
+LN00884,07-03-2025,34,Salaried,261300,134393,48,520,0,Home Renovation,Pune,Rejected,0
+LN00885,15-09-2024,27,Unemployed,132674,111507,48,491,2,Vehicle,Chennai,Rejected,0
+LN00886,04-05-2026,23,Salaried,1048714,1411101,12,759,2,Medical,Mumbai,Approved,0
+LN00887,24-03-2024,67,Self-Employed,1873855,1352866,36,577,3,Business,Mumbai,Approved,0
+LN00888,26-04-2025,43,Self-Employed,719406,551647,24,702,0,Vehicle,Hyderabad,Approved,0
+LN00889,20-01-2024,66,Self-Employed,1158853,1258706,24,545,1,Medical,Hyderabad,Defaulted,1
+LN00890,06-02-2026,63,Salaried,529071,510115,48,596,2,Home Renovation,Bangalore,Defaulted,1
+LN00891,06-07-2025,67,Salaried,267927,168477,24,736,0,Business,Chennai,Approved,0
+LN00892,23-02-2024,65,Self-Employed,526231,395672,36,847,1,Vehicle,Mumbai,Closed,0
+LN00893,24-12-2024,38,Unemployed,296314,159852,60,468,2,Medical,Ahmedabad,Rejected,0
+LN00894,17-08-2024,58,Salaried,518848,706994,24,781,0,Business,Bangalore,Approved,0
+LN00895,27-10-2025,55,Salaried,290586,128932,60,542,4,Business,Mumbai,Approved,0
+LN00896,11-03-2024,35,Self-Employed,2282883,1618610,60,763,0,Education,Hyderabad,Closed,0
+LN00897,10-03-2026,45,Unemployed,208128,68353,36,557,4,Business,Chennai,Rejected,0
+LN00898,29-10-2025,57,Salaried,234000,127286,24,725,0,Medical,Delhi,Closed,0
+LN00899,11-02-2024,48,Salaried,515978,597769,24,829,0,Home Renovation,Chennai,Closed,0
+LN00900,11-02-2026,30,Retired,711688,370997,36,606,0,Education,Kolkata,Approved,0
+LN00901,01-02-2024,59,Salaried,525179,203806,24,786,2,Medical,Ahmedabad,Approved,0
+LN00902,10-09-2024,37,Salaried,414458,340642,24,653,2,Medical,Ahmedabad,Closed,0
+LN00903,23-07-2024,59,Self-Employed,1125354,349947,60,786,0,Medical,Ahmedabad,Closed,0
+LN00904,09-05-2026,42,Retired,562638,221253,24,787,0,Vehicle,Delhi,Closed,0
+LN00905,21-01-2024,46,Salaried,284298,337856,48,572,2,Vehicle,Pune,Approved,0
+LN00906,28-09-2025,64,Self-Employed,1244786,1429786,12,618,1,Home Renovation,Pune,Closed,0
+LN00907,05-06-2024,45,Self-Employed,1414790,1848639,36,766,2,Medical,Bangalore,Approved,0
+LN00908,01-09-2024,37,Self-Employed,558941,693068,60,555,0,Vehicle,Delhi,Defaulted,1
+LN00909,09-05-2024,33,Self-Employed,157672,165791,24,547,2,Vehicle,Delhi,Rejected,0
+LN00910,29-04-2025,40,Self-Employed,541056,193463,24,739,2,Vehicle,Bangalore,Closed,0
+LN00911,16-11-2025,45,Salaried,475022,551563,36,621,5,Home Renovation,Chennai,Closed,0
+LN00912,27-04-2024,24,Self-Employed,378575,465670,48,782,2,Home Renovation,Bangalore,Closed,0
+LN00913,31-07-2025,30,Self-Employed,497141,586124,36,790,0,Medical,Kolkata,Approved,0
+LN00914,11-08-2024,23,Self-Employed,1531268,1315859,24,743,0,Education,Hyderabad,Approved,0
+LN00915,21-04-2025,61,Retired,491071,273129,24,658,2,Medical,Pune,Approved,0
+LN00916,17-12-2025,65,Salaried,659486,811077,60,799,1,Vehicle,Hyderabad,Rejected,0
+LN00917,19-09-2024,38,Retired,282230,310418,60,805,3,Vehicle,Pune,Closed,0
+LN00918,24-02-2026,67,Retired,596717,822775,36,769,2,Business,Delhi,Approved,0
+LN00919,12-01-2025,56,Salaried,274153,129197,48,841,1,Medical,Ahmedabad,Closed,0
+LN00920,20-06-2024,67,Self-Employed,646596,354483,36,836,1,Vehicle,Bangalore,Approved,0
+LN00921,12-09-2025,42,Salaried,520299,277307,36,597,1,Vehicle,Bangalore,Approved,0
+LN00922,13-09-2025,54,Salaried,385585,451826,24,816,0,Education,Bangalore,Approved,0
+LN00923,04-02-2026,67,Salaried,586440,296502,36,826,0,Business,Ahmedabad,Closed,0
+LN00924,05-01-2026,28,Salaried,266767,99591,36,532,1,Medical,Kolkata,Closed,0
+LN00925,27-04-2024,60,Salaried,422141,590329,12,601,0,Home Renovation,Kolkata,Closed,0
+LN00926,07-03-2026,64,Retired,320219,104807,36,528,0,Medical,Ahmedabad,Rejected,0
+LN00927,18-04-2026,39,Salaried,348386,424601,48,732,0,Medical,Chennai,Approved,0
+LN00928,16-06-2024,62,Retired,692862,486322,36,567,0,Education,Ahmedabad,Rejected,0
+LN00929,14-11-2024,61,Self-Employed,1994222,2444471,36,568,0,Medical,Mumbai,Approved,0
+LN00930,20-04-2024,57,Retired,581466,529182,60,828,2,Education,Pune,Closed,0
+LN00931,15-08-2025,26,Self-Employed,382742,494423,12,559,1,Education,Mumbai,Closed,0
+LN00932,27-01-2024,46,Salaried,397116,523721,36,799,1,Vehicle,Mumbai,Closed,0
+LN00933,15-11-2024,54,Self-Employed,1087280,337065,48,745,2,Home Renovation,Ahmedabad,Approved,0
+LN00934,12-08-2025,65,Salaried,514300,196952,36,627,5,Education,Pune,Closed,0
+LN00935,24-11-2025,26,Self-Employed,676761,389404,24,764,0,Business,Chennai,Approved,0
+LN00936,19-01-2025,57,Unemployed,170428,176605,24,432,1,Business,Bangalore,Defaulted,1
+LN00937,10-02-2025,53,Salaried,390115,498215,60,542,0,Home Renovation,Mumbai,Approved,0
+LN00938,02-01-2026,42,Salaried,263653,212487,36,573,1,Education,Ahmedabad,Approved,0
+LN00939,22-07-2024,41,Self-Employed,788301,762815,60,828,4,Home Renovation,Bangalore,Closed,0
+LN00940,18-03-2024,26,Retired,704294,357323,36,568,2,Vehicle,Ahmedabad,Rejected,0
+LN00941,29-08-2025,26,Self-Employed,638226,756593,36,597,2,Business,Delhi,Approved,0
+LN00942,08-12-2025,24,Salaried,372466,508066,48,641,1,Medical,Mumbai,Defaulted,1
+LN00943,30-04-2026,50,Self-Employed,1039395,618916,36,609,2,Business,Delhi,Defaulted,1
+LN00944,04-10-2025,31,Salaried,345531,291734,24,712,0,Education,Chennai,Closed,0
+LN00945,05-09-2024,50,Self-Employed,1423072,561725,36,763,1,Home Renovation,Hyderabad,Approved,0
+LN00946,14-04-2024,51,Unemployed,234923,214966,48,548,1,Business,Kolkata,Rejected,0
+LN00947,14-12-2025,44,Self-Employed,795597,678693,24,665,0,Medical,Pune,Approved,0
+LN00948,02-03-2026,29,Retired,451904,207369,24,835,0,Medical,Ahmedabad,Approved,0
+LN00949,04-11-2024,23,Salaried,555098,436458,12,660,3,Home Renovation,Chennai,Closed,0
+LN00950,20-05-2026,51,Self-Employed,487555,325450,60,805,0,Home Renovation,Chennai,Rejected,0
+LN00951,01-12-2025,60,Retired,688565,601815,12,630,0,Business,Chennai,Defaulted,1
+LN00952,06-09-2025,57,Salaried,1245384,1175916,36,627,1,Education,Mumbai,Approved,0
+LN00953,04-04-2026,56,Retired,376796,116560,36,800,0,Vehicle,Delhi,Approved,0
+LN00954,03-05-2024,44,Salaried,816213,928121,36,569,2,Medical,Kolkata,Approved,0
+LN00955,26-03-2026,51,Self-Employed,1950589,2115054,36,533,2,Home Renovation,Mumbai,Closed,0
+LN00956,02-08-2025,26,Retired,658213,462667,12,653,2,Vehicle,Hyderabad,Approved,0
+LN00957,12-03-2026,22,Self-Employed,821713,294361,36,595,0,Vehicle,Pune,Approved,0
+LN00958,12-02-2024,40,Salaried,336792,380718,48,603,2,Vehicle,Pune,Closed,0
+LN00959,21-12-2024,48,Self-Employed,380566,514027,48,677,3,Education,Kolkata,Closed,0
+LN00960,29-06-2025,31,Self-Employed,564656,318560,24,805,0,Home Renovation,Pune,Closed,0
+LN00961,14-03-2025,24,Retired,444795,291730,60,833,0,Medical,Pune,Closed,0
+LN00962,08-11-2025,35,Salaried,614678,308687,36,613,3,Home Renovation,Chennai,Approved,0
+LN00963,14-01-2025,26,Salaried,1018418,951843,60,816,0,Business,Bangalore,Approved,0
+LN00964,11-03-2024,50,Self-Employed,372409,175153,36,613,1,Medical,Hyderabad,Rejected,0
+LN00965,02-06-2025,58,Salaried,450040,311343,36,576,0,Home Renovation,Delhi,Closed,0
+LN00966,25-10-2025,22,Self-Employed,251513,268292,60,683,0,Medical,Ahmedabad,Closed,0
+LN00967,15-12-2024,35,Self-Employed,361382,331072,60,839,0,Business,Hyderabad,Approved,0
+LN00968,13-01-2024,31,Retired,660226,478735,36,617,1,Medical,Mumbai,Approved,0
+LN00969,19-05-2026,28,Self-Employed,591924,451208,24,535,2,Vehicle,Pune,Closed,0
+LN00970,06-03-2025,46,Self-Employed,2058212,1890101,24,597,0,Education,Bangalore,Defaulted,1
+LN00971,22-04-2026,65,Salaried,214430,65712,24,591,3,Business,Ahmedabad,Defaulted,1
+LN00972,16-05-2025,64,Salaried,304647,117703,24,789,1,Medical,Mumbai,Approved,0
+LN00973,18-04-2024,25,Salaried,959189,1217579,24,806,4,Business,Kolkata,Approved,0
+LN00974,19-03-2025,26,Salaried,1128010,435036,60,585,4,Vehicle,Chennai,Rejected,0
+LN00975,05-01-2025,46,Self-Employed,623505,671816,12,587,2,Education,Pune,Closed,0
+LN00976,12-10-2025,24,Self-Employed,333874,438056,36,712,4,Business,Chennai,Approved,0
+LN00977,28-04-2026,39,Self-Employed,2090082,1249350,24,574,2,Vehicle,Hyderabad,Defaulted,1
+LN00978,15-04-2025,40,Retired,353889,250390,24,687,3,Vehicle,Chennai,Closed,0
+LN00979,25-12-2025,53,Unemployed,93159,86247,12,552,0,Vehicle,Chennai,Defaulted,1
+LN00980,05-06-2024,40,Retired,610306,775015,24,544,0,Medical,Kolkata,Approved,0
+LN00981,21-03-2025,32,Self-Employed,1586345,2119509,48,650,2,Home Renovation,Delhi,Closed,0
+LN00982,29-06-2024,67,Self-Employed,491296,547067,60,844,1,Business,Delhi,Closed,0
+LN00983,21-01-2026,21,Salaried,674852,266756,24,621,3,Home Renovation,Mumbai,Approved,0
+LN00984,18-06-2025,46,Salaried,374056,387548,36,801,3,Vehicle,Pune,Closed,0
+LN00985,28-10-2025,34,Salaried,481268,361593,36,815,0,Home Renovation,Mumbai,Approved,0
+LN00986,03-10-2024,58,Retired,482069,394222,60,813,3,Vehicle,Delhi,Closed,0
+LN00987,22-09-2025,57,Retired,279320,98896,48,782,0,Vehicle,Hyderabad,Closed,0
+LN00988,07-04-2026,31,Salaried,382582,195181,36,639,0,Education,Delhi,Approved,0
+LN00989,05-07-2025,56,Self-Employed,1525204,1783825,36,750,1,Education,Mumbai,Approved,0
+LN00990,04-03-2026,33,Retired,580260,463833,48,810,0,Home Renovation,Bangalore,Closed,0
+LN00991,10-05-2025,63,Salaried,666089,420853,12,680,1,Business,Pune,Closed,0
+LN00992,21-04-2025,23,Salaried,945948,683372,36,680,1,Home Renovation,Chennai,Approved,0
+LN00993,22-03-2025,53,Retired,329436,408447,60,597,0,Business,Kolkata,Defaulted,1
+LN00994,25-04-2026,26,Salaried,211721,237953,48,557,2,Home Renovation,Bangalore,Closed,0
+LN00995,18-01-2026,30,Salaried,372351,223241,36,547,2,Medical,Bangalore,Closed,0
+LN00996,29-08-2025,25,Self-Employed,396089,170022,36,619,0,Medical,Chennai,Approved,0
+LN00997,01-10-2024,43,Retired,573641,331104,24,813,0,Business,Delhi,Closed,0
+LN00998,26-11-2024,30,Self-Employed,901906,1184051,36,643,3,Education,Ahmedabad,Approved,0
+LN00999,22-05-2026,64,Salaried,488560,459123,36,611,3,Business,Pune,Closed,0
+LN01000,08-09-2024,22,Salaried,441286,391344,36,774,0,Home Renovation,Hyderabad,Closed,0
+LN01001,30-04-2026,33,Self-Employed,1140139,1090010,48,616,0,Vehicle,Bangalore,Approved,0
+LN01002,29-03-2024,60,Self-Employed,400507,281408,60,525,3,Medical,Hyderabad,Rejected,0
+LN01003,12-10-2024,22,Self-Employed,683711,812124,24,688,2,Vehicle,Kolkata,Approved,0
+LN01004,06-04-2025,40,Salaried,415796,364077,36,790,0,Medical,Kolkata,Closed,0
+LN01005,06-09-2024,21,Retired,542007,232208,36,627,1,Home Renovation,Kolkata,Closed,0
+LN01006,07-02-2026,57,Salaried,536345,237049,36,818,1,Medical,Mumbai,Closed,0
+LN01007,20-04-2025,29,Salaried,307010,273406,24,566,2,Business,Bangalore,Defaulted,1
+LN01008,06-08-2025,37,Salaried,327679,435887,36,618,0,Vehicle,Kolkata,Closed,0
+LN01009,16-09-2025,29,Salaried,909115,581094,60,533,1,Vehicle,Mumbai,Rejected,0
+LN01010,15-11-2025,31,Self-Employed,540626,679294,36,713,0,Home Renovation,Kolkata,Approved,0
+LN01011,23-01-2025,35,Self-Employed,487303,555771,60,676,4,Vehicle,Delhi,Approved,0
+LN01012,10-12-2024,44,Salaried,267067,152920,60,673,2,Home Renovation,Bangalore,Closed,0
+LN01013,30-01-2024,58,Self-Employed,1053757,358250,24,634,2,Education,Mumbai,Defaulted,1
+LN01014,21-05-2025,55,Salaried,304015,125263,24,777,2,Business,Kolkata,Approved,0
+LN01015,21-05-2026,50,Self-Employed,654475,720801,60,664,1,Medical,Pune,Approved,0
+LN01016,28-11-2024,51,Unemployed,175473,91182,60,434,4,Medical,Mumbai,Rejected,0
+LN01017,05-07-2024,25,Salaried,540880,383158,12,529,0,Medical,Kolkata,Rejected,0
+LN01018,14-05-2025,64,Self-Employed,1085129,924387,12,733,3,Education,Delhi,Approved,0
+LN01019,05-08-2024,34,Salaried,427681,469600,24,752,0,Business,Hyderabad,Approved,0
+LN01020,29-12-2024,31,Salaried,882392,374623,60,690,0,Vehicle,Ahmedabad,Approved,0
+LN01021,27-03-2026,29,Salaried,564871,421960,24,540,1,Vehicle,Kolkata,Closed,0
+LN01022,21-09-2024,54,Self-Employed,734340,612131,36,534,2,Business,Hyderabad,Approved,0
+LN01023,14-12-2024,32,Self-Employed,328228,293734,48,645,3,Business,Bangalore,Closed,0
+LN01024,13-10-2024,55,Salaried,556337,667713,12,732,1,Medical,Delhi,Closed,0
+LN01025,02-09-2025,55,Retired,333791,163172,36,707,1,Vehicle,Pune,Rejected,0
+LN01026,19-12-2025,21,Self-Employed,466893,554955,24,691,4,Business,Bangalore,Closed,0
+LN01027,09-10-2024,60,Retired,331441,352045,60,766,0,Vehicle,Pune,Approved,0
+LN01028,23-07-2025,42,Self-Employed,437106,398403,24,524,3,Business,Hyderabad,Approved,0
+LN01029,11-01-2024,49,Self-Employed,1995697,2134359,36,750,2,Home Renovation,Delhi,Closed,0
+LN01030,13-06-2025,28,Salaried,264048,198886,36,720,1,Medical,Chennai,Approved,0
+LN01031,14-07-2024,31,Salaried,358622,162182,24,668,0,Business,Delhi,Approved,0
+LN01032,28-03-2024,61,Unemployed,342776,353861,12,471,1,Education,Delhi,Rejected,0
+LN01033,04-09-2024,57,Salaried,521381,457323,36,745,0,Business,Pune,Approved,0
+LN01034,07-01-2026,34,Unemployed,227263,228015,24,473,0,Home Renovation,Chennai,Rejected,0
+LN01035,20-02-2025,50,Self-Employed,898184,603398,48,826,0,Education,Mumbai,Closed,0
+LN01036,15-05-2025,55,Salaried,339533,440562,48,688,0,Education,Mumbai,Approved,0
+LN01037,22-07-2025,41,Salaried,684515,647624,36,768,2,Business,Mumbai,Closed,0
+LN01038,15-02-2026,57,Salaried,749317,295187,36,799,3,Home Renovation,Hyderabad,Closed,0
+LN01039,03-09-2024,25,Unemployed,344225,273584,36,631,0,Education,Delhi,Rejected,0
+LN01040,08-12-2025,39,Salaried,353785,400481,48,671,1,Medical,Kolkata,Closed,0
+LN01041,02-05-2025,34,Salaried,241979,283973,36,743,1,Medical,Chennai,Rejected,0
+LN01042,23-10-2025,46,Salaried,892350,753194,24,744,1,Vehicle,Kolkata,Approved,0
+LN01043,29-12-2025,24,Salaried,832471,1069077,24,557,3,Vehicle,Hyderabad,Defaulted,1
+LN01044,17-05-2025,45,Self-Employed,622161,369834,36,563,1,Home Renovation,Chennai,Rejected,0
+LN01045,03-04-2025,65,Salaried,766613,576231,36,704,3,Education,Kolkata,Approved,0
+LN01046,22-03-2026,62,Retired,316323,407568,36,760,1,Medical,Ahmedabad,Closed,0
+LN01047,18-01-2024,45,Salaried,529666,681088,12,729,2,Medical,Pune,Closed,0
+LN01048,05-04-2024,38,Salaried,521149,549439,48,542,1,Home Renovation,Hyderabad,Defaulted,1
+LN01049,28-10-2024,60,Self-Employed,417274,519455,24,643,3,Education,Hyderabad,Approved,0
+LN01050,14-08-2024,28,Salaried,662318,263371,24,605,4,Home Renovation,Ahmedabad,Closed,0
+LN01051,18-02-2025,59,Unemployed,324088,405594,36,442,2,Business,Hyderabad,Rejected,0
+LN01052,09-12-2025,60,Self-Employed,794032,518250,24,559,3,Medical,Chennai,Approved,0
+LN01053,06-09-2024,34,Salaried,441368,218991,36,822,0,Home Renovation,Kolkata,Approved,0
+LN01054,09-11-2024,52,Self-Employed,419506,236310,24,688,3,Home Renovation,Kolkata,Approved,0
+LN01055,10-11-2025,58,Salaried,353769,268781,36,694,0,Business,Bangalore,Closed,0
+LN01056,18-08-2025,53,Salaried,1229865,708784,36,539,0,Vehicle,Hyderabad,Approved,0
+LN01057,12-01-2025,43,Unemployed,316377,206475,24,604,0,Medical,Mumbai,Closed,0
+LN01058,29-04-2025,35,Self-Employed,660251,296106,24,628,4,Home Renovation,Delhi,Approved,0
+LN01059,20-07-2025,53,Unemployed,277899,173907,60,592,3,Medical,Pune,Approved,0
+LN01060,27-06-2025,45,Self-Employed,1020178,948267,36,763,3,Vehicle,Pune,Approved,0
+LN01061,18-12-2024,37,Self-Employed,1016826,799264,36,843,3,Home Renovation,Bangalore,Approved,0
+LN01062,11-03-2025,53,Salaried,340089,231733,12,799,1,Business,Bangalore,Closed,0
+LN01063,02-02-2026,67,Salaried,228272,255915,36,747,4,Medical,Chennai,Approved,0
+LN01064,17-07-2025,22,Retired,660390,847188,36,555,4,Business,Bangalore,Approved,0
+LN01065,04-12-2024,34,Salaried,843869,955654,36,564,1,Vehicle,Kolkata,Closed,0
+LN01066,26-12-2024,60,Retired,708580,471347,48,547,0,Vehicle,Chennai,Closed,0
+LN01067,20-12-2025,60,Self-Employed,859691,961896,24,673,2,Medical,Chennai,Approved,0
+LN01068,09-04-2025,59,Salaried,451083,210736,24,542,5,Vehicle,Pune,Closed,0
+LN01069,04-10-2024,26,Self-Employed,820526,363780,48,726,3,Education,Pune,Closed,0
+LN01070,09-11-2024,26,Self-Employed,966146,657162,60,610,3,Medical,Mumbai,Rejected,0
+LN01071,14-09-2024,23,Salaried,680502,808757,24,557,4,Education,Hyderabad,Approved,0
+LN01072,24-08-2024,27,Retired,272616,155659,36,747,3,Vehicle,Ahmedabad,Closed,0
+LN01073,03-05-2024,28,Self-Employed,516746,190978,24,721,2,Medical,Ahmedabad,Closed,0
+LN01074,08-01-2026,62,Salaried,325620,144861,12,828,2,Education,Bangalore,Approved,0
+LN01075,16-07-2024,35,Self-Employed,633347,788276,24,773,0,Vehicle,Hyderabad,Closed,0
+LN01076,19-11-2024,67,Unemployed,90731,90473,24,437,2,Home Renovation,Hyderabad,Defaulted,1
+LN01077,02-05-2024,49,Salaried,608344,351939,48,740,1,Home Renovation,Hyderabad,Closed,0
+LN01078,30-01-2026,53,Retired,382201,348118,36,706,3,Business,Chennai,Closed,0
+LN01079,02-07-2025,50,Salaried,338904,298349,24,562,1,Home Renovation,Hyderabad,Rejected,0
+LN01080,19-02-2026,59,Self-Employed,1413215,1442863,12,633,0,Education,Bangalore,Closed,0
+LN01081,07-12-2025,47,Self-Employed,537055,298874,48,779,0,Home Renovation,Chennai,Closed,0
+LN01082,08-07-2024,56,Salaried,399201,499337,24,524,2,Medical,Bangalore,Defaulted,1
+LN01083,15-07-2024,49,Salaried,778939,498758,36,587,1,Medical,Chennai,Closed,0
+LN01084,09-08-2024,58,Self-Employed,302214,321418,24,747,0,Medical,Ahmedabad,Approved,0
+LN01085,26-01-2026,53,Self-Employed,1036955,329479,36,642,0,Home Renovation,Delhi,Approved,0
+LN01086,10-05-2025,57,Self-Employed,676771,480455,24,692,1,Home Renovation,Delhi,Closed,0
+LN01087,10-10-2024,47,Salaried,602691,413976,12,672,0,Business,Ahmedabad,Approved,0
+LN01088,11-01-2026,53,Retired,310430,278714,24,786,0,Vehicle,Delhi,Closed,0
+LN01089,26-08-2025,24,Self-Employed,843501,320538,24,676,1,Business,Delhi,Rejected,0
+LN01090,17-02-2026,42,Retired,500072,584656,36,681,1,Education,Ahmedabad,Closed,0
+LN01091,21-06-2025,22,Salaried,808933,436466,36,733,1,Medical,Chennai,Defaulted,1
+LN01092,03-09-2025,30,Self-Employed,438443,458059,24,545,0,Home Renovation,Hyderabad,Closed,0
+LN01093,16-10-2024,25,Self-Employed,823646,974812,12,811,3,Vehicle,Ahmedabad,Approved,0
+LN01094,12-04-2024,30,Salaried,324477,297890,36,708,1,Vehicle,Mumbai,Closed,0
+LN01095,02-05-2026,53,Self-Employed,594462,662808,36,641,0,Home Renovation,Pune,Approved,0
+LN01096,17-07-2024,58,Salaried,501587,515654,60,749,0,Business,Kolkata,Approved,0
+LN01097,30-10-2024,33,Self-Employed,718532,496565,36,578,0,Vehicle,Mumbai,Approved,0
+LN01098,20-08-2024,51,Self-Employed,701289,834354,36,615,0,Business,Delhi,Approved,0
+LN01099,04-01-2025,67,Salaried,701393,437789,36,781,0,Home Renovation,Hyderabad,Approved,0
+LN01100,02-07-2024,56,Self-Employed,475278,441216,60,831,2,Business,Bangalore,Approved,0
+LN01101,05-11-2024,65,Self-Employed,729358,816835,48,655,2,Medical,Hyderabad,Closed,0
+LN01102,15-01-2024,44,Salaried,347490,249098,24,802,1,Home Renovation,Bangalore,Closed,0
+LN01103,26-12-2025,35,Unemployed,309730,196072,24,598,2,Home Renovation,Mumbai,Approved,0
+LN01104,30-06-2025,49,Unemployed,91577,73745,24,554,0,Vehicle,Hyderabad,Rejected,0
+LN01105,09-05-2024,28,Self-Employed,1013651,1216137,36,639,4,Vehicle,Hyderabad,Closed,0
+LN01106,07-10-2024,25,Salaried,507791,671763,48,544,0,Vehicle,Kolkata,Closed,0
+LN01107,16-02-2024,49,Self-Employed,783800,705100,36,665,2,Medical,Ahmedabad,Closed,0
+LN01108,25-02-2024,67,Self-Employed,825634,848432,12,531,0,Medical,Mumbai,Approved,0
+LN01109,20-07-2025,24,Salaried,595129,769859,48,606,3,Education,Hyderabad,Defaulted,1
+LN01110,26-10-2024,32,Self-Employed,578388,236214,48,628,1,Home Renovation,Bangalore,Closed,0
+LN01111,15-12-2025,65,Self-Employed,531320,295034,24,785,0,Vehicle,Pune,Closed,0
+LN01112,09-05-2024,22,Self-Employed,607119,655561,36,741,2,Home Renovation,Hyderabad,Approved,0
+LN01113,15-10-2025,47,Salaried,292768,353113,36,593,0,Business,Bangalore,Closed,0
+LN01114,09-02-2026,51,Self-Employed,979748,1217564,60,829,2,Medical,Delhi,Approved,0
+LN01115,17-05-2025,56,Retired,425486,321930,48,621,2,Education,Hyderabad,Approved,0
+LN01116,15-04-2024,56,Salaried,415809,165605,36,656,0,Business,Bangalore,Closed,0
+LN01117,13-01-2024,46,Self-Employed,442217,345618,36,710,1,Home Renovation,Pune,Closed,0
+LN01118,10-08-2025,63,Retired,369682,204732,60,661,0,Medical,Mumbai,Closed,0
+LN01119,18-10-2024,47,Self-Employed,417677,259091,36,592,2,Vehicle,Delhi,Closed,0
+LN01120,25-04-2025,25,Salaried,465489,535076,24,847,0,Business,Hyderabad,Approved,0
+LN01121,05-05-2025,40,Self-Employed,361579,138513,48,686,1,Medical,Kolkata,Approved,0
+LN01122,27-03-2025,31,Self-Employed,1000235,1210623,24,687,4,Home Renovation,Bangalore,Defaulted,1
+LN01123,14-12-2024,30,Retired,648138,499348,24,573,0,Home Renovation,Pune,Closed,0
+LN01124,07-07-2024,60,Self-Employed,1034343,988490,60,778,5,Business,Kolkata,Approved,0
+LN01125,22-02-2024,58,Unemployed,236312,94198,48,582,2,Business,Hyderabad,Rejected,0
+LN01126,15-09-2024,26,Salaried,403599,270853,36,630,0,Business,Bangalore,Closed,0
+LN01127,01-06-2026,28,Salaried,496473,197929,24,751,1,Education,Hyderabad,Approved,0
+LN01128,04-05-2025,43,Self-Employed,724261,983327,24,680,2,Vehicle,Delhi,Approved,0
+LN01129,26-04-2024,67,Salaried,542366,644324,24,846,1,Medical,Pune,Closed,0
+LN01130,21-04-2026,46,Salaried,363953,293199,24,538,0,Home Renovation,Pune,Rejected,0
+LN01131,07-03-2024,66,Salaried,949148,518199,48,809,0,Home Renovation,Delhi,Closed,0
+LN01132,14-02-2025,63,Salaried,890211,1181132,24,569,2,Vehicle,Hyderabad,Approved,0
+LN01133,18-05-2025,32,Salaried,699003,474662,36,694,2,Business,Hyderabad,Approved,0
+LN01134,16-03-2024,46,Unemployed,140906,67223,24,445,1,Business,Chennai,Defaulted,1
+LN01135,13-08-2025,33,Salaried,403673,371169,60,703,0,Home Renovation,Hyderabad,Closed,0
+LN01136,06-10-2025,60,Self-Employed,638033,853784,24,704,3,Vehicle,Pune,Approved,0
+LN01137,03-12-2025,38,Self-Employed,644864,196176,12,826,4,Home Renovation,Hyderabad,Approved,0
+LN01138,24-02-2024,45,Unemployed,158694,89176,12,453,0,Business,Kolkata,Rejected,0
+LN01139,04-06-2024,53,Salaried,569492,758729,36,600,0,Medical,Kolkata,Approved,0
+LN01140,01-06-2024,67,Retired,600068,292949,36,675,3,Business,Delhi,Closed,0
+LN01141,10-04-2026,60,Self-Employed,549203,233173,36,794,3,Medical,Kolkata,Rejected,0
+LN01142,30-07-2025,63,Self-Employed,336799,312282,36,802,2,Education,Hyderabad,Approved,0
+LN01143,07-11-2024,32,Self-Employed,1676102,2091822,12,768,4,Vehicle,Mumbai,Approved,0
+LN01144,28-03-2024,64,Retired,547124,451279,36,666,2,Education,Ahmedabad,Closed,0
+LN01145,11-09-2024,56,Salaried,1496044,2085516,36,526,0,Business,Hyderabad,Rejected,0
+LN01146,01-05-2024,24,Self-Employed,763467,799417,24,676,2,Vehicle,Ahmedabad,Rejected,0
+LN01147,25-07-2025,25,Self-Employed,1331031,507764,24,690,2,Business,Pune,Closed,0
+LN01148,21-02-2026,57,Self-Employed,607165,845243,24,588,5,Vehicle,Chennai,Defaulted,1
+LN01149,02-03-2025,28,Unemployed,235631,176413,24,493,0,Vehicle,Bangalore,Rejected,0
+LN01150,12-09-2025,62,Salaried,346495,213490,36,705,1,Business,Pune,Approved,0
+LN01151,02-09-2025,48,Unemployed,124159,113439,24,535,2,Business,Ahmedabad,Rejected,0
+LN01152,20-03-2026,51,Salaried,166229,105511,24,689,0,Vehicle,Delhi,Approved,0
+LN01153,25-09-2025,29,Salaried,314819,124386,24,723,1,Vehicle,Kolkata,Approved,0
+LN01154,19-08-2024,49,Salaried,920849,277701,60,561,3,Business,Mumbai,Defaulted,1
+LN01155,05-03-2026,34,Salaried,575294,457095,60,532,1,Business,Pune,Rejected,0
+LN01156,19-06-2025,60,Self-Employed,922207,1125599,24,673,2,Home Renovation,Bangalore,Closed,0
+LN01157,24-01-2025,61,Salaried,442668,411480,24,793,3,Home Renovation,Mumbai,Approved,0
+LN01158,06-04-2025,42,Salaried,322009,450531,24,817,0,Home Renovation,Delhi,Closed,0
+LN01159,29-03-2025,31,Unemployed,209501,128954,36,450,5,Education,Kolkata,Rejected,0
+LN01160,31-10-2024,43,Retired,499329,303841,12,731,2,Vehicle,Chennai,Approved,0
+LN01161,30-05-2026,21,Retired,583134,277411,36,663,1,Medical,Ahmedabad,Closed,0
+LN01162,25-08-2025,66,Retired,744670,357791,36,522,1,Education,Pune,Rejected,0
+LN01163,15-03-2025,57,Self-Employed,686937,421576,60,773,4,Vehicle,Pune,Approved,0
+LN01164,08-11-2024,41,Salaried,531938,623497,24,775,0,Medical,Pune,Approved,0
+LN01165,05-08-2025,46,Salaried,262119,339793,48,617,0,Home Renovation,Ahmedabad,Rejected,0
+LN01166,27-09-2025,66,Self-Employed,1021014,1401439,48,692,0,Medical,Delhi,Closed,0
+LN01167,02-03-2024,56,Salaried,765616,425313,24,669,0,Business,Mumbai,Approved,0
+LN01168,16-09-2025,43,Self-Employed,441831,560872,24,798,1,Business,Mumbai,Approved,0
+LN01169,27-01-2026,21,Salaried,308610,204016,24,578,5,Vehicle,Delhi,Approved,0
+LN01170,11-04-2024,60,Salaried,426627,180943,24,632,3,Education,Pune,Approved,0
+LN01171,20-02-2026,35,Self-Employed,668734,840616,24,843,0,Home Renovation,Hyderabad,Approved,0
+LN01172,31-07-2024,41,Self-Employed,570749,570587,36,762,1,Vehicle,Delhi,Approved,0
+LN01173,02-10-2025,67,Self-Employed,638256,307131,36,829,2,Home Renovation,Kolkata,Approved,0
+LN01174,04-08-2024,29,Self-Employed,745501,576133,60,576,0,Business,Kolkata,Defaulted,1
+LN01175,27-09-2024,29,Salaried,264151,162712,24,579,3,Education,Chennai,Closed,0
+LN01176,07-11-2025,30,Salaried,278178,308909,60,848,3,Education,Delhi,Closed,0
+LN01177,24-03-2024,46,Retired,404721,323274,24,735,3,Business,Bangalore,Approved,0
+LN01178,09-06-2024,61,Self-Employed,610529,847541,48,752,1,Medical,Ahmedabad,Approved,0
+LN01179,02-09-2024,55,Salaried,277410,99928,24,574,1,Education,Ahmedabad,Closed,0
+LN01180,26-06-2024,45,Retired,528518,364950,24,727,0,Medical,Kolkata,Approved,0
+LN01181,19-07-2025,46,Salaried,2104086,1746581,60,582,1,Home Renovation,Kolkata,Approved,0
+LN01182,17-03-2024,31,Self-Employed,2348656,2004453,24,703,1,Education,Kolkata,Closed,0
+LN01183,09-06-2024,58,Salaried,450605,291779,36,830,3,Business,Hyderabad,Rejected,0
+LN01184,03-01-2024,22,Self-Employed,622509,686107,36,800,3,Medical,Bangalore,Approved,0
+LN01185,22-02-2025,27,Self-Employed,1141175,1440415,36,545,4,Home Renovation,Pune,Approved,0
+LN01186,06-04-2025,38,Salaried,1052235,1402199,36,696,3,Home Renovation,Pune,Rejected,0
+LN01187,06-12-2025,47,Retired,707820,839193,48,582,0,Education,Delhi,Approved,0
+LN01188,31-08-2025,54,Salaried,164022,202671,12,592,2,Education,Hyderabad,Closed,0
+LN01189,26-04-2025,47,Salaried,330487,299288,36,686,0,Vehicle,Kolkata,Defaulted,1
+LN01190,25-10-2024,37,Salaried,593714,717489,60,744,0,Vehicle,Pune,Defaulted,1
+LN01191,03-02-2024,63,Salaried,725914,460123,12,584,1,Education,Bangalore,Closed,0
+LN01192,25-08-2024,64,Salaried,404719,298814,24,588,2,Vehicle,Pune,Approved,0
+LN01193,22-10-2024,44,Self-Employed,453372,294059,48,528,2,Business,Ahmedabad,Rejected,0
+LN01194,24-12-2025,45,Retired,432774,352332,36,755,0,Business,Bangalore,Closed,0
+LN01195,16-10-2024,27,Self-Employed,691333,424573,36,717,0,Vehicle,Hyderabad,Closed,0
+LN01196,20-12-2025,26,Salaried,1027928,1395692,24,692,0,Education,Pune,Closed,0
+LN01197,30-05-2026,44,Salaried,731948,471468,36,801,0,Business,Kolkata,Closed,0
+LN01198,09-04-2025,53,Salaried,230380,93960,24,547,0,Home Renovation,Hyderabad,Rejected,0
+LN01199,13-03-2024,49,Salaried,488337,429491,36,815,2,Education,Ahmedabad,Closed,0
+LN01200,04-12-2025,63,Self-Employed,667692,242244,48,653,3,Medical,Mumbai,Rejected,0
+LN01201,27-08-2024,42,Salaried,441197,186007,24,546,1,Medical,Kolkata,Closed,0
+LN01202,27-09-2024,46,Self-Employed,928100,502406,36,557,2,Education,Hyderabad,Closed,0
+LN01203,17-03-2026,48,Retired,444152,360111,60,715,0,Vehicle,Delhi,Approved,0
+LN01204,21-03-2026,41,Self-Employed,425782,330652,36,722,5,Business,Pune,Closed,0
+LN01205,02-10-2025,27,Retired,316985,373934,48,604,0,Business,Kolkata,Closed,0
+LN01206,26-08-2025,37,Self-Employed,2831958,3000000,36,839,3,Education,Chennai,Approved,0
+LN01207,08-11-2025,40,Self-Employed,445488,342558,48,549,4,Home Renovation,Kolkata,Rejected,0
+LN01208,03-04-2026,61,Self-Employed,879143,586453,12,618,3,Vehicle,Mumbai,Closed,0
+LN01209,21-07-2024,40,Self-Employed,787739,510545,24,709,0,Home Renovation,Hyderabad,Rejected,0
+LN01210,11-03-2025,42,Salaried,527353,607191,24,531,2,Education,Ahmedabad,Approved,0
+LN01211,27-04-2024,48,Salaried,312444,111629,36,610,0,Education,Chennai,Closed,0
+LN01212,11-07-2025,60,Salaried,450594,141533,48,549,0,Home Renovation,Mumbai,Approved,0
+LN01213,18-08-2024,27,Self-Employed,199309,234207,24,732,0,Medical,Delhi,Closed,0
+LN01214,25-10-2025,21,Salaried,529831,437036,36,557,3,Education,Ahmedabad,Approved,0
+LN01215,01-06-2024,52,Retired,546618,242681,48,579,3,Vehicle,Ahmedabad,Closed,0
+LN01216,29-09-2024,33,Self-Employed,1062632,594141,36,813,0,Home Renovation,Kolkata,Closed,0
+LN01217,26-04-2026,50,Salaried,767321,1017279,24,662,1,Medical,Pune,Approved,0
+LN01218,25-05-2024,43,Salaried,691616,861375,36,699,4,Home Renovation,Chennai,Rejected,0
+LN01219,14-03-2024,39,Retired,749387,809910,24,804,1,Medical,Pune,Closed,0
+LN01220,02-03-2024,52,Retired,540373,448751,12,631,1,Medical,Ahmedabad,Approved,0
+LN01221,18-06-2024,50,Self-Employed,420310,366659,60,749,1,Vehicle,Hyderabad,Approved,0
+LN01222,22-03-2026,49,Salaried,435349,597633,24,540,2,Education,Hyderabad,Approved,0
+LN01223,10-11-2024,65,Salaried,412419,561857,12,664,1,Medical,Delhi,Approved,0
+LN01224,01-09-2025,49,Salaried,334837,179739,60,665,2,Education,Mumbai,Closed,0
+LN01225,05-02-2026,50,Salaried,744287,887350,24,835,1,Vehicle,Chennai,Rejected,0
+LN01226,24-04-2026,36,Self-Employed,448237,231723,36,685,0,Education,Delhi,Approved,0
+LN01227,05-08-2025,60,Self-Employed,740562,396120,24,659,0,Business,Mumbai,Closed,0
+LN01228,22-10-2024,39,Self-Employed,1646406,1718357,24,722,0,Medical,Bangalore,Approved,0
+LN01229,25-03-2025,38,Retired,733498,546823,24,763,1,Vehicle,Bangalore,Approved,0
+LN01230,07-05-2024,21,Self-Employed,549771,728281,24,632,0,Home Renovation,Mumbai,Approved,0
+LN01231,24-04-2025,34,Self-Employed,698640,277996,36,720,3,Vehicle,Hyderabad,Approved,0
+LN01232,06-12-2025,67,Salaried,1225591,1057290,48,833,1,Medical,Hyderabad,Approved,0
+LN01233,07-11-2024,22,Unemployed,332766,436047,36,402,2,Vehicle,Bangalore,Rejected,0
+LN01234,17-12-2025,48,Salaried,671238,868934,60,774,4,Home Renovation,Ahmedabad,Closed,0
+LN01235,16-02-2025,50,Unemployed,284333,134256,12,590,3,Business,Hyderabad,Approved,0
+LN01236,05-10-2024,58,Retired,646025,454350,36,542,4,Medical,Pune,Rejected,0
+LN01237,27-05-2025,24,Salaried,809766,794407,36,765,1,Medical,Ahmedabad,Closed,0
+LN01238,06-07-2025,21,Self-Employed,488227,232071,60,830,0,Vehicle,Hyderabad,Closed,0
+LN01239,20-05-2025,28,Retired,612566,836045,12,837,4,Education,Mumbai,Approved,0
+LN01240,24-03-2025,49,Self-Employed,675225,881995,36,606,3,Education,Kolkata,Defaulted,1
+LN01241,23-03-2024,59,Retired,584071,282483,60,738,3,Home Renovation,Mumbai,Closed,0
+LN01242,04-09-2025,23,Unemployed,286753,124241,24,618,2,Business,Hyderabad,Closed,0
+LN01243,10-02-2024,52,Salaried,546737,215386,60,546,2,Business,Mumbai,Approved,0
+LN01244,18-03-2025,30,Salaried,235267,305938,12,809,0,Vehicle,Chennai,Rejected,0
+LN01245,22-01-2026,30,Unemployed,129405,66382,48,432,2,Vehicle,Bangalore,Rejected,0
+LN01246,26-11-2024,39,Self-Employed,1159470,878777,60,742,0,Education,Kolkata,Closed,0
+LN01247,10-09-2025,66,Salaried,429872,341205,36,697,0,Business,Ahmedabad,Closed,0
+LN01248,13-09-2024,54,Salaried,548501,525964,36,667,1,Business,Ahmedabad,Closed,0
+LN01249,27-01-2024,53,Self-Employed,256761,97289,12,746,1,Business,Chennai,Approved,0
+LN01250,03-04-2024,43,Unemployed,338328,185889,60,494,0,Home Renovation,Chennai,Rejected,0
+LN01251,22-08-2024,48,Retired,354186,469168,36,705,3,Home Renovation,Hyderabad,Rejected,0
+LN01252,21-11-2025,52,Self-Employed,783319,1017728,12,813,3,Vehicle,Hyderabad,Approved,0
+LN01253,06-05-2026,27,Salaried,463357,537225,36,560,2,Education,Ahmedabad,Approved,0
+LN01254,31-05-2026,49,Salaried,515049,165506,36,710,1,Medical,Chennai,Closed,0
+LN01255,12-08-2025,28,Retired,704598,464828,24,598,4,Education,Chennai,Rejected,0
+LN01256,24-08-2025,21,Salaried,295852,293116,24,724,0,Home Renovation,Ahmedabad,Approved,0
+LN01257,22-01-2024,23,Salaried,543575,327617,12,797,2,Home Renovation,Delhi,Approved,0
+LN01258,22-02-2026,44,Salaried,269249,350170,36,791,0,Vehicle,Delhi,Approved,0
+LN01259,19-11-2025,43,Self-Employed,459340,458089,36,551,1,Medical,Pune,Approved,0
+LN01260,21-04-2026,28,Unemployed,243885,92456,36,593,1,Business,Bangalore,Rejected,0
+LN01261,02-10-2024,67,Salaried,231187,300521,48,661,2,Medical,Chennai,Approved,0
+LN01262,13-08-2025,57,Self-Employed,816107,1104636,60,770,0,Medical,Mumbai,Closed,0
+LN01263,11-02-2024,23,Self-Employed,642242,247573,36,813,0,Medical,Kolkata,Closed,0
+LN01264,20-02-2026,53,Unemployed,108557,96137,12,497,1,Vehicle,Delhi,Rejected,0
+LN01265,13-02-2026,48,Salaried,192141,121759,36,655,1,Home Renovation,Ahmedabad,Approved,0
+LN01266,28-06-2024,67,Self-Employed,629487,460861,36,796,2,Business,Hyderabad,Approved,0
+LN01267,26-04-2025,28,Salaried,456962,227391,36,831,0,Medical,Chennai,Approved,0
+LN01268,15-06-2025,54,Retired,647584,606060,36,821,1,Business,Mumbai,Approved,0
+LN01269,29-10-2025,55,Self-Employed,551455,746547,24,562,0,Medical,Kolkata,Rejected,0
+LN01270,28-03-2025,52,Salaried,811436,692463,60,639,0,Home Renovation,Mumbai,Closed,0
+LN01271,11-10-2024,44,Self-Employed,341285,133512,24,739,1,Business,Pune,Closed,0
+LN01272,04-07-2024,34,Self-Employed,384198,377282,36,565,2,Education,Mumbai,Approved,0
+LN01273,22-08-2025,52,Salaried,763645,514884,12,755,0,Home Renovation,Hyderabad,Approved,0
+LN01274,22-03-2025,66,Retired,723656,898431,60,567,0,Business,Delhi,Defaulted,1
+LN01275,12-10-2025,63,Salaried,608194,473263,24,717,1,Medical,Mumbai,Closed,0
+LN01276,13-04-2026,36,Self-Employed,510271,261321,12,603,0,Medical,Kolkata,Closed,0
+LN01277,18-05-2025,24,Salaried,340399,173677,24,550,1,Home Renovation,Delhi,Closed,0
+LN01278,03-04-2024,57,Self-Employed,691621,792349,24,680,1,Home Renovation,Pune,Approved,0
+LN01279,26-04-2025,41,Salaried,446273,264258,24,590,0,Medical,Pune,Rejected,0
+LN01280,22-12-2024,34,Retired,512204,585939,36,527,0,Business,Bangalore,Rejected,0
+LN01281,22-02-2025,51,Self-Employed,745040,392245,36,571,3,Education,Hyderabad,Closed,0
+LN01282,07-12-2024,38,Self-Employed,292149,191023,12,564,2,Vehicle,Delhi,Closed,0
+LN01283,24-11-2024,27,Self-Employed,628709,510534,24,812,2,Home Renovation,Pune,Closed,0
+LN01284,17-11-2025,30,Self-Employed,546957,731563,48,819,1,Medical,Pune,Approved,0
+LN01285,17-04-2024,27,Salaried,489324,648307,36,557,2,Business,Delhi,Approved,0
+LN01286,28-05-2026,53,Salaried,508499,268263,48,750,4,Home Renovation,Mumbai,Closed,0
+LN01287,13-06-2024,43,Unemployed,343089,238117,36,621,2,Business,Ahmedabad,Approved,0
+LN01288,03-12-2024,41,Salaried,1498923,696008,24,781,0,Home Renovation,Kolkata,Approved,0
+LN01289,25-02-2025,39,Self-Employed,307521,264770,12,587,1,Medical,Mumbai,Approved,0
+LN01290,11-12-2025,39,Unemployed,168863,136211,24,578,1,Business,Kolkata,Rejected,0
+LN01291,22-05-2025,56,Salaried,237964,307172,48,705,1,Medical,Pune,Approved,0
+LN01292,22-10-2024,49,Self-Employed,863248,1142082,60,720,1,Business,Pune,Approved,0
+LN01293,09-11-2025,38,Self-Employed,409447,295589,36,532,3,Home Renovation,Hyderabad,Defaulted,1
+LN01294,14-02-2025,22,Self-Employed,497911,418699,12,733,2,Vehicle,Delhi,Closed,0
+LN01295,13-04-2026,21,Salaried,326408,419714,24,739,0,Vehicle,Chennai,Approved,0
+LN01296,17-02-2026,67,Salaried,937187,1112795,24,805,0,Education,Pune,Approved,0
+LN01297,17-07-2025,25,Self-Employed,665952,202464,36,763,1,Education,Kolkata,Closed,0
+LN01298,07-02-2024,40,Retired,633775,413262,12,777,0,Medical,Kolkata,Closed,0
+LN01299,10-04-2025,31,Self-Employed,1725846,1318462,60,577,0,Business,Ahmedabad,Approved,0
+LN01300,31-03-2024,62,Self-Employed,391414,216329,24,555,1,Education,Ahmedabad,Rejected,0
+LN01301,18-11-2024,22,Salaried,438192,227653,60,847,1,Home Renovation,Mumbai,Closed,0
+LN01302,15-09-2024,23,Self-Employed,392728,134141,48,712,5,Vehicle,Mumbai,Approved,0
+LN01303,27-11-2024,43,Salaried,367667,370500,48,569,0,Business,Pune,Defaulted,1
+LN01304,28-04-2024,32,Retired,457968,269633,36,551,0,Vehicle,Pune,Rejected,0
+LN01305,02-03-2026,40,Retired,320934,114760,36,617,0,Business,Bangalore,Defaulted,1
+LN01306,17-02-2025,25,Self-Employed,951136,527002,36,562,1,Education,Kolkata,Approved,0
+LN01307,10-06-2025,57,Unemployed,145830,172386,36,524,0,Education,Hyderabad,Rejected,0
+LN01308,24-04-2026,58,Salaried,460298,569222,36,829,2,Medical,Delhi,Closed,0
+LN01309,02-01-2024,50,Self-Employed,827910,688301,60,566,0,Business,Delhi,Approved,0
+LN01310,04-11-2025,29,Salaried,628308,476054,48,789,1,Home Renovation,Ahmedabad,Closed,0
+LN01311,09-07-2025,54,Retired,618444,850755,48,830,3,Education,Delhi,Approved,0
+LN01312,18-04-2025,64,Salaried,460300,239641,60,582,0,Medical,Kolkata,Approved,0
+LN01313,27-02-2025,55,Self-Employed,1344002,721588,24,538,1,Education,Mumbai,Approved,0
+LN01314,25-02-2024,42,Retired,615391,382190,12,620,1,Vehicle,Hyderabad,Rejected,0
+LN01315,11-07-2024,64,Salaried,492141,241165,36,556,2,Education,Delhi,Defaulted,1
+LN01316,14-06-2025,44,Salaried,479163,343704,36,626,1,Business,Kolkata,Closed,0
+LN01317,05-01-2025,37,Self-Employed,729690,949996,48,611,1,Medical,Chennai,Closed,0
+LN01318,29-09-2025,30,Self-Employed,456542,445987,36,827,2,Business,Pune,Approved,0
+LN01319,13-02-2026,50,Salaried,828417,623914,36,704,1,Home Renovation,Bangalore,Closed,0
+LN01320,25-05-2025,66,Salaried,288001,382422,36,735,1,Home Renovation,Bangalore,Closed,0
+LN01321,02-10-2025,43,Salaried,608895,215129,12,547,0,Education,Delhi,Rejected,0
+LN01322,28-03-2025,52,Retired,357041,189697,36,555,2,Medical,Mumbai,Rejected,0
+LN01323,17-02-2026,37,Self-Employed,1550631,1430422,48,839,3,Medical,Bangalore,Approved,0
+LN01324,22-02-2024,37,Salaried,160028,156364,24,537,5,Medical,Bangalore,Closed,0
+LN01325,27-07-2024,34,Salaried,675837,232158,36,715,4,Medical,Ahmedabad,Rejected,0
+LN01326,30-09-2024,29,Salaried,624080,463905,36,597,2,Education,Bangalore,Approved,0
+LN01327,16-07-2025,60,Salaried,604394,612897,24,686,2,Business,Bangalore,Closed,0
+LN01328,14-05-2024,22,Salaried,539423,576037,24,609,2,Education,Delhi,Defaulted,1
+LN01329,21-10-2024,65,Salaried,546623,547691,60,783,1,Business,Ahmedabad,Approved,0
+LN01330,24-03-2025,45,Salaried,871013,568440,24,727,1,Vehicle,Kolkata,Closed,0
+LN01331,16-12-2025,59,Self-Employed,887985,357744,24,731,0,Vehicle,Hyderabad,Rejected,0
+LN01332,11-05-2025,29,Salaried,539073,414991,24,790,0,Business,Hyderabad,Closed,0
+LN01333,04-05-2024,42,Self-Employed,1235096,545455,36,782,2,Education,Mumbai,Approved,0
+LN01334,30-01-2024,63,Self-Employed,830608,1114996,36,792,1,Home Renovation,Kolkata,Approved,0
+LN01335,07-10-2025,66,Self-Employed,875423,720199,36,733,0,Education,Pune,Approved,0
+LN01336,15-09-2025,24,Self-Employed,1842935,1196037,12,583,0,Home Renovation,Chennai,Rejected,0
+LN01337,29-03-2026,46,Self-Employed,519714,593999,60,531,3,Education,Hyderabad,Rejected,0
+LN01338,02-09-2024,49,Retired,642818,544944,24,729,2,Medical,Chennai,Closed,0
+LN01339,27-12-2025,65,Self-Employed,286748,183816,24,831,1,Medical,Hyderabad,Approved,0
+LN01340,11-06-2024,54,Self-Employed,429461,512417,36,693,1,Vehicle,Ahmedabad,Approved,0
+LN01341,14-11-2024,43,Retired,657487,824401,24,775,1,Vehicle,Hyderabad,Closed,0
+LN01342,18-07-2025,57,Self-Employed,375590,390729,60,620,0,Business,Ahmedabad,Rejected,0
+LN01343,15-01-2024,31,Salaried,520319,182975,60,535,1,Home Renovation,Ahmedabad,Defaulted,1
+LN01344,19-07-2025,26,Salaried,667486,616059,24,716,2,Medical,Mumbai,Closed,0
+LN01345,21-02-2025,38,Salaried,1007335,1147983,60,777,1,Education,Bangalore,Closed,0
+LN01346,05-04-2024,41,Retired,332203,149542,48,763,1,Business,Mumbai,Closed,0
+LN01347,18-08-2024,62,Self-Employed,721336,397844,60,768,0,Education,Ahmedabad,Closed,0
+LN01348,11-05-2026,56,Unemployed,292448,371626,24,504,1,Medical,Ahmedabad,Rejected,0
+LN01349,26-04-2024,61,Self-Employed,614618,197989,36,701,0,Medical,Hyderabad,Closed,0
+LN01350,17-04-2025,58,Self-Employed,308078,347511,24,674,1,Medical,Kolkata,Closed,0
+LN01351,30-04-2024,54,Salaried,173832,142742,48,806,1,Medical,Bangalore,Approved,0
+LN01352,25-10-2025,37,Self-Employed,496195,392713,12,688,3,Education,Kolkata,Approved,0
+LN01353,02-05-2026,57,Self-Employed,159659,50000,36,566,1,Business,Kolkata,Approved,0
+LN01354,06-06-2024,45,Unemployed,110056,132214,24,442,0,Medical,Kolkata,Rejected,0
+LN01355,25-05-2025,58,Salaried,616058,428657,24,840,1,Vehicle,Bangalore,Approved,0
+LN01356,03-01-2026,32,Self-Employed,358443,320749,36,825,2,Business,Kolkata,Approved,0
+LN01357,25-10-2024,43,Self-Employed,1240324,1296176,60,740,0,Vehicle,Bangalore,Approved,0
+LN01358,05-06-2025,62,Self-Employed,713933,765973,36,520,2,Education,Chennai,Rejected,0
+LN01359,23-12-2025,42,Self-Employed,480334,649208,60,719,3,Medical,Ahmedabad,Closed,0
+LN01360,06-10-2024,41,Self-Employed,473405,418714,24,663,0,Business,Pune,Approved,0
+LN01361,01-03-2025,47,Salaried,262351,194058,36,547,2,Medical,Hyderabad,Closed,0
+LN01362,04-05-2026,51,Self-Employed,491444,662994,36,797,3,Medical,Delhi,Approved,0
+LN01363,09-05-2025,26,Self-Employed,570791,574399,12,560,1,Business,Kolkata,Approved,0
+LN01364,28-04-2025,47,Retired,506228,317893,36,666,2,Medical,Mumbai,Approved,0
+LN01365,06-09-2024,60,Retired,451528,198270,36,697,0,Medical,Chennai,Closed,0
+LN01366,12-04-2025,54,Salaried,487394,597939,36,834,0,Home Renovation,Mumbai,Closed,0
+LN01367,18-07-2025,32,Salaried,443731,309901,48,844,2,Home Renovation,Delhi,Approved,0
+LN01368,28-05-2024,65,Unemployed,165069,169446,36,561,2,Business,Bangalore,Rejected,0
+LN01369,27-01-2025,27,Self-Employed,491039,401619,12,686,4,Business,Delhi,Approved,0
+LN01370,14-07-2024,30,Retired,411040,213256,24,642,0,Medical,Mumbai,Defaulted,1
+LN01371,05-09-2025,65,Salaried,790826,760660,36,593,1,Vehicle,Ahmedabad,Defaulted,1
+LN01372,04-06-2025,37,Self-Employed,950267,348511,24,758,0,Business,Ahmedabad,Closed,0
+LN01373,03-02-2026,46,Retired,449316,339088,12,768,0,Medical,Delhi,Closed,0
+LN01374,19-05-2024,41,Unemployed,286497,258212,36,406,1,Vehicle,Ahmedabad,Defaulted,1
+LN01375,12-03-2024,48,Salaried,340029,265104,36,771,1,Home Renovation,Hyderabad,Closed,0
+LN01376,09-10-2024,66,Self-Employed,712787,800844,24,630,0,Business,Delhi,Closed,0
+LN01377,02-03-2026,22,Self-Employed,1141512,1382048,48,699,0,Medical,Kolkata,Rejected,0
+LN01378,19-03-2026,63,Salaried,261555,300361,36,707,1,Home Renovation,Hyderabad,Closed,0
+LN01379,24-05-2026,21,Self-Employed,719828,246680,24,827,5,Education,Kolkata,Closed,0
+LN01380,28-02-2025,56,Self-Employed,360932,185353,48,726,2,Home Renovation,Pune,Closed,0
+LN01381,14-12-2024,46,Unemployed,339264,302035,36,633,0,Medical,Pune,Closed,0
+LN01382,17-03-2026,49,Self-Employed,292930,389100,36,543,3,Vehicle,Delhi,Rejected,0
+LN01383,03-06-2025,41,Salaried,1631629,1988062,36,545,2,Education,Hyderabad,Approved,0
+LN01384,30-09-2024,31,Salaried,503385,617546,12,737,3,Education,Ahmedabad,Approved,0
+LN01385,20-04-2026,60,Salaried,369463,234065,36,529,0,Education,Hyderabad,Rejected,0
+LN01386,03-01-2024,31,Salaried,513839,396885,24,536,1,Business,Pune,Closed,0
+LN01387,16-10-2024,56,Self-Employed,656900,537197,60,764,3,Medical,Delhi,Approved,0
+LN01388,13-01-2026,59,Salaried,199772,94513,48,725,0,Education,Chennai,Defaulted,1
+LN01389,01-11-2024,60,Unemployed,203627,68047,36,401,3,Home Renovation,Bangalore,Rejected,0
+LN01390,07-05-2026,55,Unemployed,303988,407828,24,511,3,Vehicle,Bangalore,Defaulted,1
+LN01391,24-08-2025,54,Self-Employed,1932484,1091435,24,724,5,Medical,Bangalore,Approved,0
+LN01392,16-08-2025,67,Unemployed,228925,129100,24,426,0,Home Renovation,Ahmedabad,Defaulted,1
+LN01393,06-11-2025,44,Self-Employed,614888,240862,36,590,0,Business,Hyderabad,Closed,0
+LN01394,16-05-2025,42,Self-Employed,637147,841899,24,695,0,Education,Ahmedabad,Closed,0
+LN01395,01-06-2024,25,Salaried,622395,583626,36,721,4,Home Renovation,Pune,Approved,0
+LN01396,02-04-2025,53,Self-Employed,197230,203884,24,767,0,Medical,Bangalore,Approved,0
+LN01397,05-07-2025,56,Self-Employed,603699,786459,60,637,1,Home Renovation,Pune,Closed,0
+LN01398,10-05-2025,67,Retired,261049,177560,24,528,1,Business,Hyderabad,Rejected,0
+LN01399,19-12-2024,40,Self-Employed,243789,239805,60,605,1,Vehicle,Pune,Defaulted,1
+LN01400,06-12-2024,39,Retired,559835,191843,60,542,0,Education,Chennai,Defaulted,1
+LN01401,19-07-2025,55,Self-Employed,860858,435120,36,759,1,Medical,Ahmedabad,Defaulted,1
+LN01402,20-02-2026,63,Salaried,383269,465430,48,592,3,Education,Delhi,Closed,0
+LN01403,10-07-2025,37,Unemployed,259834,297105,36,426,0,Education,Pune,Approved,0
+LN01404,21-01-2025,65,Self-Employed,1186808,813802,36,600,3,Education,Pune,Rejected,0
+LN01405,11-04-2025,63,Salaried,614136,438795,24,603,2,Home Renovation,Delhi,Approved,0
+LN01406,25-11-2024,54,Self-Employed,845743,750097,24,718,2,Home Renovation,Hyderabad,Approved,0
+LN01407,12-07-2024,29,Salaried,231263,69440,36,562,2,Vehicle,Hyderabad,Approved,0
+LN01408,15-12-2025,46,Self-Employed,1175282,664467,36,782,0,Business,Ahmedabad,Approved,0
+LN01409,01-09-2024,22,Self-Employed,483297,255690,36,611,1,Medical,Pune,Approved,0
+LN01410,08-08-2025,29,Salaried,501207,288460,24,603,2,Home Renovation,Chennai,Approved,0
+LN01411,27-01-2025,29,Unemployed,146117,173367,24,443,0,Education,Bangalore,Rejected,0
+LN01412,27-08-2024,60,Self-Employed,486083,295364,12,815,1,Business,Chennai,Approved,0
+LN01413,26-05-2026,37,Salaried,461147,235495,12,654,0,Medical,Delhi,Approved,0
+LN01414,05-03-2026,21,Self-Employed,1652811,1412640,24,800,2,Medical,Delhi,Closed,0
+LN01415,24-02-2025,45,Retired,391753,490556,12,578,1,Medical,Kolkata,Rejected,0
+LN01416,14-02-2024,63,Salaried,319927,180913,24,760,1,Medical,Bangalore,Defaulted,1
+LN01417,21-11-2024,60,Salaried,307561,118838,48,617,0,Vehicle,Pune,Closed,0
+LN01418,01-02-2026,62,Salaried,1440261,996725,12,581,5,Medical,Delhi,Closed,0
+LN01419,29-04-2025,45,Salaried,410472,460720,36,783,0,Business,Kolkata,Approved,0
+LN01420,23-12-2025,59,Retired,605398,548345,24,632,2,Home Renovation,Hyderabad,Approved,0
+LN01421,10-04-2026,55,Self-Employed,2405771,2883250,60,665,1,Business,Delhi,Approved,0
+LN01422,25-01-2025,23,Salaried,558878,757587,36,735,2,Education,Mumbai,Approved,0
+LN01423,30-01-2025,57,Self-Employed,1609887,1886672,24,775,0,Vehicle,Bangalore,Defaulted,1
+LN01424,10-11-2025,64,Salaried,364222,351176,36,835,2,Vehicle,Kolkata,Approved,0
+LN01425,22-03-2026,64,Unemployed,143785,121164,24,459,1,Education,Bangalore,Rejected,0
+LN01426,20-04-2026,50,Unemployed,142344,50000,36,505,1,Business,Bangalore,Rejected,0
+LN01427,29-10-2025,58,Salaried,321644,444754,24,777,2,Business,Mumbai,Closed,0
+LN01428,04-06-2024,54,Retired,496060,358070,60,713,2,Education,Chennai,Approved,0
+LN01429,22-05-2025,32,Self-Employed,414876,193934,36,533,2,Medical,Hyderabad,Closed,0
+LN01430,07-02-2024,39,Salaried,435711,450254,24,823,3,Medical,Bangalore,Approved,0
+LN01431,09-05-2024,57,Salaried,168685,103356,48,622,0,Home Renovation,Delhi,Closed,0
+LN01432,29-05-2025,64,Self-Employed,976113,921798,24,764,3,Business,Ahmedabad,Approved,0
+LN01433,27-08-2025,37,Self-Employed,1296181,1225467,48,764,0,Business,Hyderabad,Approved,0
+LN01434,05-12-2024,30,Unemployed,292288,230996,36,455,2,Education,Delhi,Rejected,0
+LN01435,12-04-2024,67,Self-Employed,847376,1033570,48,787,1,Education,Hyderabad,Closed,0
+LN01436,15-05-2026,32,Retired,275739,163089,24,743,1,Medical,Pune,Closed,0
+LN01437,26-03-2025,36,Self-Employed,675557,536051,48,739,0,Business,Hyderabad,Closed,0
+LN01438,12-04-2024,44,Retired,270045,240734,48,830,1,Business,Kolkata,Approved,0
+LN01439,22-06-2025,39,Self-Employed,892755,919526,24,736,0,Vehicle,Delhi,Approved,0
+LN01440,12-04-2025,28,Salaried,418364,486293,24,523,1,Home Renovation,Ahmedabad,Rejected,0
+LN01441,16-01-2024,51,Self-Employed,272021,199741,24,555,0,Home Renovation,Delhi,Closed,0
+LN01442,09-01-2026,41,Retired,407977,412322,60,697,1,Medical,Pune,Approved,0
+LN01443,27-05-2024,37,Salaried,141781,66023,24,776,0,Business,Hyderabad,Approved,0
+LN01444,23-02-2025,43,Retired,555063,735965,36,536,0,Vehicle,Bangalore,Rejected,0
+LN01445,01-11-2025,57,Salaried,591639,426787,12,718,0,Business,Ahmedabad,Closed,0
+LN01446,07-06-2024,36,Self-Employed,998465,1100781,24,837,1,Education,Delhi,Closed,0
+LN01447,17-03-2024,26,Retired,724365,233517,36,567,3,Medical,Pune,Approved,0
+LN01448,25-04-2025,28,Salaried,286542,150636,60,581,3,Home Renovation,Ahmedabad,Closed,0
+LN01449,11-03-2026,45,Salaried,589919,493048,36,588,0,Business,Mumbai,Approved,0
+LN01450,28-09-2024,38,Salaried,367668,465496,48,666,2,Medical,Mumbai,Closed,0
+LN01451,12-12-2024,45,Retired,382371,336479,36,681,2,Home Renovation,Hyderabad,Approved,0
+LN01452,30-09-2025,32,Salaried,661449,875002,12,746,1,Business,Chennai,Approved,0
+LN01453,10-12-2025,35,Retired,462235,384661,24,749,2,Vehicle,Hyderabad,Closed,0
+LN01454,11-02-2025,46,Salaried,972489,816398,36,697,0,Medical,Pune,Closed,0
+LN01455,27-10-2025,61,Unemployed,347831,150166,60,488,1,Business,Hyderabad,Rejected,0
+LN01456,23-03-2024,65,Unemployed,228561,270369,60,553,1,Home Renovation,Bangalore,Rejected,0
+LN01457,22-05-2026,46,Self-Employed,574744,328559,24,575,0,Home Renovation,Bangalore,Closed,0
+LN01458,02-12-2024,67,Self-Employed,1204875,1553775,24,597,2,Vehicle,Kolkata,Defaulted,1
+LN01459,22-05-2026,52,Self-Employed,823407,1071999,24,789,1,Medical,Pune,Closed,0
+LN01460,21-11-2025,30,Self-Employed,599268,801605,60,725,0,Medical,Chennai,Defaulted,1
+LN01461,29-05-2026,36,Salaried,366469,319653,60,800,1,Business,Ahmedabad,Approved,0
+LN01462,30-06-2025,27,Salaried,2535663,2649268,48,747,2,Home Renovation,Pune,Closed,0
+LN01463,24-01-2025,37,Salaried,575390,665362,24,758,3,Home Renovation,Pune,Closed,0
+LN01464,20-11-2024,43,Salaried,796508,353742,36,807,2,Vehicle,Chennai,Approved,0
+LN01465,03-10-2025,46,Salaried,308560,296542,36,601,1,Vehicle,Pune,Approved,0
+LN01466,05-01-2026,41,Self-Employed,480272,162201,24,769,1,Medical,Chennai,Closed,0
+LN01467,16-02-2026,42,Unemployed,160111,135665,36,592,1,Home Renovation,Chennai,Closed,0
+LN01468,14-05-2025,27,Salaried,406159,191027,12,625,0,Business,Chennai,Rejected,0
+LN01469,08-07-2025,34,Self-Employed,1090787,546719,24,708,1,Education,Pune,Closed,0
+LN01470,06-02-2024,35,Salaried,622770,436905,60,795,1,Business,Pune,Closed,0
+LN01471,24-09-2025,27,Retired,486042,377013,48,593,1,Vehicle,Hyderabad,Closed,0
+LN01472,11-03-2024,29,Retired,561438,553291,36,529,4,Business,Pune,Rejected,0
+LN01473,28-08-2024,28,Retired,459087,175312,36,642,2,Home Renovation,Hyderabad,Closed,0
+LN01474,08-10-2025,43,Unemployed,255250,217999,24,615,0,Medical,Kolkata,Rejected,0
+LN01475,01-12-2025,49,Salaried,592842,296947,48,809,0,Education,Mumbai,Rejected,0
+LN01476,21-10-2024,38,Retired,655881,610869,48,559,0,Medical,Mumbai,Approved,0
+LN01477,20-08-2024,51,Self-Employed,1037948,1039136,48,712,2,Education,Kolkata,Approved,0
+LN01478,03-02-2026,50,Salaried,664929,606668,48,646,2,Education,Kolkata,Approved,0
+LN01479,02-04-2024,59,Unemployed,205720,228786,24,432,5,Home Renovation,Delhi,Rejected,0
+LN01480,20-03-2025,55,Salaried,289123,193472,24,590,1,Home Renovation,Hyderabad,Closed,0
+LN01481,10-04-2024,38,Self-Employed,878792,1003244,36,656,3,Vehicle,Chennai,Closed,0
+LN01482,17-02-2026,62,Salaried,649245,503842,24,663,1,Vehicle,Ahmedabad,Approved,0
+LN01483,10-10-2025,59,Salaried,210128,174953,48,818,3,Education,Delhi,Closed,0
+LN01484,21-12-2025,37,Self-Employed,827192,837872,24,788,2,Vehicle,Bangalore,Closed,0
+LN01485,12-04-2024,34,Self-Employed,1071057,342946,24,658,2,Home Renovation,Hyderabad,Defaulted,1
+LN01486,30-03-2025,51,Salaried,637234,649592,24,571,1,Vehicle,Pune,Approved,0
+LN01487,19-06-2024,44,Salaried,470820,461612,60,536,2,Education,Kolkata,Closed,0
+LN01488,11-12-2025,55,Retired,279709,179246,24,684,1,Medical,Mumbai,Approved,0
+LN01489,02-11-2024,64,Salaried,319171,125872,36,532,0,Business,Hyderabad,Approved,0
+LN01490,30-01-2024,65,Salaried,642072,256847,36,709,0,Vehicle,Kolkata,Closed,0
+LN01491,17-02-2024,54,Retired,522502,687375,12,783,1,Home Renovation,Ahmedabad,Closed,0
+LN01492,28-11-2024,23,Retired,744829,788183,36,831,1,Medical,Ahmedabad,Approved,0
+LN01493,26-03-2026,57,Salaried,883311,388491,48,740,0,Home Renovation,Hyderabad,Rejected,0
+LN01494,27-02-2024,63,Self-Employed,709572,491304,36,623,0,Vehicle,Pune,Rejected,0
+LN01495,27-10-2024,60,Retired,514080,489266,60,717,0,Education,Hyderabad,Closed,0
+LN01496,02-01-2025,46,Retired,624416,761243,24,819,1,Business,Pune,Closed,0
+LN01497,18-01-2025,43,Self-Employed,908049,316025,12,688,0,Business,Hyderabad,Approved,0
+LN01498,17-03-2025,64,Salaried,624405,349851,60,668,0,Medical,Bangalore,Closed,0
+LN01499,29-05-2024,59,Salaried,357633,457313,24,768,0,Business,Mumbai,Approved,0
+LN01500,07-09-2024,35,Salaried,482857,149725,36,775,0,Education,Hyderabad,Closed,0
+LN01501,27-06-2025,24,Self-Employed,891738,465076,48,561,3,Home Renovation,Kolkata,Approved,0
+LN01502,25-02-2025,49,Salaried,332282,450217,24,721,0,Education,Bangalore,Approved,0
+LN01503,02-08-2025,42,Self-Employed,901147,878385,48,763,2,Medical,Ahmedabad,Closed,0
+LN01504,29-11-2025,45,Salaried,559870,329113,24,676,1,Medical,Delhi,Approved,0
+LN01505,22-03-2026,33,Salaried,311875,116544,24,805,5,Business,Hyderabad,Approved,0
+LN01506,03-07-2024,38,Retired,580763,192238,24,801,0,Education,Pune,Approved,0
+LN01507,23-06-2024,53,Self-Employed,744812,423961,48,757,0,Home Renovation,Bangalore,Closed,0
+LN01508,28-06-2024,36,Salaried,614035,779599,24,538,0,Education,Chennai,Closed,0
+LN01509,21-03-2024,65,Retired,279063,211391,48,572,0,Home Renovation,Delhi,Approved,0
+LN01510,16-09-2025,62,Salaried,937795,1024416,60,604,2,Home Renovation,Mumbai,Approved,0
+LN01511,26-01-2025,64,Self-Employed,606573,794679,36,792,0,Education,Hyderabad,Approved,0
+LN01512,26-09-2025,22,Self-Employed,212587,159194,36,732,0,Vehicle,Hyderabad,Approved,0
+LN01513,30-11-2025,55,Salaried,239486,122234,36,623,3,Education,Bangalore,Rejected,0
+LN01514,03-09-2024,62,Retired,326411,283595,24,711,1,Home Renovation,Ahmedabad,Approved,0
+LN01515,24-05-2025,54,Self-Employed,458337,595330,36,696,0,Medical,Mumbai,Approved,0
+LN01516,20-08-2025,50,Self-Employed,303530,359625,36,666,0,Medical,Chennai,Approved,0
+LN01517,26-05-2024,33,Salaried,509192,189629,60,600,0,Business,Delhi,Approved,0
+LN01518,25-08-2024,33,Salaried,386598,410501,60,712,4,Medical,Kolkata,Approved,0
+LN01519,17-04-2025,38,Unemployed,113004,104990,60,436,3,Vehicle,Mumbai,Defaulted,1
+LN01520,15-10-2025,52,Salaried,614211,797374,60,845,3,Home Renovation,Hyderabad,Approved,0
+LN01521,17-09-2024,52,Self-Employed,713439,310153,36,673,4,Education,Bangalore,Approved,0
+LN01522,15-04-2025,55,Self-Employed,174089,154493,36,649,1,Education,Chennai,Closed,0
+LN01523,18-09-2024,59,Self-Employed,835600,1059046,60,578,0,Vehicle,Bangalore,Approved,0
+LN01524,13-11-2025,66,Salaried,643645,483394,24,743,1,Medical,Delhi,Closed,0
+LN01525,10-01-2024,49,Salaried,417386,346511,60,768,2,Home Renovation,Pune,Approved,0
+LN01526,03-04-2026,49,Self-Employed,776449,293114,36,759,3,Medical,Pune,Approved,0
+LN01527,21-04-2025,64,Salaried,247281,149841,36,812,1,Business,Mumbai,Closed,0
+LN01528,21-10-2024,36,Salaried,340959,223995,48,806,1,Medical,Bangalore,Approved,0
+LN01529,24-11-2025,64,Salaried,690003,924351,60,723,4,Business,Kolkata,Closed,0
+LN01530,13-07-2025,67,Salaried,615422,375982,24,618,0,Education,Kolkata,Closed,0
+LN01531,10-06-2024,30,Retired,520012,419626,48,695,3,Home Renovation,Pune,Closed,0
+LN01532,16-03-2024,50,Salaried,191948,199325,36,781,0,Business,Pune,Closed,0
+LN01533,28-03-2025,45,Salaried,423312,202513,24,790,1,Medical,Bangalore,Closed,0
+LN01534,19-12-2024,59,Salaried,1024300,855379,48,662,0,Medical,Ahmedabad,Closed,0
+LN01535,24-08-2025,40,Self-Employed,804805,895259,36,708,2,Education,Hyderabad,Closed,0
+LN01536,02-11-2024,25,Self-Employed,410478,514550,36,791,1,Vehicle,Bangalore,Approved,0
+LN01537,16-10-2025,21,Salaried,482124,476765,24,539,1,Vehicle,Chennai,Closed,0
+LN01538,10-03-2025,50,Self-Employed,666575,690544,36,819,3,Medical,Mumbai,Approved,0
+LN01539,07-12-2025,23,Self-Employed,855932,375678,36,565,2,Vehicle,Delhi,Approved,0
+LN01540,13-09-2024,65,Retired,466916,625832,36,614,2,Home Renovation,Ahmedabad,Rejected,0
+LN01541,12-04-2025,34,Retired,682184,304139,24,583,0,Vehicle,Kolkata,Approved,0
+LN01542,15-05-2026,50,Salaried,467434,538549,60,650,3,Home Renovation,Ahmedabad,Approved,0
+LN01543,05-11-2024,24,Salaried,238461,141001,36,528,0,Medical,Bangalore,Defaulted,1
+LN01544,22-07-2024,38,Salaried,347254,460789,48,722,0,Medical,Chennai,Approved,0
+LN01545,28-01-2025,57,Salaried,461837,504305,36,817,0,Medical,Ahmedabad,Approved,0
+LN01546,23-05-2026,45,Unemployed,176840,199686,24,573,1,Education,Pune,Rejected,0
+LN01547,09-05-2025,21,Salaried,836404,452465,36,592,3,Vehicle,Kolkata,Closed,0
+LN01548,19-04-2024,66,Salaried,457225,359993,36,603,0,Business,Ahmedabad,Rejected,0
+LN01549,30-08-2024,35,Self-Employed,552884,541602,36,578,1,Business,Kolkata,Closed,0
+LN01550,25-01-2025,29,Self-Employed,499195,572562,36,540,3,Medical,Delhi,Closed,0
+LN01551,08-08-2025,35,Salaried,405367,167965,36,676,2,Vehicle,Kolkata,Closed,0
+LN01552,02-01-2025,44,Salaried,809284,1099494,24,838,2,Home Renovation,Ahmedabad,Approved,0
+LN01553,11-08-2025,24,Salaried,483143,618057,36,848,0,Business,Chennai,Closed,0
+LN01554,29-10-2024,32,Self-Employed,812555,485406,24,580,2,Medical,Kolkata,Defaulted,1
+LN01555,17-12-2025,57,Salaried,400751,482919,24,583,0,Business,Kolkata,Closed,0
+LN01556,29-10-2024,57,Salaried,885919,770888,60,844,5,Business,Bangalore,Approved,0
+LN01557,23-01-2024,63,Self-Employed,231513,187059,36,687,1,Business,Bangalore,Approved,0
+LN01558,29-04-2026,26,Salaried,282310,182337,36,722,2,Medical,Pune,Closed,0
+LN01559,05-11-2025,59,Self-Employed,813288,763730,36,648,0,Medical,Mumbai,Approved,0
+LN01560,09-02-2025,66,Self-Employed,1728623,1906460,60,764,0,Education,Hyderabad,Approved,0
+LN01561,08-10-2024,44,Salaried,441840,332275,36,625,0,Education,Chennai,Rejected,0
+LN01562,09-01-2024,31,Unemployed,147939,146776,48,464,1,Education,Hyderabad,Rejected,0
+LN01563,02-08-2025,33,Self-Employed,415274,444029,24,641,0,Business,Hyderabad,Approved,0
+LN01564,03-12-2025,54,Salaried,1298176,1404930,60,837,2,Vehicle,Kolkata,Closed,0
+LN01565,07-03-2026,45,Self-Employed,301635,107732,48,701,0,Medical,Ahmedabad,Approved,0
+LN01566,01-02-2026,27,Self-Employed,238347,296914,60,622,2,Education,Pune,Rejected,0
+LN01567,20-02-2024,24,Self-Employed,1015583,816608,24,835,0,Vehicle,Delhi,Closed,0
+LN01568,12-09-2025,28,Salaried,360270,212075,24,821,0,Education,Ahmedabad,Approved,0
+LN01569,02-02-2026,40,Unemployed,253499,143465,24,404,2,Education,Ahmedabad,Defaulted,1
+LN01570,23-05-2025,49,Salaried,423705,352232,24,632,2,Vehicle,Delhi,Approved,0
+LN01571,02-05-2026,65,Salaried,389874,497290,60,589,1,Education,Kolkata,Defaulted,1
+LN01572,20-10-2024,66,Salaried,259054,185529,12,679,0,Business,Pune,Approved,0
+LN01573,05-03-2026,30,Salaried,672105,755915,12,759,2,Business,Chennai,Approved,0
+LN01574,29-03-2026,63,Retired,483996,196744,24,530,1,Business,Hyderabad,Approved,0
+LN01575,23-08-2024,54,Salaried,1684349,1387334,24,657,0,Home Renovation,Mumbai,Approved,0
+LN01576,13-09-2025,46,Salaried,302882,421264,24,686,2,Education,Pune,Closed,0
+LN01577,01-04-2026,61,Retired,392226,450072,48,766,1,Home Renovation,Hyderabad,Closed,0
+LN01578,26-12-2024,23,Salaried,765163,406746,36,550,0,Medical,Delhi,Rejected,0
+LN01579,12-08-2024,26,Salaried,292420,249020,12,531,3,Vehicle,Hyderabad,Approved,0
+LN01580,13-10-2025,25,Salaried,769409,428550,36,762,2,Medical,Bangalore,Approved,0
+LN01581,13-07-2024,25,Salaried,365221,274104,36,627,0,Home Renovation,Bangalore,Closed,0
+LN01582,27-09-2025,67,Salaried,337410,390751,24,842,1,Business,Mumbai,Approved,0
+LN01583,13-09-2024,43,Self-Employed,391376,449435,36,713,0,Education,Chennai,Closed,0
+LN01584,25-11-2025,29,Salaried,447124,246325,48,827,3,Education,Hyderabad,Closed,0
+LN01585,12-02-2026,55,Salaried,530925,697872,48,652,2,Business,Bangalore,Approved,0
+LN01586,08-01-2026,40,Self-Employed,328402,312581,48,800,0,Education,Chennai,Closed,0
+LN01587,24-02-2026,62,Self-Employed,367689,263970,12,810,0,Vehicle,Pune,Closed,0
+LN01588,06-11-2025,55,Salaried,357711,304815,60,682,0,Vehicle,Pune,Closed,0
+LN01589,28-11-2025,38,Self-Employed,390333,376897,48,797,1,Vehicle,Bangalore,Approved,0
+LN01590,08-05-2026,37,Salaried,497097,455280,60,722,2,Medical,Chennai,Approved,0
+LN01591,20-05-2024,44,Self-Employed,805059,672260,12,615,0,Business,Chennai,Approved,0
+LN01592,05-10-2025,23,Self-Employed,746484,638561,60,742,0,Vehicle,Bangalore,Approved,0
+LN01593,09-04-2024,52,Salaried,541121,267342,48,756,0,Home Renovation,Kolkata,Approved,0
+LN01594,04-10-2025,55,Retired,559732,668323,48,636,0,Vehicle,Delhi,Rejected,0
+LN01595,23-10-2025,58,Salaried,1037107,929181,12,711,1,Medical,Chennai,Closed,0
+LN01596,10-02-2024,33,Self-Employed,439797,195352,48,795,1,Home Renovation,Pune,Closed,0
+LN01597,12-11-2024,67,Salaried,530493,606232,60,625,2,Business,Kolkata,Approved,0
+LN01598,18-03-2026,45,Self-Employed,850134,1127012,36,523,4,Business,Hyderabad,Defaulted,1
+LN01599,27-03-2025,29,Self-Employed,734660,985941,36,537,4,Vehicle,Kolkata,Approved,0
+LN01600,04-02-2024,24,Retired,695527,490986,60,826,1,Home Renovation,Bangalore,Closed,0
+LN01601,16-08-2025,34,Salaried,432189,194082,36,539,2,Home Renovation,Kolkata,Defaulted,1
+LN01602,08-01-2025,57,Self-Employed,627807,546342,36,641,4,Vehicle,Delhi,Rejected,0
+LN01603,19-01-2026,54,Self-Employed,1010310,428240,36,656,0,Vehicle,Bangalore,Defaulted,1
+LN01604,14-05-2024,31,Self-Employed,933809,1239525,60,599,0,Education,Mumbai,Closed,0
+LN01605,02-04-2024,61,Self-Employed,710901,356827,12,673,0,Education,Hyderabad,Approved,0
+LN01606,29-10-2024,23,Self-Employed,335959,194198,36,544,1,Vehicle,Pune,Approved,0
+LN01607,30-11-2024,48,Salaried,644272,481464,36,688,2,Medical,Mumbai,Approved,0
+LN01608,04-02-2026,49,Salaried,331826,239406,48,578,1,Education,Kolkata,Approved,0
+LN01609,01-03-2025,29,Self-Employed,398816,468261,36,820,1,Vehicle,Chennai,Closed,0
+LN01610,28-06-2024,23,Salaried,292927,234912,60,560,1,Home Renovation,Kolkata,Approved,0
+LN01611,24-07-2024,45,Unemployed,90654,50000,60,437,0,Education,Ahmedabad,Defaulted,1
+LN01612,15-05-2024,54,Self-Employed,1004533,596623,12,636,0,Medical,Pune,Approved,0
+LN01613,16-03-2026,32,Unemployed,98446,84665,36,418,0,Business,Pune,Rejected,0
+LN01614,06-07-2025,62,Salaried,812050,375328,12,789,0,Home Renovation,Ahmedabad,Rejected,0
+LN01615,09-01-2025,29,Retired,730398,710546,24,646,3,Medical,Chennai,Approved,0
+LN01616,27-06-2025,35,Retired,614271,566555,36,522,3,Medical,Mumbai,Rejected,0
+LN01617,28-05-2025,60,Self-Employed,534706,580782,60,812,3,Medical,Mumbai,Closed,0
+LN01618,06-10-2024,45,Self-Employed,372451,495909,48,535,2,Home Renovation,Chennai,Approved,0
+LN01619,30-04-2026,25,Salaried,659495,859638,24,784,2,Medical,Delhi,Approved,0
+LN01620,17-06-2024,31,Retired,467508,626780,12,758,2,Business,Ahmedabad,Approved,0
+LN01621,20-09-2024,54,Self-Employed,383275,218155,36,782,2,Education,Hyderabad,Closed,0
+LN01622,24-04-2026,44,Salaried,486168,216209,36,653,2,Home Renovation,Bangalore,Closed,0
+LN01623,08-05-2025,35,Salaried,517466,327299,24,732,1,Medical,Ahmedabad,Approved,0
+LN01624,05-04-2026,58,Unemployed,210044,269821,60,414,1,Vehicle,Mumbai,Defaulted,1
+LN01625,29-10-2024,28,Retired,289148,395918,60,847,2,Education,Hyderabad,Approved,0
+LN01626,03-02-2026,25,Unemployed,172928,215339,36,561,0,Home Renovation,Bangalore,Defaulted,1
+LN01627,12-12-2024,46,Self-Employed,562687,236902,60,648,1,Vehicle,Kolkata,Defaulted,1
+LN01628,03-04-2026,38,Salaried,415511,557686,24,641,1,Vehicle,Bangalore,Defaulted,1
+LN01629,27-04-2024,26,Salaried,407044,311671,48,760,0,Medical,Mumbai,Closed,0
+LN01630,24-04-2025,57,Salaried,948016,294113,36,634,5,Home Renovation,Delhi,Closed,0
+LN01631,18-03-2024,33,Salaried,415124,326550,24,716,0,Medical,Delhi,Defaulted,1
+LN01632,24-05-2024,48,Salaried,499994,175335,60,741,0,Business,Hyderabad,Approved,0
+LN01633,11-02-2026,25,Salaried,476182,427737,36,733,0,Vehicle,Kolkata,Closed,0
+LN01634,19-08-2024,33,Salaried,389548,261935,48,599,3,Business,Hyderabad,Approved,0
+LN01635,30-05-2026,37,Unemployed,110836,90971,24,406,1,Medical,Chennai,Approved,0
+LN01636,23-11-2025,60,Salaried,154764,150815,12,654,2,Education,Delhi,Rejected,0
+LN01637,11-01-2026,65,Retired,400259,502597,24,825,3,Vehicle,Hyderabad,Closed,0
+LN01638,21-11-2025,52,Self-Employed,713396,733436,36,761,0,Education,Chennai,Approved,0
+LN01639,10-02-2025,49,Salaried,816514,634801,36,822,0,Home Renovation,Kolkata,Closed,0
+LN01640,16-05-2026,23,Salaried,410728,493436,24,789,0,Vehicle,Pune,Closed,0
+LN01641,03-04-2026,60,Salaried,298230,386547,36,806,2,Business,Bangalore,Closed,0
+LN01642,24-07-2025,54,Salaried,926553,400026,36,569,2,Education,Hyderabad,Approved,0
+LN01643,09-01-2025,60,Self-Employed,620068,548838,48,708,0,Home Renovation,Chennai,Approved,0
+LN01644,02-04-2024,47,Salaried,540203,331124,36,816,0,Vehicle,Delhi,Approved,0
+LN01645,20-03-2026,33,Salaried,852252,299794,60,533,0,Home Renovation,Ahmedabad,Closed,0
+LN01646,08-02-2025,65,Salaried,307312,318191,36,751,2,Business,Bangalore,Approved,0
+LN01647,15-01-2024,53,Unemployed,336983,420907,36,404,0,Vehicle,Hyderabad,Rejected,0
+LN01648,27-09-2024,26,Self-Employed,410581,196747,24,711,0,Home Renovation,Delhi,Approved,0
+LN01649,03-07-2025,44,Self-Employed,270326,322675,24,722,1,Medical,Pune,Approved,0
+LN01650,06-05-2024,39,Salaried,350271,433893,12,780,2,Vehicle,Bangalore,Approved,0
+LN01651,10-04-2025,36,Self-Employed,463075,604671,36,632,2,Vehicle,Mumbai,Defaulted,1
+LN01652,12-01-2025,60,Self-Employed,613594,363133,24,555,1,Vehicle,Delhi,Closed,0
+LN01653,19-11-2025,48,Self-Employed,537716,695991,24,598,2,Vehicle,Mumbai,Approved,0
+LN01654,05-02-2026,53,Unemployed,340070,221973,48,418,1,Medical,Kolkata,Rejected,0
+LN01655,19-11-2025,61,Salaried,843631,765655,24,797,5,Business,Hyderabad,Closed,0
+LN01656,25-09-2024,33,Unemployed,183122,65110,24,561,0,Medical,Pune,Defaulted,1
+LN01657,21-08-2025,63,Retired,365260,127208,24,831,2,Medical,Chennai,Approved,0
+LN01658,25-01-2025,65,Salaried,391634,427825,48,536,1,Home Renovation,Hyderabad,Approved,0
+LN01659,22-04-2026,45,Self-Employed,847993,669005,24,723,0,Education,Delhi,Defaulted,1
+LN01660,15-10-2025,62,Unemployed,226701,131922,36,616,2,Education,Mumbai,Approved,0
+LN01661,15-01-2025,56,Salaried,658944,335702,36,536,0,Home Renovation,Ahmedabad,Approved,0
+LN01662,20-04-2024,47,Self-Employed,455006,471817,36,721,1,Medical,Mumbai,Approved,0
+LN01663,22-11-2025,58,Unemployed,208888,62758,36,619,1,Home Renovation,Bangalore,Approved,0
+LN01664,27-08-2024,27,Self-Employed,361529,428947,48,729,0,Vehicle,Hyderabad,Defaulted,1
+LN01665,27-04-2025,25,Salaried,427650,165575,12,597,1,Home Renovation,Hyderabad,Approved,0
+LN01666,26-01-2024,63,Self-Employed,2714419,1386087,24,575,1,Home Renovation,Delhi,Defaulted,1
+LN01667,26-09-2025,65,Salaried,411943,298601,24,599,2,Vehicle,Ahmedabad,Defaulted,1
+LN01668,28-07-2025,51,Self-Employed,489789,408163,24,825,2,Education,Mumbai,Closed,0
+LN01669,01-12-2024,43,Salaried,592135,408866,24,577,0,Vehicle,Delhi,Approved,0
+LN01670,16-09-2025,62,Self-Employed,588363,384073,24,537,1,Business,Delhi,Approved,0
+LN01671,14-08-2024,30,Self-Employed,434888,591581,36,727,3,Home Renovation,Kolkata,Approved,0
+LN01672,25-10-2025,52,Self-Employed,387064,389284,36,654,0,Home Renovation,Mumbai,Closed,0
+LN01673,05-03-2024,63,Self-Employed,1471823,479484,24,529,1,Education,Delhi,Rejected,0
+LN01674,12-10-2025,50,Self-Employed,348048,269108,48,588,2,Medical,Mumbai,Closed,0
+LN01675,23-04-2026,59,Self-Employed,746162,942036,24,602,2,Vehicle,Delhi,Defaulted,1
+LN01676,20-04-2025,51,Salaried,786448,496721,24,628,0,Medical,Ahmedabad,Closed,0
+LN01677,18-12-2025,38,Self-Employed,1211624,489510,36,563,1,Business,Chennai,Closed,0
+LN01678,05-11-2024,56,Salaried,372971,423032,12,651,1,Vehicle,Ahmedabad,Defaulted,1
+LN01679,26-10-2025,22,Unemployed,216083,208869,12,636,5,Business,Ahmedabad,Approved,0
+LN01680,22-02-2025,34,Salaried,351216,325697,36,537,0,Business,Delhi,Approved,0
+LN01681,29-04-2024,33,Salaried,1030231,369785,60,612,5,Business,Ahmedabad,Approved,0
+LN01682,23-05-2024,49,Self-Employed,577414,262462,48,813,1,Vehicle,Ahmedabad,Approved,0
+LN01683,16-02-2024,32,Self-Employed,660834,650792,12,667,0,Vehicle,Ahmedabad,Approved,0
+LN01684,08-02-2024,59,Salaried,791483,418382,48,691,1,Education,Delhi,Approved,0
+LN01685,07-11-2024,22,Self-Employed,1328473,1135149,48,570,2,Home Renovation,Pune,Closed,0
+LN01686,19-05-2025,52,Self-Employed,620979,558489,36,538,0,Medical,Chennai,Defaulted,1
+LN01687,28-04-2024,33,Self-Employed,533101,326182,48,639,0,Medical,Hyderabad,Approved,0
+LN01688,09-04-2024,66,Salaried,476792,640459,36,843,3,Business,Mumbai,Approved,0
+LN01689,28-08-2024,47,Self-Employed,794824,975018,24,744,5,Vehicle,Pune,Approved,0
+LN01690,04-07-2025,61,Self-Employed,1077567,1179516,36,585,0,Vehicle,Bangalore,Approved,0
+LN01691,18-05-2024,37,Self-Employed,661540,255217,36,660,0,Business,Chennai,Approved,0
+LN01692,01-02-2025,60,Self-Employed,927629,386582,36,708,2,Home Renovation,Pune,Rejected,0
+LN01693,09-04-2025,51,Self-Employed,1625129,1368455,36,677,2,Medical,Ahmedabad,Approved,0
+LN01694,14-01-2025,54,Salaried,580467,276757,60,617,0,Education,Hyderabad,Approved,0
+LN01695,17-11-2025,44,Salaried,562554,774126,60,677,4,Home Renovation,Delhi,Approved,0
+LN01696,30-01-2026,65,Salaried,246838,117093,60,765,0,Vehicle,Kolkata,Approved,0
+LN01697,14-12-2025,55,Salaried,149667,125153,48,755,2,Business,Hyderabad,Approved,0
+LN01698,07-07-2025,26,Salaried,582316,407931,60,552,1,Medical,Chennai,Closed,0
+LN01699,05-03-2025,39,Self-Employed,626464,628547,12,760,1,Business,Kolkata,Approved,0
+LN01700,24-08-2025,50,Salaried,387839,171401,24,849,0,Vehicle,Delhi,Approved,0
+LN01701,30-01-2026,27,Unemployed,281480,217682,36,481,2,Business,Hyderabad,Rejected,0
+LN01702,14-01-2026,30,Salaried,545571,328529,48,794,4,Medical,Bangalore,Approved,0
+LN01703,07-06-2024,61,Self-Employed,930829,1188228,36,590,1,Business,Mumbai,Approved,0
+LN01704,28-02-2025,52,Self-Employed,813066,280218,48,832,1,Medical,Mumbai,Defaulted,1
+LN01705,01-11-2025,54,Salaried,382149,498742,24,735,0,Business,Chennai,Approved,0
+LN01706,11-04-2024,48,Salaried,399708,486162,24,598,3,Business,Pune,Rejected,0
+LN01707,03-05-2026,35,Self-Employed,412496,258770,48,688,5,Medical,Delhi,Approved,0
+LN01708,16-05-2025,50,Salaried,233778,273104,24,817,2,Business,Delhi,Approved,0
+LN01709,22-09-2025,57,Unemployed,105504,50000,24,614,1,Home Renovation,Mumbai,Approved,0
+LN01710,21-02-2025,49,Self-Employed,1239722,1690425,24,699,4,Education,Hyderabad,Approved,0
+LN01711,13-10-2024,42,Unemployed,229677,201944,24,515,0,Home Renovation,Delhi,Rejected,0
+LN01712,03-02-2024,24,Salaried,467851,296434,48,779,1,Education,Bangalore,Approved,0
+LN01713,07-12-2025,40,Self-Employed,350237,244760,24,779,1,Home Renovation,Bangalore,Closed,0
+LN01714,14-01-2025,52,Self-Employed,826371,308274,36,524,1,Education,Delhi,Rejected,0
+LN01715,10-08-2024,56,Self-Employed,1805734,2506872,12,816,3,Business,Delhi,Approved,0
+LN01716,30-03-2025,24,Salaried,514232,176495,48,627,2,Medical,Mumbai,Closed,0
+LN01717,31-03-2025,47,Self-Employed,1236624,1261848,24,636,0,Medical,Chennai,Defaulted,1
+LN01718,29-08-2024,37,Self-Employed,517525,407297,36,532,0,Vehicle,Mumbai,Rejected,0
+LN01719,25-05-2026,32,Self-Employed,653514,878197,48,661,0,Education,Chennai,Approved,0
+LN01720,06-01-2025,42,Salaried,445931,254448,24,707,1,Vehicle,Ahmedabad,Closed,0
+LN01721,11-04-2024,37,Retired,279992,247875,60,800,0,Vehicle,Bangalore,Approved,0
+LN01722,03-12-2025,30,Salaried,1105748,918425,36,634,0,Education,Chennai,Closed,0
+LN01723,11-01-2025,21,Retired,546379,586348,36,755,2,Medical,Mumbai,Approved,0
+LN01724,11-07-2025,42,Retired,460047,172430,24,529,3,Education,Delhi,Defaulted,1
+LN01725,22-10-2025,46,Retired,269122,138104,60,718,4,Business,Chennai,Rejected,0
+LN01726,02-01-2025,38,Self-Employed,546569,292972,48,771,5,Vehicle,Mumbai,Closed,0
+LN01727,03-03-2024,34,Salaried,302622,336505,24,569,2,Vehicle,Bangalore,Approved,0
+LN01728,11-02-2025,67,Unemployed,303872,154382,24,571,0,Education,Kolkata,Defaulted,1
+LN01729,09-10-2024,49,Salaried,502597,467837,48,661,3,Vehicle,Ahmedabad,Approved,0
+LN01730,13-07-2024,32,Self-Employed,414364,222417,36,790,1,Medical,Chennai,Approved,0
+LN01731,05-05-2024,56,Self-Employed,478447,597000,48,535,2,Vehicle,Bangalore,Closed,0
+LN01732,18-05-2026,55,Self-Employed,507211,677838,36,521,1,Education,Bangalore,Rejected,0
+LN01733,23-04-2026,32,Salaried,574792,500265,48,677,3,Medical,Hyderabad,Closed,0
+LN01734,10-04-2025,27,Self-Employed,2402430,1651766,24,549,1,Medical,Kolkata,Closed,0
+LN01735,03-04-2024,49,Retired,280373,156297,24,601,0,Vehicle,Chennai,Defaulted,1
+LN01736,09-11-2025,31,Salaried,354257,125675,36,550,1,Education,Mumbai,Approved,0
+LN01737,05-08-2024,53,Retired,372026,221485,60,755,0,Vehicle,Chennai,Approved,0
+LN01738,19-10-2025,26,Salaried,454993,463937,24,667,4,Business,Chennai,Closed,0
+LN01739,16-10-2025,67,Salaried,745214,660988,36,696,1,Business,Kolkata,Approved,0
+LN01740,03-09-2025,35,Salaried,226691,303413,36,554,1,Medical,Pune,Closed,0
+LN01741,22-01-2024,52,Salaried,1602319,1179154,36,542,3,Vehicle,Bangalore,Closed,0
+LN01742,21-02-2024,31,Retired,458137,487114,48,625,2,Business,Bangalore,Closed,0
+LN01743,16-03-2026,43,Salaried,731847,613474,48,616,0,Home Renovation,Bangalore,Closed,0
+LN01744,07-12-2024,46,Salaried,493622,426407,12,749,0,Business,Bangalore,Approved,0
+LN01745,06-09-2024,54,Salaried,474622,282187,60,746,1,Vehicle,Kolkata,Closed,0
+LN01746,08-05-2024,66,Self-Employed,1502610,1202757,48,619,3,Vehicle,Mumbai,Approved,0
+LN01747,16-03-2026,54,Self-Employed,1126950,921691,60,574,2,Business,Delhi,Closed,0
+LN01748,01-08-2025,49,Salaried,515574,555431,36,714,4,Vehicle,Hyderabad,Approved,0
+LN01749,29-07-2024,24,Salaried,446926,596513,60,527,0,Vehicle,Pune,Rejected,0
+LN01750,11-03-2024,37,Retired,723006,478813,24,834,0,Home Renovation,Pune,Closed,0
+LN01751,29-04-2026,55,Salaried,226788,78564,24,647,0,Medical,Ahmedabad,Defaulted,1
+LN01752,22-02-2026,33,Self-Employed,383829,324690,60,551,2,Vehicle,Bangalore,Rejected,0
+LN01753,21-07-2025,61,Salaried,316037,284088,24,612,0,Education,Ahmedabad,Closed,0
+LN01754,31-07-2024,59,Self-Employed,701372,340365,12,526,0,Medical,Bangalore,Defaulted,1
+LN01755,23-08-2025,35,Salaried,368854,419206,48,777,1,Medical,Hyderabad,Approved,0
+LN01756,09-08-2024,49,Self-Employed,866082,1198156,48,739,1,Education,Bangalore,Closed,0
+LN01757,12-04-2026,49,Salaried,135322,181379,24,759,2,Business,Delhi,Closed,0
+LN01758,26-08-2024,31,Unemployed,104390,53950,60,505,1,Home Renovation,Pune,Rejected,0
+LN01759,02-12-2024,52,Salaried,471239,595127,36,555,1,Vehicle,Chennai,Rejected,0
+LN01760,03-03-2026,22,Self-Employed,1202547,1292669,36,564,1,Business,Hyderabad,Approved,0
+LN01761,31-05-2024,67,Salaried,345180,275878,48,817,3,Education,Pune,Closed,0
+LN01762,18-03-2026,34,Salaried,976890,873996,36,828,1,Home Renovation,Mumbai,Closed,0
+LN01763,02-09-2025,40,Self-Employed,424889,524551,24,528,0,Home Renovation,Pune,Defaulted,1
+LN01764,03-01-2024,42,Salaried,276788,229221,24,606,0,Home Renovation,Hyderabad,Defaulted,1
+LN01765,10-10-2024,31,Retired,743768,528468,36,696,0,Education,Delhi,Approved,0
+LN01766,29-05-2026,47,Retired,594912,501256,36,649,3,Business,Kolkata,Closed,0
+LN01767,28-05-2024,23,Retired,653964,612792,48,714,0,Vehicle,Mumbai,Approved,0
+LN01768,13-05-2024,37,Salaried,499054,253512,48,530,3,Home Renovation,Chennai,Closed,0
+LN01769,07-07-2025,64,Self-Employed,897245,1158341,36,825,0,Home Renovation,Bangalore,Closed,0
+LN01770,13-09-2024,48,Salaried,1127475,1174384,48,641,3,Business,Hyderabad,Defaulted,1
+LN01771,28-03-2026,49,Retired,276128,275188,24,754,2,Home Renovation,Mumbai,Closed,0
+LN01772,27-06-2024,41,Self-Employed,506372,207331,12,550,1,Home Renovation,Hyderabad,Approved,0
+LN01773,22-04-2024,67,Retired,281556,271586,60,743,2,Education,Chennai,Closed,0
+LN01774,07-11-2025,36,Self-Employed,1970078,853155,12,672,0,Medical,Hyderabad,Rejected,0
+LN01775,27-01-2024,57,Self-Employed,2313505,894325,24,731,1,Business,Ahmedabad,Approved,0
+LN01776,14-05-2024,40,Salaried,288021,253470,36,611,0,Business,Pune,Closed,0
+LN01777,16-01-2024,26,Self-Employed,548822,407809,36,648,1,Business,Pune,Rejected,0
+LN01778,01-01-2025,39,Salaried,1513889,1434699,60,716,2,Education,Mumbai,Closed,0
+LN01779,19-03-2026,25,Self-Employed,645446,256980,24,561,0,Education,Delhi,Defaulted,1
+LN01780,18-03-2026,23,Self-Employed,754881,584339,12,747,3,Vehicle,Kolkata,Approved,0
+LN01781,31-08-2024,21,Self-Employed,285894,140735,24,713,1,Education,Mumbai,Closed,0
+LN01782,25-08-2025,58,Salaried,523153,724990,36,537,1,Business,Hyderabad,Rejected,0
+LN01783,27-11-2024,35,Self-Employed,1909911,1751894,24,762,4,Vehicle,Chennai,Approved,0
+LN01784,17-01-2024,54,Salaried,872381,921391,36,795,2,Medical,Pune,Closed,0
+LN01785,27-06-2024,55,Self-Employed,471893,310486,60,646,2,Home Renovation,Bangalore,Closed,0
+LN01786,28-09-2024,45,Salaried,409076,165353,60,594,2,Home Renovation,Bangalore,Closed,0
+LN01787,23-02-2024,44,Salaried,293929,403699,24,581,3,Vehicle,Chennai,Approved,0
+LN01788,09-05-2024,32,Salaried,333359,204977,36,807,0,Medical,Hyderabad,Approved,0
+LN01789,29-01-2026,38,Self-Employed,230817,176849,36,705,2,Home Renovation,Kolkata,Closed,0
+LN01790,07-03-2025,35,Salaried,470631,477620,60,697,1,Vehicle,Ahmedabad,Closed,0
+LN01791,22-06-2025,64,Salaried,964678,315610,60,685,0,Education,Chennai,Approved,0
+LN01792,26-04-2024,36,Unemployed,124812,148686,24,582,0,Business,Hyderabad,Rejected,0
+LN01793,02-02-2026,47,Salaried,935561,832870,48,547,0,Medical,Mumbai,Approved,0
+LN01794,06-03-2024,28,Self-Employed,684930,415094,24,849,1,Home Renovation,Kolkata,Closed,0
+LN01795,02-05-2025,66,Self-Employed,1322549,486392,12,766,3,Business,Ahmedabad,Rejected,0
+LN01796,04-04-2025,45,Unemployed,109156,52258,12,480,2,Vehicle,Ahmedabad,Rejected,0
+LN01797,07-03-2026,37,Self-Employed,381540,490102,36,541,1,Home Renovation,Delhi,Closed,0
+LN01798,05-01-2025,49,Self-Employed,669218,705775,36,615,0,Business,Hyderabad,Closed,0
+LN01799,09-06-2025,28,Retired,709822,408070,12,641,0,Education,Ahmedabad,Approved,0
+LN01800,30-08-2025,35,Salaried,244164,90868,36,769,1,Medical,Bangalore,Closed,0
+LN01801,21-04-2024,47,Retired,731658,775321,24,827,2,Vehicle,Bangalore,Closed,0
+LN01802,07-04-2025,66,Salaried,132321,123012,36,845,0,Home Renovation,Pune,Closed,0
+LN01803,30-05-2025,27,Unemployed,302909,225658,24,536,1,Education,Kolkata,Defaulted,1
+LN01804,14-08-2024,23,Salaried,638027,446601,24,796,3,Medical,Ahmedabad,Closed,0
+LN01805,21-09-2025,49,Self-Employed,746970,402240,36,839,2,Medical,Delhi,Closed,0
+LN01806,14-02-2024,64,Salaried,398028,412584,24,580,2,Education,Hyderabad,Defaulted,1
+LN01807,14-01-2026,44,Self-Employed,1057392,1446231,36,769,2,Home Renovation,Delhi,Defaulted,1
+LN01808,13-03-2026,23,Salaried,573650,282973,24,614,0,Medical,Pune,Closed,0
+LN01809,05-11-2025,40,Retired,279777,267698,36,815,0,Vehicle,Mumbai,Approved,0
+LN01810,17-06-2025,66,Retired,506427,388228,24,703,3,Business,Delhi,Approved,0
+LN01811,04-11-2024,35,Salaried,694196,549357,36,779,2,Vehicle,Mumbai,Closed,0
+LN01812,14-04-2025,45,Retired,599345,347357,48,806,1,Medical,Bangalore,Approved,0
+LN01813,20-10-2025,50,Self-Employed,627694,758033,24,674,0,Business,Mumbai,Approved,0
+LN01814,01-02-2024,34,Self-Employed,435208,362868,36,705,2,Education,Hyderabad,Approved,0
+LN01815,03-03-2024,27,Salaried,439340,394415,12,588,0,Business,Kolkata,Rejected,0
+LN01816,05-05-2025,37,Salaried,176737,112269,36,845,0,Business,Kolkata,Approved,0
+LN01817,17-05-2026,64,Salaried,325791,162892,24,780,0,Business,Hyderabad,Approved,0
+LN01818,15-02-2025,40,Salaried,411906,162497,36,634,1,Medical,Hyderabad,Approved,0
+LN01819,12-03-2025,56,Retired,505230,548442,36,527,0,Home Renovation,Hyderabad,Rejected,0
+LN01820,03-12-2025,29,Salaried,625197,322512,60,784,0,Medical,Chennai,Approved,0
+LN01821,20-04-2024,58,Retired,722242,764914,36,790,2,Home Renovation,Ahmedabad,Approved,0
+LN01822,17-05-2025,42,Salaried,688163,501955,36,768,1,Education,Pune,Closed,0
+LN01823,30-12-2025,22,Self-Employed,562154,425748,36,624,1,Education,Mumbai,Closed,0
+LN01824,30-03-2025,44,Self-Employed,638639,521190,60,782,1,Education,Ahmedabad,Approved,0
+LN01825,16-03-2024,28,Retired,568667,400614,48,743,5,Education,Hyderabad,Closed,0
+LN01826,23-03-2024,31,Salaried,610541,250738,24,847,0,Education,Kolkata,Approved,0
+LN01827,25-11-2024,33,Self-Employed,548143,351137,48,790,0,Vehicle,Delhi,Closed,0
+LN01828,14-09-2025,37,Salaried,417608,430181,36,684,2,Medical,Delhi,Approved,0
+LN01829,31-05-2024,28,Salaried,377479,389695,48,602,0,Home Renovation,Chennai,Approved,0
+LN01830,08-03-2024,41,Salaried,417232,256533,48,814,1,Education,Ahmedabad,Closed,0
+LN01831,09-05-2024,38,Self-Employed,542308,437161,24,653,1,Vehicle,Ahmedabad,Rejected,0
+LN01832,08-10-2024,50,Salaried,437963,224583,48,730,5,Vehicle,Ahmedabad,Approved,0
+LN01833,01-10-2025,38,Self-Employed,568085,301885,24,832,3,Vehicle,Mumbai,Approved,0
+LN01834,10-10-2025,66,Salaried,545443,177460,24,611,4,Medical,Mumbai,Rejected,0
+LN01835,22-08-2025,67,Self-Employed,689234,886645,24,646,0,Education,Pune,Rejected,0
+LN01836,15-07-2025,51,Salaried,527188,280346,48,710,3,Vehicle,Mumbai,Approved,0
+LN01837,30-12-2025,58,Self-Employed,1524632,838985,24,678,0,Vehicle,Kolkata,Closed,0
+LN01838,28-11-2024,52,Retired,404062,245492,12,529,2,Education,Kolkata,Rejected,0
+LN01839,25-01-2025,31,Self-Employed,688454,303022,48,626,2,Medical,Ahmedabad,Closed,0
+LN01840,03-09-2025,65,Self-Employed,773986,776454,24,606,0,Vehicle,Pune,Approved,0
+LN01841,27-06-2025,45,Salaried,499140,190999,24,586,2,Home Renovation,Ahmedabad,Approved,0
+LN01842,28-10-2024,53,Self-Employed,1013040,453459,24,581,0,Business,Chennai,Approved,0
+LN01843,09-04-2025,58,Salaried,296650,299388,24,665,0,Business,Mumbai,Approved,0
+LN01844,01-06-2025,61,Salaried,688289,463649,36,672,4,Business,Mumbai,Approved,0
+LN01845,11-09-2025,28,Self-Employed,1530518,1651034,12,626,0,Medical,Ahmedabad,Closed,0
+LN01846,16-03-2025,31,Retired,582278,531717,60,667,0,Vehicle,Ahmedabad,Approved,0
+LN01847,11-04-2024,42,Salaried,436922,254124,48,705,1,Business,Hyderabad,Approved,0
+LN01848,23-03-2026,44,Self-Employed,659274,669763,24,697,3,Business,Ahmedabad,Closed,0
+LN01849,19-12-2025,61,Self-Employed,791439,338657,24,785,0,Education,Mumbai,Approved,0
+LN01850,27-04-2024,37,Salaried,487762,434133,36,668,1,Vehicle,Kolkata,Closed,0
+LN01851,23-05-2026,32,Salaried,353585,276101,36,766,3,Vehicle,Hyderabad,Approved,0
+LN01852,01-11-2025,66,Salaried,245930,146244,24,773,0,Education,Hyderabad,Approved,0
+LN01853,28-10-2025,52,Salaried,752841,726043,24,548,0,Vehicle,Mumbai,Closed,0
+LN01854,26-02-2026,35,Salaried,632005,795357,60,785,2,Home Renovation,Delhi,Rejected,0
+LN01855,18-07-2025,36,Salaried,225421,315317,24,532,1,Medical,Bangalore,Approved,0
+LN01856,08-01-2026,42,Salaried,349390,338397,24,566,3,Education,Ahmedabad,Approved,0
+LN01857,08-08-2024,48,Self-Employed,728312,542720,60,670,0,Business,Kolkata,Closed,0
+LN01858,16-03-2025,40,Self-Employed,841898,461130,36,569,4,Vehicle,Delhi,Defaulted,1
+LN01859,07-04-2025,53,Unemployed,101826,59344,24,614,4,Home Renovation,Mumbai,Defaulted,1
+LN01860,21-08-2024,30,Salaried,841527,696279,36,651,0,Home Renovation,Ahmedabad,Closed,0
+LN01861,27-02-2025,60,Self-Employed,284946,200603,12,632,0,Medical,Mumbai,Closed,0
+LN01862,13-12-2024,52,Retired,255495,333471,48,771,5,Home Renovation,Ahmedabad,Closed,0
+LN01863,27-04-2026,53,Self-Employed,382351,269605,36,572,1,Vehicle,Ahmedabad,Closed,0
+LN01864,09-04-2025,22,Salaried,744386,529101,48,649,1,Vehicle,Delhi,Closed,0
+LN01865,12-02-2025,53,Self-Employed,1024449,739537,60,843,2,Home Renovation,Mumbai,Closed,0
+LN01866,01-03-2025,53,Salaried,744935,909030,60,712,2,Vehicle,Kolkata,Closed,0
+LN01867,17-01-2026,61,Salaried,489933,497706,60,598,3,Vehicle,Pune,Closed,0
+LN01868,07-04-2024,33,Self-Employed,577552,563451,36,576,0,Business,Ahmedabad,Closed,0
+LN01869,16-11-2024,50,Self-Employed,583377,389437,24,616,0,Education,Hyderabad,Closed,0
+LN01870,13-03-2025,53,Salaried,774130,928719,36,717,3,Vehicle,Chennai,Approved,0
+LN01871,16-11-2024,33,Unemployed,346323,118511,36,534,3,Vehicle,Mumbai,Rejected,0
+LN01872,12-11-2025,46,Self-Employed,353115,444175,60,666,2,Medical,Mumbai,Approved,0
+LN01873,18-09-2024,42,Self-Employed,403908,348986,24,691,5,Education,Delhi,Approved,0
+LN01874,18-01-2025,59,Unemployed,113147,83511,60,462,2,Education,Ahmedabad,Rejected,0
+LN01875,05-06-2024,22,Salaried,332537,281620,48,584,0,Education,Hyderabad,Rejected,0
+LN01876,04-12-2025,58,Unemployed,180925,187104,60,438,3,Home Renovation,Delhi,Rejected,0
+LN01877,30-04-2025,59,Self-Employed,610381,191685,60,730,1,Business,Pune,Approved,0
+LN01878,09-03-2024,46,Salaried,406691,511904,24,628,0,Business,Ahmedabad,Approved,0
+LN01879,03-04-2024,66,Self-Employed,1147686,908294,24,801,0,Medical,Kolkata,Approved,0
+LN01880,01-05-2026,35,Self-Employed,355001,240429,24,691,2,Education,Delhi,Rejected,0
+LN01881,28-03-2024,54,Self-Employed,1227327,554837,24,531,4,Education,Mumbai,Defaulted,1
+LN01882,05-04-2024,62,Unemployed,319730,250480,36,549,0,Vehicle,Ahmedabad,Rejected,0
+LN01883,18-03-2025,64,Self-Employed,449226,380025,48,739,0,Home Renovation,Hyderabad,Closed,0
+LN01884,08-04-2024,60,Self-Employed,974527,725059,60,805,1,Home Renovation,Kolkata,Approved,0
+LN01885,01-02-2026,31,Retired,327994,343254,36,691,3,Medical,Mumbai,Defaulted,1
+LN01886,26-01-2026,23,Self-Employed,602742,459883,12,755,2,Business,Kolkata,Approved,0
+LN01887,16-01-2025,26,Salaried,795883,1080458,24,685,1,Education,Mumbai,Approved,0
+LN01888,11-04-2026,29,Retired,636154,610202,12,706,2,Medical,Mumbai,Closed,0
+LN01889,13-05-2024,26,Salaried,373999,444395,24,689,0,Home Renovation,Mumbai,Closed,0
+LN01890,23-07-2025,29,Self-Employed,1083051,455197,36,571,1,Home Renovation,Ahmedabad,Approved,0
+LN01891,02-03-2024,59,Retired,410185,302314,12,838,0,Home Renovation,Chennai,Closed,0
+LN01892,23-08-2025,51,Self-Employed,721066,483498,24,708,3,Education,Bangalore,Approved,0
+LN01893,29-07-2025,52,Self-Employed,397350,368117,24,639,0,Education,Hyderabad,Defaulted,1
+LN01894,29-07-2025,61,Self-Employed,176002,219514,36,624,2,Education,Pune,Approved,0
+LN01895,03-12-2024,32,Self-Employed,1775851,685784,36,681,0,Vehicle,Chennai,Closed,0
+LN01896,17-11-2025,28,Retired,511176,194161,36,814,1,Business,Bangalore,Approved,0
+LN01897,05-05-2024,28,Salaried,591223,730367,36,560,0,Home Renovation,Kolkata,Closed,0
+LN01898,24-02-2025,48,Salaried,985196,526227,60,684,0,Home Renovation,Bangalore,Defaulted,1
+LN01899,28-12-2024,40,Salaried,446764,462681,24,840,0,Vehicle,Ahmedabad,Defaulted,1
+LN01900,12-11-2025,67,Self-Employed,249732,224051,36,679,2,Home Renovation,Ahmedabad,Closed,0
+LN01901,07-02-2026,27,Self-Employed,1059596,1288662,48,783,1,Home Renovation,Ahmedabad,Approved,0
+LN01902,09-03-2025,31,Retired,613334,268393,36,537,2,Education,Bangalore,Closed,0
+LN01903,08-01-2026,40,Salaried,217129,96136,60,692,1,Education,Chennai,Approved,0
+LN01904,22-02-2024,36,Self-Employed,730345,666439,24,552,1,Business,Hyderabad,Closed,0
+LN01905,21-10-2024,24,Salaried,274880,368618,36,780,1,Home Renovation,Delhi,Closed,0
+LN01906,06-09-2025,26,Salaried,399103,301920,12,729,5,Medical,Bangalore,Approved,0
+LN01907,15-11-2024,42,Self-Employed,1725551,1138236,36,849,1,Home Renovation,Ahmedabad,Closed,0
+LN01908,26-12-2024,46,Salaried,478562,462940,24,683,0,Home Renovation,Delhi,Closed,0
+LN01909,16-04-2024,23,Salaried,400302,529797,24,524,3,Business,Delhi,Rejected,0
+LN01910,14-08-2025,61,Salaried,586878,716355,36,553,0,Medical,Mumbai,Closed,0
+LN01911,03-06-2025,62,Salaried,448427,625570,36,799,3,Home Renovation,Delhi,Closed,0
+LN01912,05-08-2024,34,Self-Employed,797975,259202,12,664,0,Medical,Kolkata,Closed,0
+LN01913,07-06-2024,31,Salaried,333572,141482,36,590,2,Education,Kolkata,Approved,0
+LN01914,03-11-2025,38,Self-Employed,632582,613866,36,749,0,Education,Mumbai,Closed,0
+LN01915,08-05-2025,32,Retired,354843,426746,24,644,4,Medical,Hyderabad,Approved,0
+LN01916,17-08-2024,43,Self-Employed,463892,284722,36,797,1,Home Renovation,Pune,Approved,0
+LN01917,17-05-2026,32,Unemployed,281174,158338,48,414,0,Medical,Hyderabad,Defaulted,1
+LN01918,20-04-2024,33,Self-Employed,527433,614814,36,534,0,Medical,Kolkata,Rejected,0
+LN01919,24-12-2024,45,Self-Employed,240763,87161,24,761,1,Education,Pune,Approved,0
+LN01920,15-05-2026,65,Unemployed,264405,186754,24,552,2,Medical,Mumbai,Rejected,0
+LN01921,23-07-2025,39,Salaried,372750,319219,36,572,1,Vehicle,Hyderabad,Defaulted,1
+LN01922,11-01-2025,66,Unemployed,345045,316193,60,548,0,Vehicle,Pune,Rejected,0
+LN01923,27-04-2024,56,Salaried,564140,621387,36,738,1,Education,Pune,Closed,0
+LN01924,19-02-2026,65,Salaried,641848,443087,12,632,1,Home Renovation,Bangalore,Rejected,0
+LN01925,12-10-2024,28,Salaried,427232,416103,36,807,0,Home Renovation,Hyderabad,Closed,0
+LN01926,10-08-2025,49,Self-Employed,387864,366109,60,796,0,Education,Mumbai,Approved,0
+LN01927,19-08-2024,52,Self-Employed,2007915,1811897,12,602,2,Home Renovation,Pune,Approved,0
+LN01928,06-04-2026,64,Self-Employed,659801,662790,60,737,5,Business,Kolkata,Closed,0
+LN01929,15-03-2025,38,Salaried,378646,221657,60,745,0,Vehicle,Ahmedabad,Approved,0
+LN01930,15-05-2026,26,Salaried,344174,135299,12,789,2,Business,Bangalore,Approved,0
+LN01931,28-07-2025,38,Salaried,726884,313431,60,534,0,Business,Delhi,Closed,0
+LN01932,24-02-2026,39,Salaried,371229,203077,24,809,1,Business,Delhi,Approved,0
+LN01933,18-04-2026,42,Unemployed,158369,134648,48,563,1,Education,Delhi,Defaulted,1
+LN01934,28-09-2025,57,Salaried,687236,841511,36,784,0,Business,Kolkata,Closed,0
+LN01935,20-09-2025,52,Retired,451893,484168,36,718,1,Medical,Ahmedabad,Closed,0
+LN01936,22-11-2025,61,Retired,521733,609355,36,677,3,Home Renovation,Pune,Closed,0
+LN01937,20-10-2025,23,Salaried,462202,317104,48,726,4,Education,Mumbai,Approved,0
+LN01938,24-07-2025,48,Self-Employed,423908,315861,12,693,0,Medical,Delhi,Approved,0
+LN01939,27-01-2024,30,Salaried,584370,428372,36,703,0,Medical,Hyderabad,Closed,0
+LN01940,15-09-2025,55,Salaried,216693,110743,24,784,5,Vehicle,Delhi,Approved,0
+LN01941,04-11-2025,49,Salaried,586276,215361,24,765,0,Vehicle,Pune,Defaulted,1
+LN01942,29-04-2026,35,Self-Employed,431731,410147,24,555,2,Medical,Chennai,Rejected,0
+LN01943,11-12-2025,53,Salaried,390360,541873,36,778,0,Vehicle,Kolkata,Approved,0
+LN01944,30-09-2024,27,Self-Employed,840015,406157,24,538,1,Home Renovation,Chennai,Defaulted,1
+LN01945,30-01-2024,32,Self-Employed,689228,242162,24,542,0,Home Renovation,Delhi,Approved,0
+LN01946,03-07-2024,50,Salaried,785648,909375,24,623,3,Vehicle,Ahmedabad,Approved,0
+LN01947,06-10-2024,41,Self-Employed,387229,223758,12,760,3,Business,Pune,Closed,0
+LN01948,20-12-2025,51,Self-Employed,631347,765576,36,723,0,Medical,Delhi,Closed,0
+LN01949,19-02-2026,44,Salaried,729378,783592,60,772,3,Home Renovation,Chennai,Approved,0
+LN01950,12-11-2024,40,Salaried,575238,770957,24,661,1,Vehicle,Pune,Approved,0
+LN01951,13-12-2024,57,Self-Employed,834073,625404,60,821,0,Vehicle,Kolkata,Approved,0
+LN01952,25-12-2024,24,Salaried,805017,827691,48,662,2,Home Renovation,Kolkata,Approved,0
+LN01953,07-01-2024,48,Self-Employed,527849,428265,36,790,1,Home Renovation,Delhi,Approved,0
+LN01954,04-07-2024,64,Salaried,370432,368078,36,826,0,Business,Kolkata,Approved,0
+LN01955,26-05-2024,40,Salaried,633589,503423,48,629,0,Vehicle,Bangalore,Closed,0
+LN01956,02-08-2025,44,Salaried,457144,231998,24,527,5,Vehicle,Pune,Defaulted,1
+LN01957,04-11-2025,52,Salaried,810163,695676,36,588,3,Education,Ahmedabad,Approved,0
+LN01958,14-02-2025,61,Self-Employed,808855,712959,36,709,3,Business,Pune,Approved,0
+LN01959,12-03-2024,56,Salaried,369347,440137,36,698,0,Home Renovation,Kolkata,Closed,0
+LN01960,25-05-2024,54,Self-Employed,795010,881723,48,582,2,Home Renovation,Pune,Rejected,0
+LN01961,28-01-2026,56,Retired,595992,613973,12,587,0,Medical,Chennai,Defaulted,1
+LN01962,10-10-2025,22,Self-Employed,578938,245889,36,725,5,Home Renovation,Mumbai,Approved,0
+LN01963,01-02-2024,35,Self-Employed,333509,364417,36,525,0,Vehicle,Chennai,Rejected,0
+LN01964,03-04-2024,54,Salaried,942591,801518,24,638,1,Home Renovation,Hyderabad,Closed,0
+LN01965,03-02-2026,56,Salaried,450567,578307,24,832,1,Vehicle,Bangalore,Closed,0
+LN01966,27-06-2025,26,Self-Employed,1642004,2154076,36,550,3,Vehicle,Mumbai,Closed,0
+LN01967,08-08-2024,59,Salaried,804137,290029,60,525,2,Business,Delhi,Rejected,0
+LN01968,20-01-2025,62,Self-Employed,511638,615349,36,726,1,Home Renovation,Pune,Approved,0
+LN01969,05-03-2025,32,Salaried,261313,89229,48,676,1,Business,Ahmedabad,Approved,0
+LN01970,09-04-2025,23,Self-Employed,766747,539702,36,586,3,Vehicle,Hyderabad,Closed,0
+LN01971,15-12-2024,65,Retired,473354,424376,24,849,0,Home Renovation,Hyderabad,Approved,0
+LN01972,10-06-2024,38,Retired,264016,122215,12,808,3,Home Renovation,Ahmedabad,Closed,0
+LN01973,13-01-2025,60,Self-Employed,470618,527536,12,659,4,Business,Bangalore,Closed,0
+LN01974,15-11-2024,41,Self-Employed,3367595,1041227,24,819,0,Business,Mumbai,Approved,0
+LN01975,08-01-2026,35,Self-Employed,1192558,578937,24,532,0,Vehicle,Hyderabad,Approved,0
+LN01976,28-11-2024,53,Self-Employed,1044954,981082,48,671,0,Vehicle,Ahmedabad,Approved,0
+LN01977,06-03-2026,55,Salaried,346727,376485,48,832,0,Home Renovation,Mumbai,Approved,0
+LN01978,04-08-2025,46,Salaried,619187,810086,12,628,1,Home Renovation,Mumbai,Closed,0
+LN01979,02-09-2025,28,Self-Employed,1502254,1616494,24,668,2,Education,Kolkata,Closed,0
+LN01980,27-03-2024,56,Unemployed,166478,172963,24,510,1,Education,Hyderabad,Rejected,0
+LN01981,23-02-2024,50,Salaried,795538,583746,36,723,0,Medical,Mumbai,Approved,0
+LN01982,08-06-2024,43,Self-Employed,513490,154772,24,826,2,Vehicle,Bangalore,Defaulted,1
+LN01983,10-06-2024,62,Self-Employed,537606,232339,24,540,2,Medical,Hyderabad,Approved,0
+LN01984,11-02-2026,64,Self-Employed,1824091,1619811,60,579,4,Medical,Bangalore,Approved,0
+LN01985,24-09-2025,34,Self-Employed,623208,649783,48,540,0,Business,Bangalore,Approved,0
+LN01986,20-02-2024,34,Salaried,367460,278973,24,764,2,Business,Mumbai,Closed,0
+LN01987,21-11-2025,22,Self-Employed,1011712,1116673,36,592,3,Education,Mumbai,Approved,0
+LN01988,24-03-2024,57,Retired,657561,574740,24,595,1,Medical,Kolkata,Closed,0
+LN01989,05-10-2024,25,Self-Employed,639937,244196,48,705,1,Education,Ahmedabad,Approved,0
+LN01990,29-03-2025,58,Salaried,357738,182882,36,597,0,Vehicle,Pune,Approved,0
+LN01991,08-11-2025,65,Self-Employed,284529,348262,24,584,3,Home Renovation,Kolkata,Approved,0
+LN01992,10-03-2025,61,Retired,604388,663257,48,809,1,Business,Hyderabad,Closed,0
+LN01993,12-05-2025,67,Salaried,417532,536210,24,575,4,Vehicle,Kolkata,Closed,0
+LN01994,13-09-2025,34,Self-Employed,194835,83645,24,778,3,Vehicle,Delhi,Approved,0
+LN01995,28-03-2025,59,Retired,504957,701508,24,709,1,Business,Ahmedabad,Approved,0
+LN01996,28-02-2025,45,Self-Employed,904746,479829,36,525,1,Business,Hyderabad,Rejected,0
+LN01997,06-10-2024,40,Unemployed,134377,50000,24,405,0,Medical,Ahmedabad,Defaulted,1
+LN01998,08-08-2024,22,Self-Employed,985130,1376389,24,710,0,Education,Bangalore,Approved,0
+LN01999,12-02-2026,59,Self-Employed,382617,233083,24,667,2,Vehicle,Kolkata,Closed,0
+LN02000,08-06-2025,26,Self-Employed,1095070,1133201,12,777,2,Medical,Kolkata,Approved,0

@@ -24,3 +24,7 @@ venv/
 *.njsproj
 *.sln
 *.sw?
+
+#Summary
+
+Summary/
