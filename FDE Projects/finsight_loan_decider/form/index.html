@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinSight Loan Decider</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 16px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      color: #4fc3f7;
+      letter-spacing: 1px;
+    }
+
+    .header p {
+      font-size: 0.95rem;
+      color: #888;
+      margin-top: 6px;
+    }
+
+    .card {
+      background: #1a1d27;
+      border: 1px solid #2a2d3e;
+      border-radius: 12px;
+      padding: 32px;
+      width: 100%;
+      max-width: 620px;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #4fc3f7;
+      margin-bottom: 16px;
+      margin-top: 24px;
+      border-bottom: 1px solid #2a2d3e;
+      padding-bottom: 6px;
+    }
+
+    .section-title:first-child { margin-top: 0; }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    input, select {
+      background: #0f1117;
+      border: 1px solid #2a2d3e;
+      border-radius: 6px;
+      color: #e0e0e0;
+      padding: 10px 12px;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: #4fc3f7;
+    }
+
+    select option { background: #1a1d27; }
+
+    .hint {
+      font-size: 0.72rem;
+      color: #555;
+    }
+
+    button {
+      margin-top: 28px;
+      width: 100%;
+      padding: 14px;
+      background: #4fc3f7;
+      color: #0f1117;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: background 0.2s;
+    }
+
+    button:hover { background: #81d4fa; }
+    button:disabled { background: #2a2d3e; color: #555; cursor: not-allowed; }
+
+    /* Result */
+    #result { margin-top: 28px; display: none; }
+
+    .result-card {
+      border-radius: 10px;
+      padding: 24px;
+      border: 1px solid;
+    }
+
+    .result-card.low    { border-color: #4caf50; background: #0d1f0f; }
+    .result-card.medium { border-color: #ff9800; background: #1f1500; }
+    .result-card.high   { border-color: #f44336; background: #1f0a0a; }
+
+    .tier-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .low    .tier-badge { background: #4caf50; color: #000; }
+    .medium .tier-badge { background: #ff9800; color: #000; }
+    .high   .tier-badge { background: #f44336; color: #fff; }
+
+    .prob {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .prob-label { font-size: 0.8rem; color: #888; margin-bottom: 16px; }
+
+    .alert-box {
+      background: #1a0a0a;
+      border: 1px solid #f44336;
+      border-radius: 6px;
+      padding: 14px;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: #ffcccc;
+      margin-top: 12px;
+    }
+
+    .alert-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #f44336;
+      margin-bottom: 8px;
+    }
+
+    .error-box {
+      background: #1f0a0a;
+      border: 1px solid #f44336;
+      border-radius: 8px;
+      padding: 16px;
+      color: #ff8a80;
+      font-size: 0.88rem;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 18px; height: 18px;
+      border: 2px solid #0f1117;
+      border-top-color: #0f1117;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 0.75rem;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>FinSight Loan Decider</h1>
+    <p>AI-powered loan risk scoring — powered by Railway &amp; Mistral</p>
+  </div>
+
+  <div class="card">
+    <form id="loanForm">
+
+      <div class="section-title">Applicant Details</div>
+      <div class="row">
+        <div class="field">
+          <label>Age</label>
+          <input type="number" id="person_age" placeholder="e.g. 35" min="20" max="80" required />
+          <span class="hint">20 – 80</span>
+        </div>
+        <div class="field">
+          <label>Annual Income ($)</label>
+          <input type="number" id="person_income" placeholder="e.g. 55000" min="8000" max="271268" required />
+          <span class="hint">8,000 – 271,268</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label>Employment Length (years)</label>
+          <input type="number" id="person_emp_length" placeholder="e.g. 4" min="0" max="50" required />
+        </div>
+        <div class="field">
+          <label>Home Ownership</label>
+          <select id="person_home_ownership" required>
+            <option value="">Select...</option>
+            <option>RENT</option>
+            <option>OWN</option>
+            <option>MORTGAGE</option>
+            <option>OTHER</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="section-title">Credit Profile</div>
+      <div class="row">
+        <div class="field">
+          <label>Credit History Length (years)</label>
+          <input type="number" id="cb_person_cred_hist_length" placeholder="e.g. 6" min="0" max="50" required />
+        </div>
+        <div class="field">
+          <label>Previous Default on File</label>
+          <select id="cb_person_default_on_file" required>
+            <option value="">Select...</option>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="section-title">Loan Details</div>
+      <div class="row">
+        <div class="field">
+          <label>Loan Amount ($)</label>
+          <input type="number" id="loan_amnt" placeholder="e.g. 15000" min="500" max="35000" required />
+          <span class="hint">500 – 35,000</span>
+        </div>
+        <div class="field">
+          <label>Interest Rate (%)</label>
+          <input type="number" id="loan_int_rate" placeholder="e.g. 14.5" min="5" max="24" step="0.1" required />
+          <span class="hint">5 – 24</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label>Loan Purpose</label>
+          <select id="loan_intent" required>
+            <option value="">Select...</option>
+            <option>PERSONAL</option>
+            <option>EDUCATION</option>
+            <option>MEDICAL</option>
+            <option>VENTURE</option>
+            <option>HOMEIMPROVEMENT</option>
+            <option>DEBTCONSOLIDATION</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Loan Grade</label>
+          <select id="loan_grade" required>
+            <option value="">Select...</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+            <option>F</option>
+            <option>G</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" id="submitBtn">Score This Application</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <div class="footer">FinSight Loan Decider &mdash; Built with Flask, scikit-learn &amp; LangChain</div>
+
+  <script>
+    const API_URL = 'https://fde-learning-lab-production.up.railway.app/score';
+
+    document.getElementById('loanForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const btn = document.getElementById('submitBtn');
+      const resultDiv = document.getElementById('result');
+
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>Scoring...';
+      resultDiv.style.display = 'none';
+
+      const payload = {
+        person_age:                   parseInt(document.getElementById('person_age').value),
+        person_income:                parseFloat(document.getElementById('person_income').value),
+        person_emp_length:            parseFloat(document.getElementById('person_emp_length').value),
+        person_home_ownership:        document.getElementById('person_home_ownership').value,
+        cb_person_cred_hist_length:   parseFloat(document.getElementById('cb_person_cred_hist_length').value),
+        cb_person_default_on_file:    parseInt(document.getElementById('cb_person_default_on_file').value),
+        loan_amnt:                    parseFloat(document.getElementById('loan_amnt').value),
+        loan_int_rate:                parseFloat(document.getElementById('loan_int_rate').value),
+        loan_intent:                  document.getElementById('loan_intent').value,
+        loan_grade:                   document.getElementById('loan_grade').value,
+      };
+
+      try {
+        const res = await fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const data = await res.json();
+
+        if (!res.ok) {
+          resultDiv.innerHTML = `<div class="error-box"><strong>Error:</strong> ${data.error || 'Something went wrong.'}</div>`;
+        } else {
+          const tier = data.risk_tier.toLowerCase();
+          const prob = (data.default_probability * 100).toFixed(1);
+
+          let alertHtml = '';
+          if (data.alert_text) {
+            alertHtml = `
+              <div class="alert-label">Credit Analyst Alert</div>
+              <div class="alert-box">${data.alert_text}</div>
+            `;
+          }
+
+          resultDiv.innerHTML = `
+            <div class="result-card ${tier}">
+              <span class="tier-badge">${data.risk_tier} Risk</span>
+              <div class="prob">${prob}%</div>
+              <div class="prob-label">Estimated Default Probability</div>
+              ${alertHtml}
+            </div>
+          `;
+        }
+
+        resultDiv.style.display = 'block';
+
+      } catch (err) {
+        resultDiv.innerHTML = `<div class="error-box"><strong>Network Error:</strong> Could not reach the API. Please try again.</div>`;
+        resultDiv.style.display = 'block';
+      }
+
+      btn.disabled = false;
+      btn.innerHTML = 'Score This Application';
+    });
+  </script>
+
+</body>
+</html>

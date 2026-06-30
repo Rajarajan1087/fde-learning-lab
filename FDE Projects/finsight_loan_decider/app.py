@@ -3,6 +3,7 @@ import json
 import joblib
 import pandas as pd
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
@@ -10,6 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 
 # --- 1. Load Model Artifacts ---
 BASE_PATH = 'ModelArtifacts'
