@@ -11,7 +11,7 @@ Dataset: [Credit Risk Dataset — Kaggle (laotse)](https://www.kaggle.com/datase
 
 ## What This Is
 
-FinSight Loan Decider is a production-deployed machine learning system that predicts the probability a loan applicant will default. It combines a calibrated Random Forest model with a real-time LLM alert system — when a High-risk application is detected, the API automatically generates a human-readable analyst note using Mistral AI via LangChain, and every LLM call is traced in LangSmith.
+FinSight Loan Decider is a production-deployed machine learning system that predicts the probability a loan applicant will default. For High-risk applications, a LangGraph multi-step agent runs three focused Mistral AI calls in sequence — credit assessment, income verification, and final decision — producing a richer analyst note than a single prompt can. Every LLM call is traced in LangSmith.
 
 The system is accessible via a public web form — no technical knowledge required from the end user.
 
@@ -31,7 +31,10 @@ Trained a Random Forest with SMOTE and sigmoid calibration on the cleaned data. 
 Selected the 150 highest-risk records from the scored test set. Sent each to Mistral AI via LangChain, reviewed the output quality, and stored all 150 alerts in `finsight_alerts_final.csv`. This step proved the prompt design and LLM response quality at scale before any API was built.
 
 **Phase 4 — Flask API + Railway Deployment (Local)**  
-Built the Flask API that loads the three saved artifacts at startup and serves live scoring via `POST /score`. High-risk requests trigger a real-time Mistral call — the same prompt validated in Phase 3. Deployed to Railway.app with Gunicorn. LangSmith tracing captures every live LLM call. A public web form on GitHub Pages gives non-technical users a browser interface to the same API.
+Built the Flask API that loads the three saved artifacts at startup and serves live scoring via `POST /score`. Deployed to Railway.app with Gunicorn. LangSmith tracing captures every live LLM call. A public web form on GitHub Pages gives non-technical users a browser interface to the same API.
+
+**Phase 5 — LangGraph Agent (Local → Railway)**  
+Replaced the single LangChain prompt with a LangGraph 3-node agent. Each node has one focused job — credit check, income verification, final decision. State carries each node's output to the next. The final alert is grounded in two structured assessments, not one generic prompt. Deployed to Railway alongside the existing API — same endpoint, richer response.
 
 **The key point:** the model was trained once in Colab and the artifacts saved. The Flask API does not retrain — it loads and serves. The D3 pre-generated alerts were the validation gate that confirmed the LLM prompt worked before the API went live.
 
@@ -50,9 +53,13 @@ Flask API — Railway.app (always-on)
       │
       ├── scikit-learn Random Forest → default probability + risk tier
       │
-      └── [High risk only] LangChain + Mistral AI → analyst alert text
-                                    │
-                                    └── LangSmith → trace every LLM call
+      └── [High risk only] LangGraph Agent
+                │
+                ├── Node 1: credit_check      → grade, default, history, rate
+                ├── Node 2: income_verification → income, loan size, employment
+                └── Node 3: decision           → synthesises both + ML score → alert
+                                │
+                                └── LangSmith → traces all 3 Mistral calls
 ```
 
 ---
@@ -66,7 +73,7 @@ Flask API — Railway.app (always-on)
 | Data Profiling | ydata-profiling |
 | Data Validation | Great Expectations |
 | API | Flask + Gunicorn |
-| LLM Alerts | LangChain + Mistral AI (mistral-small-latest) |
+| LLM Agent | LangGraph + Mistral AI (mistral-small-latest) |
 | Observability | LangSmith |
 | Deployment | Railway.app |
 | Frontend | GitHub Pages (plain HTML/JS) |
@@ -158,20 +165,50 @@ In credit risk, missing a real defaulter means principal loss — so higher reca
 
 ## LLM Alert System (D3 — Alerts)
 
-### What It Does
-High-risk applications trigger a Mistral AI call via LangChain. The model receives the applicant profile and writes a 3-sentence internal credit analyst note that:
-- States the risk tier and loan purpose with specific concerns
-- Identifies the two most alarming factors with actual numbers
-- Recommends one specific action before approval
-
 ### What Was Built in D3
 - 150 High-risk records selected from the scored test set
 - Mistral AI (`mistral-small-latest`) alert generated for each
 - All 150 alerts stored in `Data/finsight_alerts_final.csv`
 - LangSmith tracing enabled from the start — every call logged with input, output, latency, and token count
 
-**Why LLM alerts instead of rule-based messages:**
-A rule-based system generates the same text for similar profiles. The LLM produces specific, contextualised language that reads like an analyst wrote it — mentioning the actual numbers and the combination of factors unique to each applicant.
+This was the validation gate — proving the prompt design worked at scale before any API was built.
+
+---
+
+## LangGraph Agent (D5)
+
+### Why LangGraph Instead of a Single Prompt
+
+The original system used one LangChain prompt that received the full applicant profile and wrote an alert. It worked — but the output was as good as the single prompt could manage with no separation of concerns.
+
+LangGraph replaces this with 3 specialist nodes in sequence:
+
+| Node | Focus | Output |
+|---|---|---|
+| `credit_check` | Loan grade, prior default, credit history, interest rate | 2-sentence credit assessment |
+| `income_verification` | Income, loan amount, loan-to-income ratio, employment | 2-sentence income assessment |
+| `decision` | Both assessments + ML probability | Final 3-sentence analyst note |
+
+Each node reads what the previous one wrote via a shared **State** object. The final alert is grounded in two structured assessments — not one generic prompt — so the output is more specific and more defensible.
+
+### LangSmith — What You See Now
+Each High-risk request shows 3 separate Mistral calls in the trace:
+- `credit_check` node call — focused on credit factors only
+- `income_verification` node call — focused on repayment capacity
+- `decision` node call — synthesises both into the analyst note
+
+### Sample Response (High Risk)
+```json
+{
+  "loan_id": "TEST-LG-001",
+  "default_probability": 0.908,
+  "risk_tier": "High",
+  "flagged": true,
+  "credit_assessment": "The applicant's credit profile is very weak due to the prior default on file and a short credit history of just 2 years. With a loan grade of G and an interest rate of 22.5%, the lender is pricing in extreme risk.",
+  "income_assessment": "The applicant's annual income of $12,000 is extremely low, making the requested loan of $10,000 equal to 83.3% of their income. Combined with just one year of employment and no home ownership, repayment capacity is highly questionable.",
+  "alert_text": "The venture loan application for $10,000 is flagged as high risk due to the applicant's prior default. Their two-year credit history, $12,000 annual income, and 83.3% debt-to-income ratio — paired with just one year of employment and no assets — make repayment highly unlikely. Require a co-signer with stronger credit before proceeding."
+}
+```
 
 ---
 
@@ -187,7 +224,7 @@ A rule-based system generates the same text for similar profiles. The LLM produc
 
 ---
 
-## API (D4 — Flask API)
+## API
 
 ### `GET /health`
 Returns service status.
@@ -212,14 +249,29 @@ Returns service status.
 | `cb_person_cred_hist_length` | float | Credit history in years |
 | `cb_person_default_on_file` | int | Prior default: 0 = No, 1 = Yes |
 
-**Response:**
+**Response (Low / Medium risk):**
 ```json
 {
   "loan_id": "APP-001",
+  "default_probability": 0.156,
+  "risk_tier": "Low",
+  "flagged": false,
+  "credit_assessment": "",
+  "income_assessment": "",
+  "alert_text": ""
+}
+```
+
+**Response (High risk):**
+```json
+{
+  "loan_id": "APP-002",
   "default_probability": 0.908,
   "risk_tier": "High",
   "flagged": true,
-  "alert_text": "This application falls into the highest risk tier..."
+  "credit_assessment": "...",
+  "income_assessment": "...",
+  "alert_text": "..."
 }
 ```
 
@@ -247,23 +299,23 @@ Returns service status.
 
 ### Credit Risk Analyst / Risk Team
 
-*"The model scores each application on ten factors — income, employment history, credit history length, loan-to-income ratio, prior defaults, and more. It outputs a probability between 0 and 1 that the applicant will default, mapped to Low, Medium, or High risk tiers. For every High-risk application, the system writes an analyst note that flags the two most concerning factors with the actual numbers — so the reviewer does not have to read through the full profile manually. The thresholds are tunable — if the business wants to be more conservative, we raise the Medium threshold. In our test set of 6,515 applications, the model achieved 91.2% accuracy and 0.919 ROC-AUC."*
+*"The model scores each application on ten factors — income, employment history, credit history length, loan-to-income ratio, prior defaults, and more. It outputs a probability between 0 and 1 that the applicant will default, mapped to Low, Medium, or High risk tiers. For every High-risk application, a three-step review runs automatically — first assessing the credit profile, then the income and repayment capacity, then combining both into a written analyst note with a specific recommendation. The reviewer gets a structured summary, not a wall of raw data. In our test set of 6,515 applications, the model achieved 91.2% accuracy and 0.919 ROC-AUC."*
 
 ### Direct Manager / Team Lead
 
-*"This is a deployed end-to-end ML system — not a notebook. It runs on Railway as a REST API, callable from any system, with a web form so non-technical stakeholders can use it directly. The model was trained on 32,574 cleaned records from a real Kaggle credit risk dataset, uses probability calibration so the scores are meaningful, and handles class imbalance with SMOTE. LangSmith gives us observability on every LLM call — latency, token usage, and the exact prompt and response are all logged and searchable. Data quality was validated with Great Expectations — 12 checks, all passed before training."*
+*"This is a deployed end-to-end ML system — not a notebook. It runs on Railway as a REST API, callable from any system, with a web form so non-technical stakeholders can use it directly. The model was trained on 32,574 cleaned records from a Kaggle credit risk dataset, uses probability calibration so the scores are meaningful, and handles class imbalance with SMOTE. The LLM alert layer uses LangGraph — a multi-step agent where each node has one focused job. LangSmith traces every Mistral call — latency, token usage, input and output — all searchable."*
 
 ### Senior Manager / Head of Department
 
-*"We have built a loan risk scoring capability that can be integrated into any existing workflow via API. A credit officer fills in the application details, the system scores it in under two seconds, and if it is high risk, it generates a written summary of the key concerns. The model is live in production at a permanent public URL. The architecture is modular — the scoring model and the alert generation are independent, so either can be updated without touching the other. We already generated and validated 150 LLM alert notes on real high-risk records from the test set before going live."*
+*"We have built a loan risk scoring capability that can be integrated into any existing workflow via API. A credit officer fills in the application details, the system scores it in seconds, and if it is high risk, it automatically runs a structured three-step review — credit check, income check, decision note — and returns all three to the reviewer. The model is live at a permanent public URL. The architecture is modular — the ML scoring and the LLM review layer are independent, so either can be updated without touching the other."*
 
 ### CTO / Technical Leadership
 
-*"The system uses a Calibrated Random Forest — calibration matters because we use the probability directly for tiering, not just the binary prediction, so well-calibrated probabilities are critical. The model is serialised with lzma compression (278 MB to 22 MB) and stored as a regular git object — no LFS, no external model registry dependency. The LLM layer uses LangChain's RunnableSequence with LangSmith tracing — every inference is logged with input, output, latency, and token count. CORS is handled at the Flask layer, secrets are Railway environment variables, and the form is statically hosted on GitHub Pages — zero frontend infrastructure cost. The next planned layer is LangGraph to replace the simple chain with a multi-step agent — credit bureau check tool, income verification tool, and decision tool with memory across steps."*
+*"The ML layer is a Calibrated Random Forest — calibration matters because we use the probability directly for tiering. The model is serialised with lzma compression (278 MB to 22 MB), stored as a regular git object, no LFS dependency. The LLM layer is a LangGraph StateGraph with three nodes — credit_check, income_verification, decision — each calling Mistral independently with a focused prompt. State flows between nodes via a TypedDict. All three Mistral calls are traced in LangSmith per request. CORS at the Flask layer, secrets in Railway environment variables, frontend on GitHub Pages — zero infrastructure cost on the client side."*
 
 ### CFO / Business Leadership
 
-*"This system automates the initial risk triage for loan applications. Instead of a credit officer spending time reading each application before deciding whether to escalate, the system scores it instantly and only escalates the High-risk ones with a written summary already prepared — reducing manual review time per application. Scoring criteria are consistent across every case, and there is a full audit trail of every AI-generated note via LangSmith. The infrastructure cost is minimal — Railway for the API, GitHub Pages for the frontend, and the LLM cost per High-risk alert is a fraction of a cent. In our test set, the model correctly identified 71% of all defaulters (Recall 0.711) with 86% precision."*
+*"This system automates the initial risk triage for loan applications. Instead of a credit officer manually reviewing each application before deciding whether to escalate, the system scores it instantly and only escalates the High-risk ones — with a structured three-part written summary already prepared. That means lower review time per application, consistent criteria applied to every case, and a full audit trail of every AI-generated note. The infrastructure cost is minimal — Railway for the API, GitHub Pages for the frontend, and the LLM cost per High-risk alert is a fraction of a cent."*
 
 ---
 
@@ -292,11 +344,13 @@ Returns service status.
 
 7. **Threshold selection is a business decision** — the default 0.5 threshold gave Recall 0.711. Lowering to 0.3 raised Recall to 0.763. In credit risk, missing a defaulter costs principal loss, so higher recall at acceptable precision is preferred.
 
+8. **LangGraph produces better alerts than a single prompt** — splitting the LLM task into focused nodes (credit check → income check → decision) gives each call a narrower job. The final note is grounded in structured intermediate outputs, not a single prompt trying to do everything at once.
+
 ---
 
 ## What's Next (Roadmap)
 
-- [ ] **LangGraph agent (in progress — target 2026-07-01)** — replace the simple LangChain chain with a multi-step LangGraph agent: credit check tool, income verification tool, decision tool with memory across steps
+- [x] LangGraph multi-step agent — credit check, income verification, decision nodes with shared state *(completed 2026-06-30)*
 - [ ] n8n workflow — connect Railway API to automated notification pipeline
 - [ ] Weekly risk summary report with matplotlib
 - [ ] Authentication layer on the API
