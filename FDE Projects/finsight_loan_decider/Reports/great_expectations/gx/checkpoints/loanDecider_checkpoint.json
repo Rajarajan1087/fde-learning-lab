@@ -1,0 +1,12 @@
+{
+  "actions": [],
+  "id": "e3f94e1f-c27d-4325-9be4-02c14248749a",
+  "name": "loanDecider_checkpoint",
+  "result_format": "SUMMARY",
+  "validation_definitions": [
+    {
+      "id": "e0b21bf5-e382-442f-a7bf-f1a70154679d",
+      "name": "loanDecider_validation"
+    }
+  ]
+}

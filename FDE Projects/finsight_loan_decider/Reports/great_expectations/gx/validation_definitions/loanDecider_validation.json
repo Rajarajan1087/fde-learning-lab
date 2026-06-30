@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "1e5f5e78-c084-454e-915b-183e51728394",
+      "name": "loan_applications"
+    },
+    "batch_definition": {
+      "id": "b921f519-7337-4a44-a736-0f891624ad91",
+      "name": "full_batch"
+    },
+    "datasource": {
+      "id": "bdd9f4a7-9324-4886-aa8c-95ddd6942e3c",
+      "name": "loanDecider_datasources"
+    }
+  },
+  "id": "e0b21bf5-e382-442f-a7bf-f1a70154679d",
+  "name": "loanDecider_validation",
+  "suite": {
+    "id": "73592a8f-fc58-4d2a-b177-2184b5f9c974",
+    "name": "loan_data_suite"
+  }
+}
