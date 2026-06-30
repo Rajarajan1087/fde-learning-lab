@@ -4,9 +4,8 @@ import joblib
 import pandas as pd
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from langchain_mistralai import ChatMistralAI
-from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
+from loan_agent import loan_agent
 
 load_dotenv()
 
@@ -35,54 +34,6 @@ VALID_HOME_OWNERSHIP = {'RENT', 'OWN', 'MORTGAGE', 'OTHER'}
 VALID_LOAN_INTENT = {'PERSONAL', 'EDUCATION', 'MEDICAL', 'VENTURE', 'HOMEIMPROVEMENT', 'DEBTCONSOLIDATION'}
 VALID_LOAN_GRADE = {'A', 'B', 'C', 'D', 'E', 'F', 'G'}
 
-# --- 2. Initialize LLM ---
-llm = ChatMistralAI(
-    model="mistral-small-latest",
-    api_key=os.environ.get('MISTRAL_API_KEY'),
-    temperature=0.35
-)
-
-# --- 3. Prompt Template for Alerts ---
-# loan_id included so Mistral knows which application it is writing about (matches D3/D4 notebooks)
-ALERT_VARIABLES = [
-    "loan_id", "person_age", "person_income", "person_emp_length", "loan_amnt",
-    "loan_int_rate", "loan_percent_income", "cb_person_cred_hist_length",
-    "cb_person_default_on_file", "person_home_ownership", "loan_intent", "loan_grade"
-]
-
-alert_template = PromptTemplate(
-    input_variables=ALERT_VARIABLES,
-    template="""
-You are a senior credit analyst at FinSight Capital writing an internal note.
-
-Write a 3-sentence alert for the branch manager:
-- Sentence 1: State the risk tier and loan purpose, explain why this application is concerning
-- Sentence 2: Identify the two most concerning factors with specific numbers
-- Sentence 3: Recommend one specific action before approval
-
-Applicant Profile:
-- Loan ID: {loan_id}
-- Age: {person_age} years old
-- Annual Income: ${person_income} | Employment Experience: {person_emp_length} years
-- Home Ownership: {person_home_ownership}
-- Credit History Length: {cb_person_cred_hist_length} years
-- Default Status: {cb_person_default_on_file}
-- Loan Amount: ${loan_amnt} | Purpose: {loan_intent} | Interest Rate: {loan_int_rate}% | Percent Income: {loan_percent_income}%
-- Loan Grade: {loan_grade}
-
-Rules:
-- Do NOT use the words: model, algorithm, AI
-- Write in flowing prose, no bullet points, no bold headers
-- Write exactly 3 sentences
-- 100 words maximum
-- Read like a human credit analyst note
-- Write in plain text only — no asterisks, no bold, no italic, no headers
-- Do not start with "Alert" or "Credit Alert" or any label
-- First word must be a regular English word starting the first sentence directly
-"""
-)
-
-alert_chain = alert_template | llm
 
 
 def validate_input(data):
@@ -156,32 +107,29 @@ def score():
         elif prob >= thresholds['medium_threshold']:
             tier = 'Medium'
 
-        # Generate LLM alert for High-risk applications
-        # person_income and loan_amnt formatted with commas to match D3/D4 notebooks
+        # Generate LLM alert for High-risk applications via LangGraph agent
+        credit_assessment = ""
+        income_assessment = ""
         alert_text = ""
         if tier == 'High':
-            alert_payload = {
-                "loan_id": data.get('loan_id', 'N/A'),
-                "person_age": data['person_age'],
-                "person_income": f"{int(data['person_income']):,}",
-                "person_emp_length": data['person_emp_length'],
-                "loan_amnt": f"{int(data['loan_amnt']):,}",
-                "loan_int_rate": data['loan_int_rate'],
-                "loan_percent_income": data['loan_percent_income'],
-                "cb_person_cred_hist_length": data['cb_person_cred_hist_length'],
-                "cb_person_default_on_file": data['cb_person_default_on_file'],
-                "person_home_ownership": data['person_home_ownership'],
-                "loan_intent": data['loan_intent'],
-                "loan_grade": data['loan_grade'],
-            }
-            alert_response = alert_chain.invoke(alert_payload)
-            alert_text = alert_response.content
+            result = loan_agent.invoke({
+                "loan_data": data,
+                "ml_probability": float(prob),
+                "credit_assessment": "",
+                "income_assessment": "",
+                "alert_text": ""
+            })
+            credit_assessment = result["credit_assessment"]
+            income_assessment = result["income_assessment"]
+            alert_text = result["alert_text"]
 
         return jsonify({
             'loan_id': data.get('loan_id'),
             'default_probability': round(float(prob), 3),
             'risk_tier': tier,
             'flagged': tier == 'High',
+            'credit_assessment': credit_assessment,
+            'income_assessment': income_assessment,
             'alert_text': alert_text
         })
 

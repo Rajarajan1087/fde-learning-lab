@@ -1,5 +1,6 @@
 flask
 flask-cors
+langgraph
 langchain
 langchain-mistralai
 langsmith
