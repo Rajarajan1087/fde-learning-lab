@@ -1,0 +1,58 @@
+Day 1 — Data + Validation
+
+EDA with ydata-profiling
+Great Expectations checks
+Feature engineering (loan_to_income, keep previous_loan_defaults, interest rate)
+
+Day 2 — ML Model
+
+Random Forest + SMOTE if needed
+Cross-validation on 45k rows — results will be real this time
+Threshold analysis, feature importance
+
+
+
+
+New plan after completing Day 1 and 2 (New plan)
+
+Revised plan:
+Days 1-2 (today + tomorrow) — D3 Alerts
+
+LangChain + Mistral alerts
+LangSmith observability integrated from day one
+
+Day 3 — Feature Engineering
+
+Add debt_service_coverage_ratio
+Retrain model with new feature
+Compare feature importance before/after
+
+Days 4-5 — D4 Flask API
+
+Flask with full input validation
+Deploy to Railway.app — permanent URL
+LangSmith tracing on every API call
+
+Days 6-7 — LangGraph Agent
+
+Replace simple LangChain chain with LangGraph multi-step agent
+Tool use: credit check tool, income verification tool, decision tool
+Memory across steps
+
+Day 8-9 — D5 n8n Workflow
+
+Update n8n for new schema
+Connect to Railway.app endpoint
+Test end to end
+
+Days 10-11 — D6 Summary + README
+
+Weekly risk summary with matplotlib
+Full README with architecture diagram
+Portfolio documentation
+
+Days 12-13 — Buffer
+
+Fix issues
+Record demo
+Push everything to GitHub

@@ -1,0 +1,2 @@
+Experiment 1: Trained on the original synthetic dataset (77.8% defaults).
+Experiment 2: Evaluated a balanced training dataset using random undersampling of the majority class to improve probability calibration and downstream LLM risk categorization.

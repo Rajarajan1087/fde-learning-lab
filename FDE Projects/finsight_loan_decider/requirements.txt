@@ -1,0 +1,12 @@
+flask
+langchain
+langchain-mistralai
+langsmith
+scikit-learn
+imbalanced-learn
+pandas
+numpy
+joblib
+gunicorn
+python-dotenv
+jupyterlab
