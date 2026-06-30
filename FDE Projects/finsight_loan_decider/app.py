@@ -12,7 +12,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # --- 1. Load Model Artifacts ---
-BASE_PATH = 'model_artifacts'
+BASE_PATH = 'ModelArtifacts'
 model = joblib.load(os.path.join(BASE_PATH, 'calibrated_rf_model.pkl'))
 encoders = joblib.load(os.path.join(BASE_PATH, 'label_encoders.pkl'))
 
