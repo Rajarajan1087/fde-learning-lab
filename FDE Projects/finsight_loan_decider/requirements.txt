@@ -2,10 +2,10 @@ flask
 langchain
 langchain-mistralai
 langsmith
-scikit-learn
-imbalanced-learn
+scikit-learn==1.9.0
+imbalanced-learn==0.14.2
 pandas
-numpy
+numpy==2.5.0
 joblib
 gunicorn
 python-dotenv
