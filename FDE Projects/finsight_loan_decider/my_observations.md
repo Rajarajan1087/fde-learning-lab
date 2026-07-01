@@ -104,6 +104,31 @@
 
 ---
 
+## Eval Report vs Weekly Risk Report
+
+- **Model Evaluation Report (`eval_report.py`)** uses `loan_data_clean.csv` (Kaggle static data) — answers "how good is the model?" — run once, or re-run after retraining. The data does not change weekly.
+- **Weekly Operational Risk Report** (not yet built) would use live Google Sheets data written by n8n — answers "what happened in production this week?" — volume of High/Medium/Low, riskiest intents, probability trends. Needs real application volume to be meaningful.
+- These are two completely different reports with different data sources, frequencies, and audiences — Model Eval is for data scientists; Weekly Report is for risk managers.
+- Current Google Sheets has only 3–4 test rows — not enough for a meaningful weekly report. Build it when live volume exists.
+
+## What the Eval Charts Actually Tell You
+
+- **Confusion Matrix** → FN=276 defaulters were approved — this is a real business risk, not just a number. It directly drives the threshold decision.
+- **ROC Curve** → The red dot at TPR=0.80 shows you are not at the optimal point on the curve — moving the threshold left would catch more defaulters at the cost of more false alarms. This is a business decision, not a model decision.
+- **Feature Importance** → The most actionable chart: `cb_person_default_on_file` (prior default history) is the LEAST important feature (#11). We assumed it would dominate. It doesn't. Income and rate matter far more — this changes what data you prioritise collecting.
+- **Precision-Recall Curve** → AP=0.978 vs baseline 0.214 confirms the model is 4.5x better than random for imbalanced data. Validates deployment is justified.
+- Charts are not just portfolio decoration — Feature Importance changed our understanding of which features actually drive risk.
+
+---
+
+## Known Gaps (Production Readiness)
+
+- **No authentication on the API** — the `/score` endpoint is publicly open; anyone with the URL can call it. A production system would require API key validation in the request header (`X-API-Key`). Left out deliberately for demo simplicity — adding it is a one-line Flask decorator (`@require_api_key`)
+- **No borderline risk tier** — the model has a sharp decision cliff (prob 0.29 = Low, prob 0.31 = Medium). Cases near the boundary should be flagged as "Borderline — Manual Review Required" rather than forced into a hard tier. This protects both the bank and the applicant from a model decision made with low confidence
+- These are not oversights — they are known, explainable gaps that exist because this is a portfolio system, not a regulated production deployment. Naming them in an interview shows awareness of what production ML actually requires beyond accuracy scores
+
+---
+
 ## Architecture Decisions
 
 - Chose Flask over FastAPI for simplicity — appropriate for a portfolio project with a single scoring endpoint

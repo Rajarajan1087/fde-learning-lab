@@ -1,0 +1,475 @@
+{
+  "name": "FinSight_LoanDecider_v2",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "592ee1ab-d8b3-4e1a-b1bf-01a1c86e971d",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "position": [
+        -800,
+        160
+      ],
+      "id": "6d5e9224-5a7f-4852-8dc5-f83cf44bd5b8",
+      "typeVersion": 2.1,
+      "webhookId": "592ee1ab-d8b3-4e1a-b1bf-01a1c86e971d"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "bf1a0d6d-2a44-463c-ac97-b3d84d9d7053",
+              "leftValue": "={{$json.flagged}}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "High Risk?",
+      "type": "n8n-nodes-base.if",
+      "position": [
+        -336,
+        176
+      ],
+      "id": "948d0f30-d86a-4ed5-9f3d-85b1952cfd1b",
+      "typeVersion": 2.3
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C0BA885FX6W",
+          "mode": "list",
+          "cachedResultName": "credit-team-"
+        },
+        "text": "={{`*🚨 HIGH RISK LOAN APPLICATION*\nLoan ID: ${$json.loan_id}\nLoan Purpose: ${$('Webhook').item.json.body.loan_intent}\nRisk Score: ${$json.default_probability}\nRisk Tier: ${$json.risk_tier}\n\n*Credit Assessment:*\n${$json.credit_assessment}\n\n*Income Assessment:*\n${$json.income_assessment}\n\n*Recommended Action:*\n${$json.alert_text}`}}",
+        "otherOptions": {}
+      },
+      "name": "Slack Alert",
+      "type": "n8n-nodes-base.slack",
+      "position": [
+        0,
+        0
+      ],
+      "id": "9b1db5b2-3c3a-4a63-bbf5-7b0159b58c64",
+      "typeVersion": 2.5,
+      "webhookId": "7b82435e-8b44-420c-a48b-efd8fc0a49bf",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "uF6ZDFgmaSZLfjzR",
+          "name": "Slack OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "Rajarajan1087@gmail.com",
+        "subject": "=High-Risk Application — Action Required: {{$json.loan_id}}",
+        "message": "=<p>Dear Branch Manager,</p>\n\n<p>A high-risk loan application has been detected.</p>\n\n<b>Loan ID:</b> {{$json.loan_id}}<br>\n<b>Risk Score:</b> {{$json.default_probability}}/1<br>\n<b>Risk Tier:</b> <b>HIGH</b><br>\n\n<hr>\n\n<b>Credit Assessment:</b>\n<p>{{$json.credit_assessment}}</p>\n\n<b>Income Assessment:</b>\n<p>{{$json.income_assessment}}</p>\n\n<b>Recommended Action:</b>\n<p>{{$json.alert_text}}</p>\n\n<hr>\n\n<p>\nRegards,<br>\nFinSight Risk Monitoring System\n</p>\n",
+        "options": {}
+      },
+      "name": "Email Alert",
+      "type": "n8n-nodes-base.gmail",
+      "position": [
+        0,
+        304
+      ],
+      "id": "73ff0ec2-cd4a-4c9c-bd98-9e6c9409d2c9",
+      "typeVersion": 2.2,
+      "webhookId": "ad25c804-45a8-47fe-a1a4-9f6c0e88f70d",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "xKVE5ucC0RGLvx5y",
+          "name": "Gmail OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1WMxbDPwq9XAiGdPF9PglOYOSyZzOBA7MJj5xrJRDGys/edit?gid=772848567#gid=772848567",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 772848567,
+          "mode": "list",
+          "cachedResultName": "Reviewed Applications",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1FWsTGXiRnS88acgn_-quq9xbh2VSWfAv-wsO70A-g2Q/edit#gid=772848567"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "loan_id": "={{$(\"Webhook\").item.json.body.loan_id}}",
+            "employment_status": "={{ $('Webhook').item.json.body.person_emp_length }}",
+            "loan_amount": "={{ $('Webhook').item.json.body.loan_amnt}}",
+            "annual_income": "={{ $('Webhook').item.json.body.person_income }}",
+            "loan_purpose": "={{ $('Webhook').item.json.body.loan_intent }}",
+            "risk_tier": "={{ $json.risk_tier }}",
+            "default_probability": "={{ $json.default_probability }}",
+            "loan interest": "={{$(\"Webhook\").item.json.body.loan_int_rate}}",
+            "loan_grade": "={{$(\"Webhook\").item.json.body.loan_grade}}",
+            "Exiting defaults": "={{$(\"Webhook\").item.json.body.cb_person_default_on_file}}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "loan_id",
+              "displayName": "loan_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "loan interest",
+              "displayName": "loan interest",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "loan_grade",
+              "displayName": "loan_grade",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Exiting defaults",
+              "displayName": "Exiting defaults",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "employment_status",
+              "displayName": "employment_status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "loan_amount",
+              "displayName": "loan_amount",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "annual_income",
+              "displayName": "annual_income",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "loan_purpose",
+              "displayName": "loan_purpose",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "default_probability",
+              "displayName": "default_probability",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "risk_tier",
+              "displayName": "risk_tier",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "name": "Reviewed Applications",
+      "type": "n8n-nodes-base.googleSheets",
+      "position": [
+        0,
+        160
+      ],
+      "id": "e9770615-8e99-4e00-bce9-cd660d877c65",
+      "typeVersion": 4.7,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "eNmSN0CvSoaMTwM7",
+          "name": "Google Sheets OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1WMxbDPwq9XAiGdPF9PglOYOSyZzOBA7MJj5xrJRDGys/edit?gid=790178849#gid=790178849",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 790178849,
+          "mode": "list",
+          "cachedResultName": "Rejected Application",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1FWsTGXiRnS88acgn_-quq9xbh2VSWfAv-wsO70A-g2Q/edit#gid=790178849"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "loan_id": "={{ $('Webhook').item.json.body.loan_id }}",
+            "flagged": "={{ $json.flagged }}",
+            "loan_purpose": "={{ $('Webhook').item.json.body.loan_intent }}",
+            "annual_income": "={{ $('Webhook').item.json.body.person_income }}",
+            "default_probability": "={{ $json.default_probability }}",
+            "risk_tier": "={{ $json.risk_tier }}",
+            "alert_text": "={{ $json.alert_text }}",
+            "loan_amount": "={{ $('Webhook').item.json.body.loan_amnt }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "loan_id",
+              "displayName": "loan_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "flagged",
+              "displayName": "flagged",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "loan_amount",
+              "displayName": "loan_amount",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "loan_purpose",
+              "displayName": "loan_purpose",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "annual_income",
+              "displayName": "annual_income",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "default_probability",
+              "displayName": "default_probability",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "risk_tier",
+              "displayName": "risk_tier",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "alert_text",
+              "displayName": "alert_text",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "name": "Rejected Application",
+      "type": "n8n-nodes-base.googleSheets",
+      "position": [
+        0,
+        -160
+      ],
+      "id": "ddbb7c3a-0ec9-4827-a968-85571e2bf17c",
+      "typeVersion": 4.7,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "eNmSN0CvSoaMTwM7",
+          "name": "Google Sheets OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://fde-learning-lab-production.up.railway.app/score",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.body }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -544,
+        160
+      ],
+      "id": "ea3bc5c2-266d-40cf-9332-366ac522791f",
+      "name": "ML Risk Scorer"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "ML Risk Scorer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "High Risk?": {
+      "main": [
+        [
+          {
+            "node": "Slack Alert",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Email Alert",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Rejected Application",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Reviewed Applications",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ML Risk Scorer": {
+      "main": [
+        [
+          {
+            "node": "High Risk?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "2c09b21c-abfc-4b14-ac8b-0f5c1041e1b4",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "e89e74f890336efd0562def894116a73472cf1d5f51904a5e26ec515ffd8e057"
+  },
+  "nodeGroups": [],
+  "id": "cCO2RGTO0xQHZ8yy",
+  "tags": [
+    {
+      "updatedAt": "2026-07-01T07:30:36.543Z",
+      "createdAt": "2026-07-01T07:30:36.543Z",
+      "id": "I2tyNSNYjAVxt269",
+      "name": "E2E"
+    }
+  ]
+}
